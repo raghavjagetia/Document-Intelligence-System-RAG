@@ -1,0 +1,31 @@
+LABORATORY REPORT - ISHA MEHTA
+==============================
+
+PATIENT INFORMATION
+-------------------
+  Field            | Detail             
+  -----------------+--------------------
+  Patient name     | Isha Mehta         
+  Age              | 58 years           
+  Report ID        | LAB-CHE-20343      
+  Referring doctor | Dr. Ramesh Kulkarni
+  Collected on     | 18 July 2026       
+
+TEST RESULTS
+------------
+  Test                  | Result     | Reference range
+  ----------------------+------------+----------------
+  HbA1c                 | 6.0 %      | below 5.7 %    
+  Fasting blood glucose | 153 mg/dL  | 70 - 100 mg/dL 
+  LDL cholesterol       | 140 mg/dL  | below 100 mg/dL
+  Haemoglobin           | 10.5 g/dL  | 12 - 16 g/dL   
+  TSH                   | 3.03 mIU/L | 0.4 - 4.0 mIU/L
+
+IMPRESSION
+----------
+Glycaemic markers are within the non-diabetic range.
+
+ADVICE
+------
+  - Atorvastatin 10 mg once daily at night
+  - Repeat HbA1c after 3 months.

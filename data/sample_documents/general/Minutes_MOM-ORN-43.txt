@@ -1,0 +1,18 @@
+MANAGEMENT MEETING MINUTES MOM-ORN-43
+=====================================
+
+MEETING
+-------
+Meeting MOM-ORN-43 of Orion Softworks Pvt. Ltd. was held on 23 July 2026 in Pune.
+
+DECISIONS
+---------
+  - Approved a capital budget of Rs. 30,00,000 for warehouse automation.
+  - Harsh Banerjee will own the vendor evaluation.
+  - Quarterly town hall moved to the first Friday of the month.
+
+ACTION ITEMS
+------------
+  Action           | Owner          | Due            
+  -----------------+----------------+----------------
+  Vendor shortlist | Harsh Banerjee | 21 October 2026

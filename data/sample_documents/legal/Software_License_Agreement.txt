@@ -1,0 +1,51 @@
+SOFTWARE LICENCE AGREEMENT LIC-2026-0457 (HELIXDESK ENTERPRISE)
+===============================================================
+
+1. PARTIES
+----------
+This Software Licence Agreement, reference LIC-2026-0457, is made on 20 April 2026 between Helix Systems Pvt. Ltd. (the "Licensor") and Trident Logistics Pvt. Ltd., Plot 18, MIDC Industrial Area, Bhiwandi, Maharashtra 421302 (the "Licensee"). This Agreement supersedes the evaluation licence LIC-2026-0475, which permitted 25 users for a 60-day trial that ended on 31 March 2026.
+
+2. GRANT OF LICENCE
+-------------------
+The Licensor grants the Licensee a non-exclusive, non-transferable licence to use HelixDesk Enterprise version 5.x for its internal business operations for 250 named users. A named user is an individual employee or contractor of the Licensee who is assigned a unique login. Named user licences may be reassigned no more than once per quarter per user.
+
+3. FEES
+-------
+  Item                                       | Amount                  
+  -------------------------------------------+-------------------------
+  Annual subscription for 250 named users    | ₹18,75,000 per year     
+  Each additional named user                 | ₹7,500 per user per year
+  One-time implementation and data migration | ₹3,85,000               
+  Premium 24x7 support add-on (optional)     | ₹2,40,000 per year      
+
+Fees are payable annually in advance and are exclusive of GST. Fees are fixed for the first year and may thereafter be increased by up to 7% per year with 60 days' written notice.
+
+4. TERM
+-------
+The licence term is 3 years from 1 May 2026. The Licensee may terminate at the end of any licence year by giving 90 days' notice, without penalty.
+
+5. RESTRICTIONS
+---------------
+  - The Licensee shall not reverse engineer, decompile or disassemble the software.
+  - The software may not be used to provide service-desk services to third parties.
+  - The Licensee shall not remove proprietary notices or circumvent licence controls.
+
+6. SUPPORT AND MAINTENANCE
+--------------------------
+Standard support is provided from 9:00 AM to 6:00 PM IST, Monday to Friday, through the HelixDesk customer portal and by email. Major upgrades and security patches are included in the annual subscription. Critical security patches are released within 7 days of a vulnerability being confirmed.
+
+7. SOURCE CODE ESCROW
+---------------------
+The Licensor shall deposit the source code of the licensed version with EscrowSure India, an independent escrow agent, within 30 days of signing and update the deposit with every major release. The source code will be released to the Licensee if the Licensor becomes insolvent or ceases to support the product.
+
+8. WARRANTY
+-----------
+The Licensor warrants that the software will perform materially in accordance with its documentation for 90 days from go-live. The Licensee's sole remedy for breach of this warranty is correction of the defect or, if correction is not possible, a refund of the fees paid for the defective module.
+
+9. LICENCE AUDIT
+----------------
+The Licensor may verify the number of named users once per year using the built-in usage report. Excess usage will be invoiced at the additional-user rate, pro-rated for the remaining licence year.
+
+10. GOVERNING LAW
+-----------------
+This Agreement is governed by the laws of India. The courts at Bengaluru have exclusive jurisdiction.

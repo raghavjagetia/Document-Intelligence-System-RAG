@@ -1,0 +1,4118 @@
+{
+  "user01": {
+    "persona": "Isha Patel",
+    "company": "BlueRiver Logistics Pvt. Ltd.",
+    "city": "Mumbai",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1061.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1061",
+        "description": "Invoice from BlueRiver Logistics Pvt. Ltd. to BlueRiver Logistics."
+      },
+      {
+        "filename": "Offer_Letter_Aarav_Verma.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Aarav Verma",
+        "description": "Employment offer for Aarav Verma as Customer Success Manager."
+      },
+      {
+        "filename": "Lab_Report_Nikhil_Patel.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Nikhil Patel",
+        "description": "Blood test report for Nikhil Patel (LAB-MUM-20184)."
+      },
+      {
+        "filename": "Service_Agreement_Cedarwood.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Cedarwood Foods",
+        "description": "Service agreement between BlueRiver Logistics Pvt. Ltd. and Cedarwood Foods."
+      },
+      {
+        "filename": "Project_Beacon_Status_Report.pptx",
+        "domain": "general",
+        "format": "pptx",
+        "title": "Project Beacon - Status Report",
+        "description": "Status update for Project Beacon at BlueRiver Logistics Pvt. Ltd.."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1061?",
+        "expected": "11,42,240",
+        "doc": "Invoice_INV-2026-1061.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1061?",
+        "expected": "25 September 2026",
+        "doc": "Invoice_INV-2026-1061.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Aarav Verma?",
+        "expected": "29,50,000",
+        "doc": "Offer_Letter_Aarav_Verma.docx"
+      },
+      {
+        "question": "What is the notice period in Aarav Verma's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Aarav_Verma.docx"
+      },
+      {
+        "question": "What was Nikhil Patel's HbA1c result?",
+        "expected": "5.4",
+        "doc": "Lab_Report_Nikhil_Patel.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Nikhil Patel's lab report?",
+        "expected": "125",
+        "doc": "Lab_Report_Nikhil_Patel.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Cedarwood Foods?",
+        "expected": "6,60,000",
+        "doc": "Service_Agreement_Cedarwood.docx"
+      },
+      {
+        "question": "What is the planned go-live date for Project Beacon?",
+        "expected": "1 December 2026",
+        "doc": "Project_Beacon_Status_Report.pptx"
+      }
+    ]
+  },
+  "user02": {
+    "persona": "Aditya Nair",
+    "company": "Cedarwood Foods Pvt. Ltd.",
+    "city": "Pune",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1093.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1093",
+        "description": "Invoice from Cedarwood Foods Pvt. Ltd. to Quartz Semiconductors."
+      },
+      {
+        "filename": "Offer_Letter_Riya_Sharma.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Riya Sharma",
+        "description": "Employment offer for Riya Sharma as Customer Success Manager."
+      },
+      {
+        "filename": "Lab_Report_Aditya_Rao.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Aditya Rao",
+        "description": "Blood test report for Aditya Rao (LAB-PUN-20237)."
+      },
+      {
+        "filename": "Lease_Agreement_Pune_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Pune",
+        "description": "Lease of Cedarwood Foods Pvt. Ltd.'s Pune office premises."
+      },
+      {
+        "filename": "Meeting_Minutes_26_August_2026.md",
+        "domain": "general",
+        "format": "md",
+        "title": "Leadership Meeting Minutes - 26 August 2026",
+        "description": "Minutes of the Cedarwood Foods Pvt. Ltd. leadership meeting held on 26 August 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1093?",
+        "expected": "2,62,314",
+        "doc": "Invoice_INV-2026-1093.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1093?",
+        "expected": "8 September 2026",
+        "doc": "Invoice_INV-2026-1093.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Riya Sharma?",
+        "expected": "23,75,000",
+        "doc": "Offer_Letter_Riya_Sharma.pdf"
+      },
+      {
+        "question": "What is the notice period in Riya Sharma's offer letter?",
+        "expected": "60 days",
+        "doc": "Offer_Letter_Riya_Sharma.pdf"
+      },
+      {
+        "question": "What was Aditya Rao's HbA1c result?",
+        "expected": "7.7",
+        "doc": "Lab_Report_Aditya_Rao.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Aditya Rao's lab report?",
+        "expected": "172",
+        "doc": "Lab_Report_Aditya_Rao.md"
+      },
+      {
+        "question": "What is the monthly rent for the Pune office lease?",
+        "expected": "3,10,000",
+        "doc": "Lease_Agreement_Pune_Office.html"
+      },
+      {
+        "question": "What marketing budget was approved for Q4 2026?",
+        "expected": "5,00,000",
+        "doc": "Meeting_Minutes_26_August_2026.md"
+      }
+    ]
+  },
+  "user03": {
+    "persona": "Kavya Kulkarni",
+    "company": "Deltawave Telecom Pvt. Ltd.",
+    "city": "Chennai",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1128.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1128",
+        "description": "Invoice from Deltawave Telecom Pvt. Ltd. to Pinnacle Motors."
+      },
+      {
+        "filename": "Offer_Letter_Gaurav_Kulkarni.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Gaurav Kulkarni",
+        "description": "Employment offer for Gaurav Kulkarni as Sales Executive."
+      },
+      {
+        "filename": "Lab_Report_Isha_Mehta.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Isha Mehta",
+        "description": "Blood test report for Isha Mehta (LAB-CHE-20343)."
+      },
+      {
+        "filename": "NDA_Deltawave_Monsoon.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Deltawave Telecom Pvt. Ltd. and Monsoon Media",
+        "description": "Mutual NDA between Deltawave Telecom Pvt. Ltd. and Monsoon Media."
+      },
+      {
+        "filename": "IT_Asset_Inventory_Chennai.csv",
+        "domain": "general",
+        "format": "csv",
+        "title": "IT Asset Inventory - Chennai",
+        "description": "IT asset stock at the Deltawave Telecom Pvt. Ltd. Chennai office."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1128?",
+        "expected": "2,46,384",
+        "doc": "Invoice_INV-2026-1128.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1128?",
+        "expected": "17 October 2026",
+        "doc": "Invoice_INV-2026-1128.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Gaurav Kulkarni?",
+        "expected": "24,50,000",
+        "doc": "Offer_Letter_Gaurav_Kulkarni.docx"
+      },
+      {
+        "question": "What is the notice period in Gaurav Kulkarni's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Gaurav_Kulkarni.docx"
+      },
+      {
+        "question": "What was Isha Mehta's HbA1c result?",
+        "expected": "6.0",
+        "doc": "Lab_Report_Isha_Mehta.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Isha Mehta's lab report?",
+        "expected": "140",
+        "doc": "Lab_Report_Isha_Mehta.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Monsoon Media?",
+        "expected": "2 years",
+        "doc": "NDA_Deltawave_Monsoon.md"
+      },
+      {
+        "question": "Which IT asset has the lowest quantity in the Chennai inventory?",
+        "expected": "Monitor",
+        "doc": "IT_Asset_Inventory_Chennai.csv"
+      }
+    ]
+  },
+  "user04": {
+    "persona": "Gaurav Desai",
+    "company": "Evergreen Agro Pvt. Ltd.",
+    "city": "Hyderabad",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1151.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1151",
+        "description": "Invoice from Evergreen Agro Pvt. Ltd. to Northstar Pharma."
+      },
+      {
+        "filename": "Offer_Letter_Kabir_Menon.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Kabir Menon",
+        "description": "Employment offer for Kabir Menon as Data Analyst."
+      },
+      {
+        "filename": "Lab_Report_Meera_Pillai.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Meera Pillai",
+        "description": "Blood test report for Meera Pillai (LAB-HYD-20541)."
+      },
+      {
+        "filename": "Service_Agreement_Orchid.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Orchid Hotels",
+        "description": "Service agreement between Evergreen Agro Pvt. Ltd. and Orchid Hotels."
+      },
+      {
+        "filename": "Expenses_September_2026_Evergreen.xlsx",
+        "domain": "finance",
+        "format": "xlsx",
+        "title": "Team Expense Register - September 2026",
+        "description": "Evergreen Agro Pvt. Ltd. expense claims for September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1151?",
+        "expected": "5,70,058",
+        "doc": "Invoice_INV-2026-1151.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1151?",
+        "expected": "24 September 2026",
+        "doc": "Invoice_INV-2026-1151.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Kabir Menon?",
+        "expected": "22,25,000",
+        "doc": "Offer_Letter_Kabir_Menon.pdf"
+      },
+      {
+        "question": "What is the notice period in Kabir Menon's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Kabir_Menon.pdf"
+      },
+      {
+        "question": "What was Meera Pillai's HbA1c result?",
+        "expected": "8.8",
+        "doc": "Lab_Report_Meera_Pillai.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Meera Pillai's lab report?",
+        "expected": "140",
+        "doc": "Lab_Report_Meera_Pillai.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Orchid Hotels?",
+        "expected": "6,90,000",
+        "doc": "Service_Agreement_Orchid.docx"
+      },
+      {
+        "question": "Which expense category had the highest total in September 2026?",
+        "expected": "Accommodation",
+        "doc": "Expenses_September_2026_Evergreen.xlsx"
+      }
+    ]
+  },
+  "user05": {
+    "persona": "Ananya Verma",
+    "company": "Falcon Robotics Pvt. Ltd.",
+    "city": "Delhi",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1210.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1210",
+        "description": "Invoice from Falcon Robotics Pvt. Ltd. to Pinnacle Motors."
+      },
+      {
+        "filename": "Offer_Letter_Kavya_Banerjee.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Kavya Banerjee",
+        "description": "Employment offer for Kavya Banerjee as Software Engineer."
+      },
+      {
+        "filename": "Lab_Report_Meera_Rao.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Meera Rao",
+        "description": "Blood test report for Meera Rao (LAB-DEL-20615)."
+      },
+      {
+        "filename": "Lease_Agreement_Delhi_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Delhi",
+        "description": "Lease of Falcon Robotics Pvt. Ltd.'s Delhi office premises."
+      },
+      {
+        "filename": "Project_Helix_Status_Report.pptx",
+        "domain": "general",
+        "format": "pptx",
+        "title": "Project Helix - Status Report",
+        "description": "Status update for Project Helix at Falcon Robotics Pvt. Ltd.."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1210?",
+        "expected": "6,30,710",
+        "doc": "Invoice_INV-2026-1210.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1210?",
+        "expected": "26 September 2026",
+        "doc": "Invoice_INV-2026-1210.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Kavya Banerjee?",
+        "expected": "15,50,000",
+        "doc": "Offer_Letter_Kavya_Banerjee.docx"
+      },
+      {
+        "question": "What is the notice period in Kavya Banerjee's offer letter?",
+        "expected": "60 days",
+        "doc": "Offer_Letter_Kavya_Banerjee.docx"
+      },
+      {
+        "question": "What was Meera Rao's HbA1c result?",
+        "expected": "7.9",
+        "doc": "Lab_Report_Meera_Rao.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Meera Rao's lab report?",
+        "expected": "96",
+        "doc": "Lab_Report_Meera_Rao.md"
+      },
+      {
+        "question": "What is the monthly rent for the Delhi office lease?",
+        "expected": "2,20,000",
+        "doc": "Lease_Agreement_Delhi_Office.html"
+      },
+      {
+        "question": "What is the planned go-live date for Project Helix?",
+        "expected": "27 December 2026",
+        "doc": "Project_Helix_Status_Report.pptx"
+      }
+    ]
+  },
+  "user06": {
+    "persona": "Siddharth Banerjee",
+    "company": "Granite Infra Pvt. Ltd.",
+    "city": "Kolkata",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1223.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1223",
+        "description": "Invoice from Granite Infra Pvt. Ltd. to Lotus Textiles."
+      },
+      {
+        "filename": "Offer_Letter_Siddharth_Sharma.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Siddharth Sharma",
+        "description": "Employment offer for Siddharth Sharma as DevOps Engineer."
+      },
+      {
+        "filename": "Lab_Report_Harsh_Sharma.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Harsh Sharma",
+        "description": "Blood test report for Harsh Sharma (LAB-KOL-20735)."
+      },
+      {
+        "filename": "NDA_Granite_Lotus.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Granite Infra Pvt. Ltd. and Lotus Textiles",
+        "description": "Mutual NDA between Granite Infra Pvt. Ltd. and Lotus Textiles."
+      },
+      {
+        "filename": "Meeting_Minutes_21_August_2026.md",
+        "domain": "general",
+        "format": "md",
+        "title": "Leadership Meeting Minutes - 21 August 2026",
+        "description": "Minutes of the Granite Infra Pvt. Ltd. leadership meeting held on 21 August 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1223?",
+        "expected": "7,37,500",
+        "doc": "Invoice_INV-2026-1223.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1223?",
+        "expected": "21 September 2026",
+        "doc": "Invoice_INV-2026-1223.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Siddharth Sharma?",
+        "expected": "6,00,000",
+        "doc": "Offer_Letter_Siddharth_Sharma.pdf"
+      },
+      {
+        "question": "What is the notice period in Siddharth Sharma's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Siddharth_Sharma.pdf"
+      },
+      {
+        "question": "What was Harsh Sharma's HbA1c result?",
+        "expected": "9.4",
+        "doc": "Lab_Report_Harsh_Sharma.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Harsh Sharma's lab report?",
+        "expected": "81",
+        "doc": "Lab_Report_Harsh_Sharma.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Lotus Textiles?",
+        "expected": "5 years",
+        "doc": "NDA_Granite_Lotus.md"
+      },
+      {
+        "question": "What marketing budget was approved for Q4 2026?",
+        "expected": "10,00,000",
+        "doc": "Meeting_Minutes_21_August_2026.md"
+      }
+    ]
+  },
+  "user07": {
+    "persona": "Priya Iyer",
+    "company": "Horizon Health Tech Pvt. Ltd.",
+    "city": "Ahmedabad",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1284.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1284",
+        "description": "Invoice from Horizon Health Tech Pvt. Ltd. to BlueRiver Logistics."
+      },
+      {
+        "filename": "Offer_Letter_Yash_Nair.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Yash Nair",
+        "description": "Employment offer for Yash Nair as UX Designer."
+      },
+      {
+        "filename": "Lab_Report_Manish_Pillai.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Manish Pillai",
+        "description": "Blood test report for Manish Pillai (LAB-AHM-20792)."
+      },
+      {
+        "filename": "Service_Agreement_Orchid.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Orchid Hotels",
+        "description": "Service agreement between Horizon Health Tech Pvt. Ltd. and Orchid Hotels."
+      },
+      {
+        "filename": "IT_Asset_Inventory_Ahmedabad.csv",
+        "domain": "general",
+        "format": "csv",
+        "title": "IT Asset Inventory - Ahmedabad",
+        "description": "IT asset stock at the Horizon Health Tech Pvt. Ltd. Ahmedabad office."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1284?",
+        "expected": "2,75,530",
+        "doc": "Invoice_INV-2026-1284.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1284?",
+        "expected": "24 September 2026",
+        "doc": "Invoice_INV-2026-1284.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Yash Nair?",
+        "expected": "28,50,000",
+        "doc": "Offer_Letter_Yash_Nair.docx"
+      },
+      {
+        "question": "What is the notice period in Yash Nair's offer letter?",
+        "expected": "60 days",
+        "doc": "Offer_Letter_Yash_Nair.docx"
+      },
+      {
+        "question": "What was Manish Pillai's HbA1c result?",
+        "expected": "7.8",
+        "doc": "Lab_Report_Manish_Pillai.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Manish Pillai's lab report?",
+        "expected": "143",
+        "doc": "Lab_Report_Manish_Pillai.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Orchid Hotels?",
+        "expected": "5,10,000",
+        "doc": "Service_Agreement_Orchid.docx"
+      },
+      {
+        "question": "Which IT asset has the lowest quantity in the Ahmedabad inventory?",
+        "expected": "Projector",
+        "doc": "IT_Asset_Inventory_Ahmedabad.csv"
+      }
+    ]
+  },
+  "user08": {
+    "persona": "Yash Menon",
+    "company": "Indigo Retail Pvt. Ltd.",
+    "city": "Kochi",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1326.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1326",
+        "description": "Invoice from Indigo Retail Pvt. Ltd. to Quartz Semiconductors."
+      },
+      {
+        "filename": "Offer_Letter_Sneha_Menon.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Sneha Menon",
+        "description": "Employment offer for Sneha Menon as QA Engineer."
+      },
+      {
+        "filename": "Lab_Report_Siddharth_Bose.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Siddharth Bose",
+        "description": "Blood test report for Siddharth Bose (LAB-KOC-20917)."
+      },
+      {
+        "filename": "Lease_Agreement_Kochi_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Kochi",
+        "description": "Lease of Indigo Retail Pvt. Ltd.'s Kochi office premises."
+      },
+      {
+        "filename": "Expenses_September_2026_Indigo.xlsx",
+        "domain": "general",
+        "format": "xlsx",
+        "title": "Team Expense Register - September 2026",
+        "description": "Indigo Retail Pvt. Ltd. expense claims for September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1326?",
+        "expected": "4,06,510",
+        "doc": "Invoice_INV-2026-1326.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1326?",
+        "expected": "1 October 2026",
+        "doc": "Invoice_INV-2026-1326.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Sneha Menon?",
+        "expected": "7,25,000",
+        "doc": "Offer_Letter_Sneha_Menon.pdf"
+      },
+      {
+        "question": "What is the notice period in Sneha Menon's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Sneha_Menon.pdf"
+      },
+      {
+        "question": "What was Siddharth Bose's HbA1c result?",
+        "expected": "8.4",
+        "doc": "Lab_Report_Siddharth_Bose.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Siddharth Bose's lab report?",
+        "expected": "101",
+        "doc": "Lab_Report_Siddharth_Bose.md"
+      },
+      {
+        "question": "What is the monthly rent for the Kochi office lease?",
+        "expected": "3,25,000",
+        "doc": "Lease_Agreement_Kochi_Office.html"
+      },
+      {
+        "question": "Which expense category had the highest total in September 2026?",
+        "expected": "Office supplies",
+        "doc": "Expenses_September_2026_Indigo.xlsx"
+      }
+    ]
+  },
+  "user09": {
+    "persona": "Meera Joshi",
+    "company": "Juniper Fintech Pvt. Ltd.",
+    "city": "Jaipur",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1333.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1333",
+        "description": "Invoice from Juniper Fintech Pvt. Ltd. to Falcon Robotics."
+      },
+      {
+        "filename": "Offer_Letter_Ananya_Kapoor.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Ananya Kapoor",
+        "description": "Employment offer for Ananya Kapoor as Data Analyst."
+      },
+      {
+        "filename": "Lab_Report_Kabir_Shetty.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Kabir Shetty",
+        "description": "Blood test report for Kabir Shetty (LAB-JAI-21019)."
+      },
+      {
+        "filename": "NDA_Juniper_Orchid.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Juniper Fintech Pvt. Ltd. and Orchid Hotels",
+        "description": "Mutual NDA between Juniper Fintech Pvt. Ltd. and Orchid Hotels."
+      },
+      {
+        "filename": "Project_Glide_Status_Report.pptx",
+        "domain": "general",
+        "format": "pptx",
+        "title": "Project Glide - Status Report",
+        "description": "Status update for Project Glide at Juniper Fintech Pvt. Ltd.."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1333?",
+        "expected": "4,45,450",
+        "doc": "Invoice_INV-2026-1333.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1333?",
+        "expected": "7 September 2026",
+        "doc": "Invoice_INV-2026-1333.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Ananya Kapoor?",
+        "expected": "24,25,000",
+        "doc": "Offer_Letter_Ananya_Kapoor.docx"
+      },
+      {
+        "question": "What is the notice period in Ananya Kapoor's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Ananya_Kapoor.docx"
+      },
+      {
+        "question": "What was Kabir Shetty's HbA1c result?",
+        "expected": "5.6",
+        "doc": "Lab_Report_Kabir_Shetty.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Kabir Shetty's lab report?",
+        "expected": "128",
+        "doc": "Lab_Report_Kabir_Shetty.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Orchid Hotels?",
+        "expected": "3 years",
+        "doc": "NDA_Juniper_Orchid.md"
+      },
+      {
+        "question": "What is the planned go-live date for Project Glide?",
+        "expected": "11 November 2026",
+        "doc": "Project_Glide_Status_Report.pptx"
+      }
+    ]
+  },
+  "user10": {
+    "persona": "Karan Singh",
+    "company": "Kestrel Aerospace Pvt. Ltd.",
+    "city": "Bengaluru",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1397.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1397",
+        "description": "Invoice from Kestrel Aerospace Pvt. Ltd. to Tidal Energy."
+      },
+      {
+        "filename": "Offer_Letter_Varun_Kapoor.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Varun Kapoor",
+        "description": "Employment offer for Varun Kapoor as Sales Executive."
+      },
+      {
+        "filename": "Lab_Report_Sneha_Shetty.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Sneha Shetty",
+        "description": "Blood test report for Sneha Shetty (LAB-BEN-21148)."
+      },
+      {
+        "filename": "Service_Agreement_Falcon.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Falcon Robotics",
+        "description": "Service agreement between Kestrel Aerospace Pvt. Ltd. and Falcon Robotics."
+      },
+      {
+        "filename": "Meeting_Minutes_28_August_2026.md",
+        "domain": "general",
+        "format": "md",
+        "title": "Leadership Meeting Minutes - 28 August 2026",
+        "description": "Minutes of the Kestrel Aerospace Pvt. Ltd. leadership meeting held on 28 August 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1397?",
+        "expected": "8,69,660",
+        "doc": "Invoice_INV-2026-1397.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1397?",
+        "expected": "7 September 2026",
+        "doc": "Invoice_INV-2026-1397.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Varun Kapoor?",
+        "expected": "14,50,000",
+        "doc": "Offer_Letter_Varun_Kapoor.pdf"
+      },
+      {
+        "question": "What is the notice period in Varun Kapoor's offer letter?",
+        "expected": "60 days",
+        "doc": "Offer_Letter_Varun_Kapoor.pdf"
+      },
+      {
+        "question": "What was Sneha Shetty's HbA1c result?",
+        "expected": "5.1",
+        "doc": "Lab_Report_Sneha_Shetty.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Sneha Shetty's lab report?",
+        "expected": "140",
+        "doc": "Lab_Report_Sneha_Shetty.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Falcon Robotics?",
+        "expected": "7,00,000",
+        "doc": "Service_Agreement_Falcon.docx"
+      },
+      {
+        "question": "What marketing budget was approved for Q4 2026?",
+        "expected": "3,50,000",
+        "doc": "Meeting_Minutes_28_August_2026.md"
+      }
+    ]
+  },
+  "user11": {
+    "persona": "Tanvi Pillai",
+    "company": "Lotus Textiles Pvt. Ltd.",
+    "city": "Mumbai",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1415.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1415",
+        "description": "Invoice from Lotus Textiles Pvt. Ltd. to Lotus Textiles."
+      },
+      {
+        "filename": "Offer_Letter_Simran_Shetty.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Simran Shetty",
+        "description": "Employment offer for Simran Shetty as Data Analyst."
+      },
+      {
+        "filename": "Lab_Report_Pooja_Verma.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Pooja Verma",
+        "description": "Blood test report for Pooja Verma (LAB-MUM-21334)."
+      },
+      {
+        "filename": "Lease_Agreement_Mumbai_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Mumbai",
+        "description": "Lease of Lotus Textiles Pvt. Ltd.'s Mumbai office premises."
+      },
+      {
+        "filename": "IT_Asset_Inventory_Mumbai.csv",
+        "domain": "general",
+        "format": "csv",
+        "title": "IT Asset Inventory - Mumbai",
+        "description": "IT asset stock at the Lotus Textiles Pvt. Ltd. Mumbai office."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1415?",
+        "expected": "8,00,748",
+        "doc": "Invoice_INV-2026-1415.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1415?",
+        "expected": "22 October 2026",
+        "doc": "Invoice_INV-2026-1415.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Simran Shetty?",
+        "expected": "17,00,000",
+        "doc": "Offer_Letter_Simran_Shetty.docx"
+      },
+      {
+        "question": "What is the notice period in Simran Shetty's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Simran_Shetty.docx"
+      },
+      {
+        "question": "What was Pooja Verma's HbA1c result?",
+        "expected": "7.4",
+        "doc": "Lab_Report_Pooja_Verma.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Pooja Verma's lab report?",
+        "expected": "104",
+        "doc": "Lab_Report_Pooja_Verma.md"
+      },
+      {
+        "question": "What is the monthly rent for the Mumbai office lease?",
+        "expected": "3,45,000",
+        "doc": "Lease_Agreement_Mumbai_Office.html"
+      },
+      {
+        "question": "Which IT asset has the lowest quantity in the Mumbai inventory?",
+        "expected": "Webcam",
+        "doc": "IT_Asset_Inventory_Mumbai.csv"
+      }
+    ]
+  },
+  "user12": {
+    "persona": "Harsh Kapoor",
+    "company": "Monsoon Media Pvt. Ltd.",
+    "city": "Pune",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1449.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1449",
+        "description": "Invoice from Monsoon Media Pvt. Ltd. to Kestrel Aerospace."
+      },
+      {
+        "filename": "Offer_Letter_Aditya_Patel.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Aditya Patel",
+        "description": "Employment offer for Aditya Patel as Finance Associate."
+      },
+      {
+        "filename": "Lab_Report_Pooja_Gupta.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Pooja Gupta",
+        "description": "Blood test report for Pooja Gupta (LAB-PUN-21425)."
+      },
+      {
+        "filename": "NDA_Monsoon_Deltawave.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Monsoon Media Pvt. Ltd. and Deltawave Telecom",
+        "description": "Mutual NDA between Monsoon Media Pvt. Ltd. and Deltawave Telecom."
+      },
+      {
+        "filename": "Expenses_September_2026_Monsoon.xlsx",
+        "domain": "finance",
+        "format": "xlsx",
+        "title": "Team Expense Register - September 2026",
+        "description": "Monsoon Media Pvt. Ltd. expense claims for September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1449?",
+        "expected": "6,18,084",
+        "doc": "Invoice_INV-2026-1449.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1449?",
+        "expected": "15 October 2026",
+        "doc": "Invoice_INV-2026-1449.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Aditya Patel?",
+        "expected": "25,50,000",
+        "doc": "Offer_Letter_Aditya_Patel.pdf"
+      },
+      {
+        "question": "What is the notice period in Aditya Patel's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Aditya_Patel.pdf"
+      },
+      {
+        "question": "What was Pooja Gupta's HbA1c result?",
+        "expected": "8.9",
+        "doc": "Lab_Report_Pooja_Gupta.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Pooja Gupta's lab report?",
+        "expected": "186",
+        "doc": "Lab_Report_Pooja_Gupta.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Deltawave Telecom?",
+        "expected": "3 years",
+        "doc": "NDA_Monsoon_Deltawave.md"
+      },
+      {
+        "question": "Which expense category had the highest total in September 2026?",
+        "expected": "Meals",
+        "doc": "Expenses_September_2026_Monsoon.xlsx"
+      }
+    ]
+  },
+  "user13": {
+    "persona": "Diya Shetty",
+    "company": "Northstar Pharma Pvt. Ltd.",
+    "city": "Chennai",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1505.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1505",
+        "description": "Invoice from Northstar Pharma Pvt. Ltd. to Pinnacle Motors."
+      },
+      {
+        "filename": "Offer_Letter_Aditya_Singh.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Aditya Singh",
+        "description": "Employment offer for Aditya Singh as Data Analyst."
+      },
+      {
+        "filename": "Lab_Report_Pooja_Singh.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Pooja Singh",
+        "description": "Blood test report for Pooja Singh (LAB-CHE-21517)."
+      },
+      {
+        "filename": "Service_Agreement_Falcon.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Falcon Robotics",
+        "description": "Service agreement between Northstar Pharma Pvt. Ltd. and Falcon Robotics."
+      },
+      {
+        "filename": "Project_Ember_Status_Report.pptx",
+        "domain": "general",
+        "format": "pptx",
+        "title": "Project Ember - Status Report",
+        "description": "Status update for Project Ember at Northstar Pharma Pvt. Ltd.."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1505?",
+        "expected": "3,59,900",
+        "doc": "Invoice_INV-2026-1505.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1505?",
+        "expected": "1 October 2026",
+        "doc": "Invoice_INV-2026-1505.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Aditya Singh?",
+        "expected": "12,50,000",
+        "doc": "Offer_Letter_Aditya_Singh.docx"
+      },
+      {
+        "question": "What is the notice period in Aditya Singh's offer letter?",
+        "expected": "60 days",
+        "doc": "Offer_Letter_Aditya_Singh.docx"
+      },
+      {
+        "question": "What was Pooja Singh's HbA1c result?",
+        "expected": "5.5",
+        "doc": "Lab_Report_Pooja_Singh.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Pooja Singh's lab report?",
+        "expected": "120",
+        "doc": "Lab_Report_Pooja_Singh.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Falcon Robotics?",
+        "expected": "5,10,000",
+        "doc": "Service_Agreement_Falcon.docx"
+      },
+      {
+        "question": "What is the planned go-live date for Project Ember?",
+        "expected": "12 December 2026",
+        "doc": "Project_Ember_Status_Report.pptx"
+      }
+    ]
+  },
+  "user14": {
+    "persona": "Arjun Reddy",
+    "company": "Orchid Hotels Pvt. Ltd.",
+    "city": "Hyderabad",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1518.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1518",
+        "description": "Invoice from Orchid Hotels Pvt. Ltd. to Quartz Semiconductors."
+      },
+      {
+        "filename": "Offer_Letter_Aditi_Nair.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Aditi Nair",
+        "description": "Employment offer for Aditi Nair as Customer Success Manager."
+      },
+      {
+        "filename": "Lab_Report_Tanvi_Singh.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Tanvi Singh",
+        "description": "Blood test report for Tanvi Singh (LAB-HYD-21644)."
+      },
+      {
+        "filename": "Lease_Agreement_Hyderabad_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Hyderabad",
+        "description": "Lease of Orchid Hotels Pvt. Ltd.'s Hyderabad office premises."
+      },
+      {
+        "filename": "Meeting_Minutes_15_August_2026.md",
+        "domain": "general",
+        "format": "md",
+        "title": "Leadership Meeting Minutes - 15 August 2026",
+        "description": "Minutes of the Orchid Hotels Pvt. Ltd. leadership meeting held on 15 August 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1518?",
+        "expected": "9,35,740",
+        "doc": "Invoice_INV-2026-1518.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1518?",
+        "expected": "14 October 2026",
+        "doc": "Invoice_INV-2026-1518.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Aditi Nair?",
+        "expected": "29,00,000",
+        "doc": "Offer_Letter_Aditi_Nair.pdf"
+      },
+      {
+        "question": "What is the notice period in Aditi Nair's offer letter?",
+        "expected": "60 days",
+        "doc": "Offer_Letter_Aditi_Nair.pdf"
+      },
+      {
+        "question": "What was Tanvi Singh's HbA1c result?",
+        "expected": "5.8",
+        "doc": "Lab_Report_Tanvi_Singh.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Tanvi Singh's lab report?",
+        "expected": "77",
+        "doc": "Lab_Report_Tanvi_Singh.md"
+      },
+      {
+        "question": "What is the monthly rent for the Hyderabad office lease?",
+        "expected": "3,90,000",
+        "doc": "Lease_Agreement_Hyderabad_Office.html"
+      },
+      {
+        "question": "What marketing budget was approved for Q4 2026?",
+        "expected": "19,00,000",
+        "doc": "Meeting_Minutes_15_August_2026.md"
+      }
+    ]
+  },
+  "user15": {
+    "persona": "Sneha Gupta",
+    "company": "Pinnacle Motors Pvt. Ltd.",
+    "city": "Delhi",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1579.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1579",
+        "description": "Invoice from Pinnacle Motors Pvt. Ltd. to Deltawave Telecom."
+      },
+      {
+        "filename": "Offer_Letter_Aditi_Pillai.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Aditi Pillai",
+        "description": "Employment offer for Aditi Pillai as Finance Associate."
+      },
+      {
+        "filename": "Lab_Report_Isha_Kulkarni.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Isha Kulkarni",
+        "description": "Blood test report for Isha Kulkarni (LAB-DEL-21765)."
+      },
+      {
+        "filename": "NDA_Pinnacle_Kestrel.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Pinnacle Motors Pvt. Ltd. and Kestrel Aerospace",
+        "description": "Mutual NDA between Pinnacle Motors Pvt. Ltd. and Kestrel Aerospace."
+      },
+      {
+        "filename": "IT_Asset_Inventory_Delhi.csv",
+        "domain": "general",
+        "format": "csv",
+        "title": "IT Asset Inventory - Delhi",
+        "description": "IT asset stock at the Pinnacle Motors Pvt. Ltd. Delhi office."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1579?",
+        "expected": "12,25,430",
+        "doc": "Invoice_INV-2026-1579.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1579?",
+        "expected": "25 September 2026",
+        "doc": "Invoice_INV-2026-1579.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Aditi Pillai?",
+        "expected": "19,00,000",
+        "doc": "Offer_Letter_Aditi_Pillai.docx"
+      },
+      {
+        "question": "What is the notice period in Aditi Pillai's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Aditi_Pillai.docx"
+      },
+      {
+        "question": "What was Isha Kulkarni's HbA1c result?",
+        "expected": "7.6",
+        "doc": "Lab_Report_Isha_Kulkarni.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Isha Kulkarni's lab report?",
+        "expected": "102",
+        "doc": "Lab_Report_Isha_Kulkarni.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Kestrel Aerospace?",
+        "expected": "2 years",
+        "doc": "NDA_Pinnacle_Kestrel.md"
+      },
+      {
+        "question": "Which IT asset has the lowest quantity in the Delhi inventory?",
+        "expected": "Keyboard",
+        "doc": "IT_Asset_Inventory_Delhi.csv"
+      }
+    ]
+  },
+  "user16": {
+    "persona": "Manish Rao",
+    "company": "Quartz Semiconductors Pvt. Ltd.",
+    "city": "Kolkata",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1615.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1615",
+        "description": "Invoice from Quartz Semiconductors Pvt. Ltd. to Lotus Textiles."
+      },
+      {
+        "filename": "Offer_Letter_Nikhil_Verma.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Nikhil Verma",
+        "description": "Employment offer for Nikhil Verma as Product Manager."
+      },
+      {
+        "filename": "Lab_Report_Pooja_Bose.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Pooja Bose",
+        "description": "Blood test report for Pooja Bose (LAB-KOL-21866)."
+      },
+      {
+        "filename": "Service_Agreement_Horizon.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Horizon Health Tech",
+        "description": "Service agreement between Quartz Semiconductors Pvt. Ltd. and Horizon Health Tech."
+      },
+      {
+        "filename": "Expenses_September_2026_Quartz.xlsx",
+        "domain": "general",
+        "format": "xlsx",
+        "title": "Team Expense Register - September 2026",
+        "description": "Quartz Semiconductors Pvt. Ltd. expense claims for September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1615?",
+        "expected": "5,18,610",
+        "doc": "Invoice_INV-2026-1615.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1615?",
+        "expected": "19 October 2026",
+        "doc": "Invoice_INV-2026-1615.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Nikhil Verma?",
+        "expected": "9,25,000",
+        "doc": "Offer_Letter_Nikhil_Verma.pdf"
+      },
+      {
+        "question": "What is the notice period in Nikhil Verma's offer letter?",
+        "expected": "60 days",
+        "doc": "Offer_Letter_Nikhil_Verma.pdf"
+      },
+      {
+        "question": "What was Pooja Bose's HbA1c result?",
+        "expected": "6.1",
+        "doc": "Lab_Report_Pooja_Bose.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Pooja Bose's lab report?",
+        "expected": "174",
+        "doc": "Lab_Report_Pooja_Bose.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Horizon Health Tech?",
+        "expected": "6,20,000",
+        "doc": "Service_Agreement_Horizon.docx"
+      },
+      {
+        "question": "Which expense category had the highest total in September 2026?",
+        "expected": "Training",
+        "doc": "Expenses_September_2026_Quartz.xlsx"
+      }
+    ]
+  },
+  "user17": {
+    "persona": "Simran Bose",
+    "company": "Redwood Realty Pvt. Ltd.",
+    "city": "Ahmedabad",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1658.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1658",
+        "description": "Invoice from Redwood Realty Pvt. Ltd. to Pinnacle Motors."
+      },
+      {
+        "filename": "Offer_Letter_Varun_Pillai.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Varun Pillai",
+        "description": "Employment offer for Varun Pillai as Customer Success Manager."
+      },
+      {
+        "filename": "Lab_Report_Shreya_Mehta.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Shreya Mehta",
+        "description": "Blood test report for Shreya Mehta (LAB-AHM-21936)."
+      },
+      {
+        "filename": "Lease_Agreement_Ahmedabad_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Ahmedabad",
+        "description": "Lease of Redwood Realty Pvt. Ltd.'s Ahmedabad office premises."
+      },
+      {
+        "filename": "Project_Ember_Status_Report.pptx",
+        "domain": "general",
+        "format": "pptx",
+        "title": "Project Ember - Status Report",
+        "description": "Status update for Project Ember at Redwood Realty Pvt. Ltd.."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1658?",
+        "expected": "3,15,296",
+        "doc": "Invoice_INV-2026-1658.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1658?",
+        "expected": "28 October 2026",
+        "doc": "Invoice_INV-2026-1658.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Varun Pillai?",
+        "expected": "21,25,000",
+        "doc": "Offer_Letter_Varun_Pillai.docx"
+      },
+      {
+        "question": "What is the notice period in Varun Pillai's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Varun_Pillai.docx"
+      },
+      {
+        "question": "What was Shreya Mehta's HbA1c result?",
+        "expected": "9.3",
+        "doc": "Lab_Report_Shreya_Mehta.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Shreya Mehta's lab report?",
+        "expected": "129",
+        "doc": "Lab_Report_Shreya_Mehta.md"
+      },
+      {
+        "question": "What is the monthly rent for the Ahmedabad office lease?",
+        "expected": "1,35,000",
+        "doc": "Lease_Agreement_Ahmedabad_Office.html"
+      },
+      {
+        "question": "What is the planned go-live date for Project Ember?",
+        "expected": "23 December 2026",
+        "doc": "Project_Ember_Status_Report.pptx"
+      }
+    ]
+  },
+  "user18": {
+    "persona": "Vikram Chopra",
+    "company": "Saffron Foods Pvt. Ltd.",
+    "city": "Kochi",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1686.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1686",
+        "description": "Invoice from Saffron Foods Pvt. Ltd. to Monsoon Media."
+      },
+      {
+        "filename": "Offer_Letter_Simran_Desai.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Simran Desai",
+        "description": "Employment offer for Simran Desai as QA Engineer."
+      },
+      {
+        "filename": "Lab_Report_Nikhil_Pillai.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Nikhil Pillai",
+        "description": "Blood test report for Nikhil Pillai (LAB-KOC-22075)."
+      },
+      {
+        "filename": "NDA_Saffron_Indigo.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Saffron Foods Pvt. Ltd. and Indigo Retail",
+        "description": "Mutual NDA between Saffron Foods Pvt. Ltd. and Indigo Retail."
+      },
+      {
+        "filename": "Meeting_Minutes_4_August_2026.md",
+        "domain": "general",
+        "format": "md",
+        "title": "Leadership Meeting Minutes - 4 August 2026",
+        "description": "Minutes of the Saffron Foods Pvt. Ltd. leadership meeting held on 4 August 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1686?",
+        "expected": "4,48,400",
+        "doc": "Invoice_INV-2026-1686.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1686?",
+        "expected": "14 September 2026",
+        "doc": "Invoice_INV-2026-1686.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Simran Desai?",
+        "expected": "27,50,000",
+        "doc": "Offer_Letter_Simran_Desai.pdf"
+      },
+      {
+        "question": "What is the notice period in Simran Desai's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Simran_Desai.pdf"
+      },
+      {
+        "question": "What was Nikhil Pillai's HbA1c result?",
+        "expected": "6.6",
+        "doc": "Lab_Report_Nikhil_Pillai.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Nikhil Pillai's lab report?",
+        "expected": "95",
+        "doc": "Lab_Report_Nikhil_Pillai.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Indigo Retail?",
+        "expected": "2 years",
+        "doc": "NDA_Saffron_Indigo.md"
+      },
+      {
+        "question": "What marketing budget was approved for Q4 2026?",
+        "expected": "20,50,000",
+        "doc": "Meeting_Minutes_4_August_2026.md"
+      }
+    ]
+  },
+  "user19": {
+    "persona": "Riya Mehta",
+    "company": "Tidal Energy Pvt. Ltd.",
+    "city": "Jaipur",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1713.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1713",
+        "description": "Invoice from Tidal Energy Pvt. Ltd. to BlueRiver Logistics."
+      },
+      {
+        "filename": "Offer_Letter_Riya_Iyer.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Riya Iyer",
+        "description": "Employment offer for Riya Iyer as Product Manager."
+      },
+      {
+        "filename": "Lab_Report_Yash_Patel.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Yash Patel",
+        "description": "Blood test report for Yash Patel (LAB-JAI-22236)."
+      },
+      {
+        "filename": "Service_Agreement_Juniper.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Juniper Fintech",
+        "description": "Service agreement between Tidal Energy Pvt. Ltd. and Juniper Fintech."
+      },
+      {
+        "filename": "IT_Asset_Inventory_Jaipur.csv",
+        "domain": "general",
+        "format": "csv",
+        "title": "IT Asset Inventory - Jaipur",
+        "description": "IT asset stock at the Tidal Energy Pvt. Ltd. Jaipur office."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1713?",
+        "expected": "7,57,324",
+        "doc": "Invoice_INV-2026-1713.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1713?",
+        "expected": "8 October 2026",
+        "doc": "Invoice_INV-2026-1713.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Riya Iyer?",
+        "expected": "20,00,000",
+        "doc": "Offer_Letter_Riya_Iyer.docx"
+      },
+      {
+        "question": "What is the notice period in Riya Iyer's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Riya_Iyer.docx"
+      },
+      {
+        "question": "What was Yash Patel's HbA1c result?",
+        "expected": "8.5",
+        "doc": "Lab_Report_Yash_Patel.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Yash Patel's lab report?",
+        "expected": "121",
+        "doc": "Lab_Report_Yash_Patel.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Juniper Fintech?",
+        "expected": "8,80,000",
+        "doc": "Service_Agreement_Juniper.docx"
+      },
+      {
+        "question": "Which IT asset has the lowest quantity in the Jaipur inventory?",
+        "expected": "Router",
+        "doc": "IT_Asset_Inventory_Jaipur.csv"
+      }
+    ]
+  },
+  "user20": {
+    "persona": "Varun Sharma",
+    "company": "Aurora Analytics Pvt. Ltd.",
+    "city": "Bengaluru",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1740.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1740",
+        "description": "Invoice from Aurora Analytics Pvt. Ltd. to Deltawave Telecom."
+      },
+      {
+        "filename": "Offer_Letter_Riya_Iyer.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Riya Iyer",
+        "description": "Employment offer for Riya Iyer as Finance Associate."
+      },
+      {
+        "filename": "Lab_Report_Riya_Banerjee.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Riya Banerjee",
+        "description": "Blood test report for Riya Banerjee (LAB-BEN-22260)."
+      },
+      {
+        "filename": "Lease_Agreement_Bengaluru_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Bengaluru",
+        "description": "Lease of Aurora Analytics Pvt. Ltd.'s Bengaluru office premises."
+      },
+      {
+        "filename": "Expenses_September_2026_Aurora.xlsx",
+        "domain": "finance",
+        "format": "xlsx",
+        "title": "Team Expense Register - September 2026",
+        "description": "Aurora Analytics Pvt. Ltd. expense claims for September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1740?",
+        "expected": "8,01,810",
+        "doc": "Invoice_INV-2026-1740.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1740?",
+        "expected": "17 October 2026",
+        "doc": "Invoice_INV-2026-1740.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Riya Iyer?",
+        "expected": "10,00,000",
+        "doc": "Offer_Letter_Riya_Iyer.pdf"
+      },
+      {
+        "question": "What is the notice period in Riya Iyer's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Riya_Iyer.pdf"
+      },
+      {
+        "question": "What was Riya Banerjee's HbA1c result?",
+        "expected": "5.7",
+        "doc": "Lab_Report_Riya_Banerjee.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Riya Banerjee's lab report?",
+        "expected": "121",
+        "doc": "Lab_Report_Riya_Banerjee.md"
+      },
+      {
+        "question": "What is the monthly rent for the Bengaluru office lease?",
+        "expected": "1,25,000",
+        "doc": "Lease_Agreement_Bengaluru_Office.html"
+      },
+      {
+        "question": "Which expense category had the highest total in September 2026?",
+        "expected": "Meals",
+        "doc": "Expenses_September_2026_Aurora.xlsx"
+      }
+    ]
+  },
+  "user21": {
+    "persona": "Aditi Patel",
+    "company": "BlueRiver Logistics Pvt. Ltd.",
+    "city": "Mumbai",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1793.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1793",
+        "description": "Invoice from BlueRiver Logistics Pvt. Ltd. to Quartz Semiconductors."
+      },
+      {
+        "filename": "Offer_Letter_Riya_Banerjee.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Riya Banerjee",
+        "description": "Employment offer for Riya Banerjee as Software Engineer."
+      },
+      {
+        "filename": "Lab_Report_Sneha_Bose.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Sneha Bose",
+        "description": "Blood test report for Sneha Bose (LAB-MUM-22375)."
+      },
+      {
+        "filename": "NDA_BlueRiver_Redwood.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - BlueRiver Logistics Pvt. Ltd. and Redwood Realty",
+        "description": "Mutual NDA between BlueRiver Logistics Pvt. Ltd. and Redwood Realty."
+      },
+      {
+        "filename": "Project_Ember_Status_Report.pptx",
+        "domain": "general",
+        "format": "pptx",
+        "title": "Project Ember - Status Report",
+        "description": "Status update for Project Ember at BlueRiver Logistics Pvt. Ltd.."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1793?",
+        "expected": "7,77,384",
+        "doc": "Invoice_INV-2026-1793.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1793?",
+        "expected": "26 October 2026",
+        "doc": "Invoice_INV-2026-1793.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Riya Banerjee?",
+        "expected": "16,25,000",
+        "doc": "Offer_Letter_Riya_Banerjee.docx"
+      },
+      {
+        "question": "What is the notice period in Riya Banerjee's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Riya_Banerjee.docx"
+      },
+      {
+        "question": "What was Sneha Bose's HbA1c result?",
+        "expected": "6.6",
+        "doc": "Lab_Report_Sneha_Bose.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Sneha Bose's lab report?",
+        "expected": "128",
+        "doc": "Lab_Report_Sneha_Bose.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Redwood Realty?",
+        "expected": "5 years",
+        "doc": "NDA_BlueRiver_Redwood.md"
+      },
+      {
+        "question": "What is the planned go-live date for Project Ember?",
+        "expected": "27 November 2026",
+        "doc": "Project_Ember_Status_Report.pptx"
+      }
+    ]
+  },
+  "user22": {
+    "persona": "Kabir Nair",
+    "company": "Cedarwood Foods Pvt. Ltd.",
+    "city": "Pune",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1827.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1827",
+        "description": "Invoice from Cedarwood Foods Pvt. Ltd. to Evergreen Agro."
+      },
+      {
+        "filename": "Offer_Letter_Karan_Patel.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Karan Patel",
+        "description": "Employment offer for Karan Patel as Product Manager."
+      },
+      {
+        "filename": "Lab_Report_Kabir_Banerjee.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Kabir Banerjee",
+        "description": "Blood test report for Kabir Banerjee (LAB-PUN-22546)."
+      },
+      {
+        "filename": "Service_Agreement_Redwood.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Redwood Realty",
+        "description": "Service agreement between Cedarwood Foods Pvt. Ltd. and Redwood Realty."
+      },
+      {
+        "filename": "Meeting_Minutes_7_September_2026.md",
+        "domain": "general",
+        "format": "md",
+        "title": "Leadership Meeting Minutes - 7 September 2026",
+        "description": "Minutes of the Cedarwood Foods Pvt. Ltd. leadership meeting held on 7 September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1827?",
+        "expected": "4,77,900",
+        "doc": "Invoice_INV-2026-1827.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1827?",
+        "expected": "16 October 2026",
+        "doc": "Invoice_INV-2026-1827.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Karan Patel?",
+        "expected": "18,50,000",
+        "doc": "Offer_Letter_Karan_Patel.pdf"
+      },
+      {
+        "question": "What is the notice period in Karan Patel's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Karan_Patel.pdf"
+      },
+      {
+        "question": "What was Kabir Banerjee's HbA1c result?",
+        "expected": "6.4",
+        "doc": "Lab_Report_Kabir_Banerjee.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Kabir Banerjee's lab report?",
+        "expected": "151",
+        "doc": "Lab_Report_Kabir_Banerjee.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Redwood Realty?",
+        "expected": "2,70,000",
+        "doc": "Service_Agreement_Redwood.docx"
+      },
+      {
+        "question": "What marketing budget was approved for Q4 2026?",
+        "expected": "20,00,000",
+        "doc": "Meeting_Minutes_7_September_2026.md"
+      }
+    ]
+  },
+  "user23": {
+    "persona": "Pooja Kulkarni",
+    "company": "Deltawave Telecom Pvt. Ltd.",
+    "city": "Chennai",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1873.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1873",
+        "description": "Invoice from Deltawave Telecom Pvt. Ltd. to Pinnacle Motors."
+      },
+      {
+        "filename": "Offer_Letter_Rohan_Mehta.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Rohan Mehta",
+        "description": "Employment offer for Rohan Mehta as DevOps Engineer."
+      },
+      {
+        "filename": "Lab_Report_Rahul_Nair.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Rahul Nair",
+        "description": "Blood test report for Rahul Nair (LAB-CHE-22677)."
+      },
+      {
+        "filename": "Lease_Agreement_Chennai_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Chennai",
+        "description": "Lease of Deltawave Telecom Pvt. Ltd.'s Chennai office premises."
+      },
+      {
+        "filename": "IT_Asset_Inventory_Chennai.csv",
+        "domain": "general",
+        "format": "csv",
+        "title": "IT Asset Inventory - Chennai",
+        "description": "IT asset stock at the Deltawave Telecom Pvt. Ltd. Chennai office."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1873?",
+        "expected": "5,37,844",
+        "doc": "Invoice_INV-2026-1873.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1873?",
+        "expected": "12 October 2026",
+        "doc": "Invoice_INV-2026-1873.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Rohan Mehta?",
+        "expected": "20,75,000",
+        "doc": "Offer_Letter_Rohan_Mehta.docx"
+      },
+      {
+        "question": "What is the notice period in Rohan Mehta's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Rohan_Mehta.docx"
+      },
+      {
+        "question": "What was Rahul Nair's HbA1c result?",
+        "expected": "6.4",
+        "doc": "Lab_Report_Rahul_Nair.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Rahul Nair's lab report?",
+        "expected": "170",
+        "doc": "Lab_Report_Rahul_Nair.md"
+      },
+      {
+        "question": "What is the monthly rent for the Chennai office lease?",
+        "expected": "2,35,000",
+        "doc": "Lease_Agreement_Chennai_Office.html"
+      },
+      {
+        "question": "Which IT asset has the lowest quantity in the Chennai inventory?",
+        "expected": "Router",
+        "doc": "IT_Asset_Inventory_Chennai.csv"
+      }
+    ]
+  },
+  "user24": {
+    "persona": "Nikhil Desai",
+    "company": "Evergreen Agro Pvt. Ltd.",
+    "city": "Hyderabad",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1903.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1903",
+        "description": "Invoice from Evergreen Agro Pvt. Ltd. to Aurora Analytics."
+      },
+      {
+        "filename": "Offer_Letter_Meera_Pillai.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Meera Pillai",
+        "description": "Employment offer for Meera Pillai as Product Manager."
+      },
+      {
+        "filename": "Lab_Report_Gaurav_Shetty.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Gaurav Shetty",
+        "description": "Blood test report for Gaurav Shetty (LAB-HYD-22712)."
+      },
+      {
+        "filename": "NDA_Evergreen_Falcon.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Evergreen Agro Pvt. Ltd. and Falcon Robotics",
+        "description": "Mutual NDA between Evergreen Agro Pvt. Ltd. and Falcon Robotics."
+      },
+      {
+        "filename": "Expenses_September_2026_Evergreen.xlsx",
+        "domain": "general",
+        "format": "xlsx",
+        "title": "Team Expense Register - September 2026",
+        "description": "Evergreen Agro Pvt. Ltd. expense claims for September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1903?",
+        "expected": "5,84,690",
+        "doc": "Invoice_INV-2026-1903.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1903?",
+        "expected": "28 September 2026",
+        "doc": "Invoice_INV-2026-1903.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Meera Pillai?",
+        "expected": "19,75,000",
+        "doc": "Offer_Letter_Meera_Pillai.pdf"
+      },
+      {
+        "question": "What is the notice period in Meera Pillai's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Meera_Pillai.pdf"
+      },
+      {
+        "question": "What was Gaurav Shetty's HbA1c result?",
+        "expected": "7.8",
+        "doc": "Lab_Report_Gaurav_Shetty.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Gaurav Shetty's lab report?",
+        "expected": "83",
+        "doc": "Lab_Report_Gaurav_Shetty.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Falcon Robotics?",
+        "expected": "3 years",
+        "doc": "NDA_Evergreen_Falcon.md"
+      },
+      {
+        "question": "Which expense category had the highest total in September 2026?",
+        "expected": "Software",
+        "doc": "Expenses_September_2026_Evergreen.xlsx"
+      }
+    ]
+  },
+  "user25": {
+    "persona": "Neha Verma",
+    "company": "Falcon Robotics Pvt. Ltd.",
+    "city": "Delhi",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1926.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1926",
+        "description": "Invoice from Falcon Robotics Pvt. Ltd. to Granite Infra."
+      },
+      {
+        "filename": "Offer_Letter_Kavya_Patel.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Kavya Patel",
+        "description": "Employment offer for Kavya Patel as Sales Executive."
+      },
+      {
+        "filename": "Lab_Report_Meera_Patel.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Meera Patel",
+        "description": "Blood test report for Meera Patel (LAB-DEL-22909)."
+      },
+      {
+        "filename": "Service_Agreement_Horizon.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Horizon Health Tech",
+        "description": "Service agreement between Falcon Robotics Pvt. Ltd. and Horizon Health Tech."
+      },
+      {
+        "filename": "Project_Glide_Status_Report.pptx",
+        "domain": "general",
+        "format": "pptx",
+        "title": "Project Glide - Status Report",
+        "description": "Status update for Project Glide at Falcon Robotics Pvt. Ltd.."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1926?",
+        "expected": "5,05,512",
+        "doc": "Invoice_INV-2026-1926.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1926?",
+        "expected": "24 October 2026",
+        "doc": "Invoice_INV-2026-1926.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Kavya Patel?",
+        "expected": "23,75,000",
+        "doc": "Offer_Letter_Kavya_Patel.docx"
+      },
+      {
+        "question": "What is the notice period in Kavya Patel's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Kavya_Patel.docx"
+      },
+      {
+        "question": "What was Meera Patel's HbA1c result?",
+        "expected": "8.4",
+        "doc": "Lab_Report_Meera_Patel.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Meera Patel's lab report?",
+        "expected": "113",
+        "doc": "Lab_Report_Meera_Patel.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Horizon Health Tech?",
+        "expected": "3,70,000",
+        "doc": "Service_Agreement_Horizon.docx"
+      },
+      {
+        "question": "What is the planned go-live date for Project Glide?",
+        "expected": "28 November 2026",
+        "doc": "Project_Glide_Status_Report.pptx"
+      }
+    ]
+  },
+  "user26": {
+    "persona": "Rohan Banerjee",
+    "company": "Granite Infra Pvt. Ltd.",
+    "city": "Kolkata",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-1992.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-1992",
+        "description": "Invoice from Granite Infra Pvt. Ltd. to Aurora Analytics."
+      },
+      {
+        "filename": "Offer_Letter_Varun_Bose.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Varun Bose",
+        "description": "Employment offer for Varun Bose as DevOps Engineer."
+      },
+      {
+        "filename": "Lab_Report_Neha_Kulkarni.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Neha Kulkarni",
+        "description": "Blood test report for Neha Kulkarni (LAB-KOL-22965)."
+      },
+      {
+        "filename": "Lease_Agreement_Kolkata_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Kolkata",
+        "description": "Lease of Granite Infra Pvt. Ltd.'s Kolkata office premises."
+      },
+      {
+        "filename": "Meeting_Minutes_16_August_2026.md",
+        "domain": "general",
+        "format": "md",
+        "title": "Leadership Meeting Minutes - 16 August 2026",
+        "description": "Minutes of the Granite Infra Pvt. Ltd. leadership meeting held on 16 August 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-1992?",
+        "expected": "12,67,320",
+        "doc": "Invoice_INV-2026-1992.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-1992?",
+        "expected": "17 September 2026",
+        "doc": "Invoice_INV-2026-1992.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Varun Bose?",
+        "expected": "25,50,000",
+        "doc": "Offer_Letter_Varun_Bose.pdf"
+      },
+      {
+        "question": "What is the notice period in Varun Bose's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Varun_Bose.pdf"
+      },
+      {
+        "question": "What was Neha Kulkarni's HbA1c result?",
+        "expected": "6.5",
+        "doc": "Lab_Report_Neha_Kulkarni.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Neha Kulkarni's lab report?",
+        "expected": "92",
+        "doc": "Lab_Report_Neha_Kulkarni.md"
+      },
+      {
+        "question": "What is the monthly rent for the Kolkata office lease?",
+        "expected": "2,55,000",
+        "doc": "Lease_Agreement_Kolkata_Office.html"
+      },
+      {
+        "question": "What marketing budget was approved for Q4 2026?",
+        "expected": "13,00,000",
+        "doc": "Meeting_Minutes_16_August_2026.md"
+      }
+    ]
+  },
+  "user27": {
+    "persona": "Nisha Iyer",
+    "company": "Horizon Health Tech Pvt. Ltd.",
+    "city": "Ahmedabad",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2002.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2002",
+        "description": "Invoice from Horizon Health Tech Pvt. Ltd. to Aurora Analytics."
+      },
+      {
+        "filename": "Offer_Letter_Gaurav_Verma.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Gaurav Verma",
+        "description": "Employment offer for Gaurav Verma as Software Engineer."
+      },
+      {
+        "filename": "Lab_Report_Rohan_Kapoor.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Rohan Kapoor",
+        "description": "Blood test report for Rohan Kapoor (LAB-AHM-23110)."
+      },
+      {
+        "filename": "NDA_Horizon_Deltawave.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Horizon Health Tech Pvt. Ltd. and Deltawave Telecom",
+        "description": "Mutual NDA between Horizon Health Tech Pvt. Ltd. and Deltawave Telecom."
+      },
+      {
+        "filename": "IT_Asset_Inventory_Ahmedabad.csv",
+        "domain": "general",
+        "format": "csv",
+        "title": "IT Asset Inventory - Ahmedabad",
+        "description": "IT asset stock at the Horizon Health Tech Pvt. Ltd. Ahmedabad office."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2002?",
+        "expected": "3,17,302",
+        "doc": "Invoice_INV-2026-2002.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2002?",
+        "expected": "26 October 2026",
+        "doc": "Invoice_INV-2026-2002.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Gaurav Verma?",
+        "expected": "18,00,000",
+        "doc": "Offer_Letter_Gaurav_Verma.docx"
+      },
+      {
+        "question": "What is the notice period in Gaurav Verma's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Gaurav_Verma.docx"
+      },
+      {
+        "question": "What was Rohan Kapoor's HbA1c result?",
+        "expected": "5.0",
+        "doc": "Lab_Report_Rohan_Kapoor.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Rohan Kapoor's lab report?",
+        "expected": "117",
+        "doc": "Lab_Report_Rohan_Kapoor.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Deltawave Telecom?",
+        "expected": "5 years",
+        "doc": "NDA_Horizon_Deltawave.md"
+      },
+      {
+        "question": "Which IT asset has the lowest quantity in the Ahmedabad inventory?",
+        "expected": "Monitor",
+        "doc": "IT_Asset_Inventory_Ahmedabad.csv"
+      }
+    ]
+  },
+  "user28": {
+    "persona": "Rahul Menon",
+    "company": "Indigo Retail Pvt. Ltd.",
+    "city": "Kochi",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2055.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2055",
+        "description": "Invoice from Indigo Retail Pvt. Ltd. to Orchid Hotels."
+      },
+      {
+        "filename": "Offer_Letter_Aditi_Nair.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Aditi Nair",
+        "description": "Employment offer for Aditi Nair as Customer Success Manager."
+      },
+      {
+        "filename": "Lab_Report_Gaurav_Iyer.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Gaurav Iyer",
+        "description": "Blood test report for Gaurav Iyer (LAB-KOC-23202)."
+      },
+      {
+        "filename": "Service_Agreement_Monsoon.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Monsoon Media",
+        "description": "Service agreement between Indigo Retail Pvt. Ltd. and Monsoon Media."
+      },
+      {
+        "filename": "Expenses_September_2026_Indigo.xlsx",
+        "domain": "finance",
+        "format": "xlsx",
+        "title": "Team Expense Register - September 2026",
+        "description": "Indigo Retail Pvt. Ltd. expense claims for September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2055?",
+        "expected": "7,56,380",
+        "doc": "Invoice_INV-2026-2055.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2055?",
+        "expected": "1 September 2026",
+        "doc": "Invoice_INV-2026-2055.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Aditi Nair?",
+        "expected": "8,25,000",
+        "doc": "Offer_Letter_Aditi_Nair.pdf"
+      },
+      {
+        "question": "What is the notice period in Aditi Nair's offer letter?",
+        "expected": "60 days",
+        "doc": "Offer_Letter_Aditi_Nair.pdf"
+      },
+      {
+        "question": "What was Gaurav Iyer's HbA1c result?",
+        "expected": "7.7",
+        "doc": "Lab_Report_Gaurav_Iyer.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Gaurav Iyer's lab report?",
+        "expected": "137",
+        "doc": "Lab_Report_Gaurav_Iyer.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Monsoon Media?",
+        "expected": "3,70,000",
+        "doc": "Service_Agreement_Monsoon.docx"
+      },
+      {
+        "question": "Which expense category had the highest total in September 2026?",
+        "expected": "Travel",
+        "doc": "Expenses_September_2026_Indigo.xlsx"
+      }
+    ]
+  },
+  "user29": {
+    "persona": "Shreya Joshi",
+    "company": "Juniper Fintech Pvt. Ltd.",
+    "city": "Jaipur",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2082.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2082",
+        "description": "Invoice from Juniper Fintech Pvt. Ltd. to Tidal Energy."
+      },
+      {
+        "filename": "Offer_Letter_Aditya_Patel.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Aditya Patel",
+        "description": "Employment offer for Aditya Patel as Finance Associate."
+      },
+      {
+        "filename": "Lab_Report_Gaurav_Sharma.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Gaurav Sharma",
+        "description": "Blood test report for Gaurav Sharma (LAB-JAI-23320)."
+      },
+      {
+        "filename": "Lease_Agreement_Jaipur_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Jaipur",
+        "description": "Lease of Juniper Fintech Pvt. Ltd.'s Jaipur office premises."
+      },
+      {
+        "filename": "Project_Atlas_Status_Report.pptx",
+        "domain": "general",
+        "format": "pptx",
+        "title": "Project Atlas - Status Report",
+        "description": "Status update for Project Atlas at Juniper Fintech Pvt. Ltd.."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2082?",
+        "expected": "5,35,720",
+        "doc": "Invoice_INV-2026-2082.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2082?",
+        "expected": "14 October 2026",
+        "doc": "Invoice_INV-2026-2082.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Aditya Patel?",
+        "expected": "12,25,000",
+        "doc": "Offer_Letter_Aditya_Patel.docx"
+      },
+      {
+        "question": "What is the notice period in Aditya Patel's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Aditya_Patel.docx"
+      },
+      {
+        "question": "What was Gaurav Sharma's HbA1c result?",
+        "expected": "8.9",
+        "doc": "Lab_Report_Gaurav_Sharma.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Gaurav Sharma's lab report?",
+        "expected": "187",
+        "doc": "Lab_Report_Gaurav_Sharma.md"
+      },
+      {
+        "question": "What is the monthly rent for the Jaipur office lease?",
+        "expected": "2,10,000",
+        "doc": "Lease_Agreement_Jaipur_Office.html"
+      },
+      {
+        "question": "What is the planned go-live date for Project Atlas?",
+        "expected": "24 November 2026",
+        "doc": "Project_Atlas_Status_Report.pptx"
+      }
+    ]
+  },
+  "user30": {
+    "persona": "Aarav Singh",
+    "company": "Kestrel Aerospace Pvt. Ltd.",
+    "city": "Bengaluru",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2123.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2123",
+        "description": "Invoice from Kestrel Aerospace Pvt. Ltd. to BlueRiver Logistics."
+      },
+      {
+        "filename": "Offer_Letter_Kabir_Gupta.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Kabir Gupta",
+        "description": "Employment offer for Kabir Gupta as Software Engineer."
+      },
+      {
+        "filename": "Lab_Report_Manish_Kulkarni.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Manish Kulkarni",
+        "description": "Blood test report for Manish Kulkarni (LAB-BEN-23408)."
+      },
+      {
+        "filename": "NDA_Kestrel_Saffron.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Kestrel Aerospace Pvt. Ltd. and Saffron Foods",
+        "description": "Mutual NDA between Kestrel Aerospace Pvt. Ltd. and Saffron Foods."
+      },
+      {
+        "filename": "Meeting_Minutes_25_August_2026.md",
+        "domain": "general",
+        "format": "md",
+        "title": "Leadership Meeting Minutes - 25 August 2026",
+        "description": "Minutes of the Kestrel Aerospace Pvt. Ltd. leadership meeting held on 25 August 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2123?",
+        "expected": "6,85,226",
+        "doc": "Invoice_INV-2026-2123.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2123?",
+        "expected": "26 September 2026",
+        "doc": "Invoice_INV-2026-2123.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Kabir Gupta?",
+        "expected": "30,25,000",
+        "doc": "Offer_Letter_Kabir_Gupta.pdf"
+      },
+      {
+        "question": "What is the notice period in Kabir Gupta's offer letter?",
+        "expected": "60 days",
+        "doc": "Offer_Letter_Kabir_Gupta.pdf"
+      },
+      {
+        "question": "What was Manish Kulkarni's HbA1c result?",
+        "expected": "6.7",
+        "doc": "Lab_Report_Manish_Kulkarni.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Manish Kulkarni's lab report?",
+        "expected": "170",
+        "doc": "Lab_Report_Manish_Kulkarni.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Saffron Foods?",
+        "expected": "3 years",
+        "doc": "NDA_Kestrel_Saffron.md"
+      },
+      {
+        "question": "What marketing budget was approved for Q4 2026?",
+        "expected": "14,00,000",
+        "doc": "Meeting_Minutes_25_August_2026.md"
+      }
+    ]
+  },
+  "user31": {
+    "persona": "Isha Pillai",
+    "company": "Lotus Textiles Pvt. Ltd.",
+    "city": "Mumbai",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2164.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2164",
+        "description": "Invoice from Lotus Textiles Pvt. Ltd. to Saffron Foods."
+      },
+      {
+        "filename": "Offer_Letter_Aarav_Gupta.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Aarav Gupta",
+        "description": "Employment offer for Aarav Gupta as UX Designer."
+      },
+      {
+        "filename": "Lab_Report_Manish_Nair.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Manish Nair",
+        "description": "Blood test report for Manish Nair (LAB-MUM-23563)."
+      },
+      {
+        "filename": "Service_Agreement_Northstar.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Northstar Pharma",
+        "description": "Service agreement between Lotus Textiles Pvt. Ltd. and Northstar Pharma."
+      },
+      {
+        "filename": "IT_Asset_Inventory_Mumbai.csv",
+        "domain": "general",
+        "format": "csv",
+        "title": "IT Asset Inventory - Mumbai",
+        "description": "IT asset stock at the Lotus Textiles Pvt. Ltd. Mumbai office."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2164?",
+        "expected": "7,56,380",
+        "doc": "Invoice_INV-2026-2164.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2164?",
+        "expected": "2 October 2026",
+        "doc": "Invoice_INV-2026-2164.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Aarav Gupta?",
+        "expected": "24,25,000",
+        "doc": "Offer_Letter_Aarav_Gupta.docx"
+      },
+      {
+        "question": "What is the notice period in Aarav Gupta's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Aarav_Gupta.docx"
+      },
+      {
+        "question": "What was Manish Nair's HbA1c result?",
+        "expected": "5.1",
+        "doc": "Lab_Report_Manish_Nair.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Manish Nair's lab report?",
+        "expected": "137",
+        "doc": "Lab_Report_Manish_Nair.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Northstar Pharma?",
+        "expected": "3,90,000",
+        "doc": "Service_Agreement_Northstar.docx"
+      },
+      {
+        "question": "Which IT asset has the lowest quantity in the Mumbai inventory?",
+        "expected": "Projector",
+        "doc": "IT_Asset_Inventory_Mumbai.csv"
+      }
+    ]
+  },
+  "user32": {
+    "persona": "Aditya Kapoor",
+    "company": "Monsoon Media Pvt. Ltd.",
+    "city": "Pune",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2204.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2204",
+        "description": "Invoice from Monsoon Media Pvt. Ltd. to Monsoon Media."
+      },
+      {
+        "filename": "Offer_Letter_Kabir_Mehta.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Kabir Mehta",
+        "description": "Employment offer for Kabir Mehta as Sales Executive."
+      },
+      {
+        "filename": "Lab_Report_Manish_Rao.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Manish Rao",
+        "description": "Blood test report for Manish Rao (LAB-PUN-23666)."
+      },
+      {
+        "filename": "Lease_Agreement_Pune_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Pune",
+        "description": "Lease of Monsoon Media Pvt. Ltd.'s Pune office premises."
+      },
+      {
+        "filename": "Expenses_September_2026_Monsoon.xlsx",
+        "domain": "general",
+        "format": "xlsx",
+        "title": "Team Expense Register - September 2026",
+        "description": "Monsoon Media Pvt. Ltd. expense claims for September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2204?",
+        "expected": "5,49,172",
+        "doc": "Invoice_INV-2026-2204.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2204?",
+        "expected": "7 October 2026",
+        "doc": "Invoice_INV-2026-2204.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Kabir Mehta?",
+        "expected": "14,25,000",
+        "doc": "Offer_Letter_Kabir_Mehta.pdf"
+      },
+      {
+        "question": "What is the notice period in Kabir Mehta's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Kabir_Mehta.pdf"
+      },
+      {
+        "question": "What was Manish Rao's HbA1c result?",
+        "expected": "5.3",
+        "doc": "Lab_Report_Manish_Rao.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Manish Rao's lab report?",
+        "expected": "125",
+        "doc": "Lab_Report_Manish_Rao.md"
+      },
+      {
+        "question": "What is the monthly rent for the Pune office lease?",
+        "expected": "3,40,000",
+        "doc": "Lease_Agreement_Pune_Office.html"
+      },
+      {
+        "question": "Which expense category had the highest total in September 2026?",
+        "expected": "Travel",
+        "doc": "Expenses_September_2026_Monsoon.xlsx"
+      }
+    ]
+  },
+  "user33": {
+    "persona": "Kavya Shetty",
+    "company": "Northstar Pharma Pvt. Ltd.",
+    "city": "Chennai",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2244.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2244",
+        "description": "Invoice from Northstar Pharma Pvt. Ltd. to Granite Infra."
+      },
+      {
+        "filename": "Offer_Letter_Diya_Gupta.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Diya Gupta",
+        "description": "Employment offer for Diya Gupta as Finance Associate."
+      },
+      {
+        "filename": "Lab_Report_Aditya_Iyer.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Aditya Iyer",
+        "description": "Blood test report for Aditya Iyer (LAB-CHE-23788)."
+      },
+      {
+        "filename": "NDA_Northstar_Aurora.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Northstar Pharma Pvt. Ltd. and Aurora Analytics",
+        "description": "Mutual NDA between Northstar Pharma Pvt. Ltd. and Aurora Analytics."
+      },
+      {
+        "filename": "Project_Fable_Status_Report.pptx",
+        "domain": "general",
+        "format": "pptx",
+        "title": "Project Fable - Status Report",
+        "description": "Status update for Project Fable at Northstar Pharma Pvt. Ltd.."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2244?",
+        "expected": "3,21,550",
+        "doc": "Invoice_INV-2026-2244.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2244?",
+        "expected": "4 September 2026",
+        "doc": "Invoice_INV-2026-2244.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Diya Gupta?",
+        "expected": "18,25,000",
+        "doc": "Offer_Letter_Diya_Gupta.docx"
+      },
+      {
+        "question": "What is the notice period in Diya Gupta's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Diya_Gupta.docx"
+      },
+      {
+        "question": "What was Aditya Iyer's HbA1c result?",
+        "expected": "6.4",
+        "doc": "Lab_Report_Aditya_Iyer.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Aditya Iyer's lab report?",
+        "expected": "157",
+        "doc": "Lab_Report_Aditya_Iyer.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Aurora Analytics?",
+        "expected": "2 years",
+        "doc": "NDA_Northstar_Aurora.md"
+      },
+      {
+        "question": "What is the planned go-live date for Project Fable?",
+        "expected": "13 December 2026",
+        "doc": "Project_Fable_Status_Report.pptx"
+      }
+    ]
+  },
+  "user34": {
+    "persona": "Gaurav Reddy",
+    "company": "Orchid Hotels Pvt. Ltd.",
+    "city": "Hyderabad",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2278.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2278",
+        "description": "Invoice from Orchid Hotels Pvt. Ltd. to BlueRiver Logistics."
+      },
+      {
+        "filename": "Offer_Letter_Nikhil_Chopra.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Nikhil Chopra",
+        "description": "Employment offer for Nikhil Chopra as UX Designer."
+      },
+      {
+        "filename": "Lab_Report_Isha_Patel.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Isha Patel",
+        "description": "Blood test report for Isha Patel (LAB-HYD-23875)."
+      },
+      {
+        "filename": "Service_Agreement_Kestrel.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Kestrel Aerospace",
+        "description": "Service agreement between Orchid Hotels Pvt. Ltd. and Kestrel Aerospace."
+      },
+      {
+        "filename": "Meeting_Minutes_19_August_2026.md",
+        "domain": "general",
+        "format": "md",
+        "title": "Leadership Meeting Minutes - 19 August 2026",
+        "description": "Minutes of the Orchid Hotels Pvt. Ltd. leadership meeting held on 19 August 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2278?",
+        "expected": "2,33,404",
+        "doc": "Invoice_INV-2026-2278.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2278?",
+        "expected": "1 September 2026",
+        "doc": "Invoice_INV-2026-2278.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Nikhil Chopra?",
+        "expected": "21,25,000",
+        "doc": "Offer_Letter_Nikhil_Chopra.pdf"
+      },
+      {
+        "question": "What is the notice period in Nikhil Chopra's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Nikhil_Chopra.pdf"
+      },
+      {
+        "question": "What was Isha Patel's HbA1c result?",
+        "expected": "8.8",
+        "doc": "Lab_Report_Isha_Patel.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Isha Patel's lab report?",
+        "expected": "74",
+        "doc": "Lab_Report_Isha_Patel.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Kestrel Aerospace?",
+        "expected": "4,00,000",
+        "doc": "Service_Agreement_Kestrel.docx"
+      },
+      {
+        "question": "What marketing budget was approved for Q4 2026?",
+        "expected": "21,00,000",
+        "doc": "Meeting_Minutes_19_August_2026.md"
+      }
+    ]
+  },
+  "user35": {
+    "persona": "Ananya Gupta",
+    "company": "Pinnacle Motors Pvt. Ltd.",
+    "city": "Delhi",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2299.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2299",
+        "description": "Invoice from Pinnacle Motors Pvt. Ltd. to Orchid Hotels."
+      },
+      {
+        "filename": "Offer_Letter_Karan_Joshi.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Karan Joshi",
+        "description": "Employment offer for Karan Joshi as Product Manager."
+      },
+      {
+        "filename": "Lab_Report_Kabir_Mehta.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Kabir Mehta",
+        "description": "Blood test report for Kabir Mehta (LAB-DEL-24034)."
+      },
+      {
+        "filename": "Lease_Agreement_Delhi_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Delhi",
+        "description": "Lease of Pinnacle Motors Pvt. Ltd.'s Delhi office premises."
+      },
+      {
+        "filename": "IT_Asset_Inventory_Delhi.csv",
+        "domain": "general",
+        "format": "csv",
+        "title": "IT Asset Inventory - Delhi",
+        "description": "IT asset stock at the Pinnacle Motors Pvt. Ltd. Delhi office."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2299?",
+        "expected": "2,06,736",
+        "doc": "Invoice_INV-2026-2299.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2299?",
+        "expected": "13 October 2026",
+        "doc": "Invoice_INV-2026-2299.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Karan Joshi?",
+        "expected": "18,25,000",
+        "doc": "Offer_Letter_Karan_Joshi.docx"
+      },
+      {
+        "question": "What is the notice period in Karan Joshi's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Karan_Joshi.docx"
+      },
+      {
+        "question": "What was Kabir Mehta's HbA1c result?",
+        "expected": "5.1",
+        "doc": "Lab_Report_Kabir_Mehta.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Kabir Mehta's lab report?",
+        "expected": "70",
+        "doc": "Lab_Report_Kabir_Mehta.md"
+      },
+      {
+        "question": "What is the monthly rent for the Delhi office lease?",
+        "expected": "3,00,000",
+        "doc": "Lease_Agreement_Delhi_Office.html"
+      },
+      {
+        "question": "Which IT asset has the lowest quantity in the Delhi inventory?",
+        "expected": "Printer",
+        "doc": "IT_Asset_Inventory_Delhi.csv"
+      }
+    ]
+  },
+  "user36": {
+    "persona": "Siddharth Rao",
+    "company": "Quartz Semiconductors Pvt. Ltd.",
+    "city": "Kolkata",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2354.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2354",
+        "description": "Invoice from Quartz Semiconductors Pvt. Ltd. to Northstar Pharma."
+      },
+      {
+        "filename": "Offer_Letter_Arjun_Verma.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Arjun Verma",
+        "description": "Employment offer for Arjun Verma as DevOps Engineer."
+      },
+      {
+        "filename": "Lab_Report_Rohan_Gupta.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Rohan Gupta",
+        "description": "Blood test report for Rohan Gupta (LAB-KOL-24071)."
+      },
+      {
+        "filename": "NDA_Quartz_Falcon.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Quartz Semiconductors Pvt. Ltd. and Falcon Robotics",
+        "description": "Mutual NDA between Quartz Semiconductors Pvt. Ltd. and Falcon Robotics."
+      },
+      {
+        "filename": "Expenses_September_2026_Quartz.xlsx",
+        "domain": "finance",
+        "format": "xlsx",
+        "title": "Team Expense Register - September 2026",
+        "description": "Quartz Semiconductors Pvt. Ltd. expense claims for September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2354?",
+        "expected": "1,48,916",
+        "doc": "Invoice_INV-2026-2354.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2354?",
+        "expected": "20 September 2026",
+        "doc": "Invoice_INV-2026-2354.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Arjun Verma?",
+        "expected": "10,00,000",
+        "doc": "Offer_Letter_Arjun_Verma.pdf"
+      },
+      {
+        "question": "What is the notice period in Arjun Verma's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Arjun_Verma.pdf"
+      },
+      {
+        "question": "What was Rohan Gupta's HbA1c result?",
+        "expected": "5.9",
+        "doc": "Lab_Report_Rohan_Gupta.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Rohan Gupta's lab report?",
+        "expected": "103",
+        "doc": "Lab_Report_Rohan_Gupta.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Falcon Robotics?",
+        "expected": "5 years",
+        "doc": "NDA_Quartz_Falcon.md"
+      },
+      {
+        "question": "Which expense category had the highest total in September 2026?",
+        "expected": "Software",
+        "doc": "Expenses_September_2026_Quartz.xlsx"
+      }
+    ]
+  },
+  "user37": {
+    "persona": "Priya Bose",
+    "company": "Redwood Realty Pvt. Ltd.",
+    "city": "Ahmedabad",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2383.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2383",
+        "description": "Invoice from Redwood Realty Pvt. Ltd. to Cedarwood Foods."
+      },
+      {
+        "filename": "Offer_Letter_Kavya_Kulkarni.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Kavya Kulkarni",
+        "description": "Employment offer for Kavya Kulkarni as Software Engineer."
+      },
+      {
+        "filename": "Lab_Report_Diya_Rao.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Diya Rao",
+        "description": "Blood test report for Diya Rao (LAB-AHM-24231)."
+      },
+      {
+        "filename": "Service_Agreement_Redwood.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Redwood Realty",
+        "description": "Service agreement between Redwood Realty Pvt. Ltd. and Redwood Realty."
+      },
+      {
+        "filename": "Project_Helix_Status_Report.pptx",
+        "domain": "general",
+        "format": "pptx",
+        "title": "Project Helix - Status Report",
+        "description": "Status update for Project Helix at Redwood Realty Pvt. Ltd.."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2383?",
+        "expected": "3,88,220",
+        "doc": "Invoice_INV-2026-2383.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2383?",
+        "expected": "5 September 2026",
+        "doc": "Invoice_INV-2026-2383.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Kavya Kulkarni?",
+        "expected": "23,00,000",
+        "doc": "Offer_Letter_Kavya_Kulkarni.docx"
+      },
+      {
+        "question": "What is the notice period in Kavya Kulkarni's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Kavya_Kulkarni.docx"
+      },
+      {
+        "question": "What was Diya Rao's HbA1c result?",
+        "expected": "6.8",
+        "doc": "Lab_Report_Diya_Rao.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Diya Rao's lab report?",
+        "expected": "183",
+        "doc": "Lab_Report_Diya_Rao.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Redwood Realty?",
+        "expected": "6,80,000",
+        "doc": "Service_Agreement_Redwood.docx"
+      },
+      {
+        "question": "What is the planned go-live date for Project Helix?",
+        "expected": "4 December 2026",
+        "doc": "Project_Helix_Status_Report.pptx"
+      }
+    ]
+  },
+  "user38": {
+    "persona": "Yash Chopra",
+    "company": "Saffron Foods Pvt. Ltd.",
+    "city": "Kochi",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2408.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2408",
+        "description": "Invoice from Saffron Foods Pvt. Ltd. to Deltawave Telecom."
+      },
+      {
+        "filename": "Offer_Letter_Yash_Mehta.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Yash Mehta",
+        "description": "Employment offer for Yash Mehta as Data Analyst."
+      },
+      {
+        "filename": "Lab_Report_Siddharth_Verma.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Siddharth Verma",
+        "description": "Blood test report for Siddharth Verma (LAB-KOC-24324)."
+      },
+      {
+        "filename": "Lease_Agreement_Kochi_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Kochi",
+        "description": "Lease of Saffron Foods Pvt. Ltd.'s Kochi office premises."
+      },
+      {
+        "filename": "Meeting_Minutes_11_August_2026.md",
+        "domain": "general",
+        "format": "md",
+        "title": "Leadership Meeting Minutes - 11 August 2026",
+        "description": "Minutes of the Saffron Foods Pvt. Ltd. leadership meeting held on 11 August 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2408?",
+        "expected": "4,45,096",
+        "doc": "Invoice_INV-2026-2408.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2408?",
+        "expected": "20 October 2026",
+        "doc": "Invoice_INV-2026-2408.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Yash Mehta?",
+        "expected": "19,00,000",
+        "doc": "Offer_Letter_Yash_Mehta.pdf"
+      },
+      {
+        "question": "What is the notice period in Yash Mehta's offer letter?",
+        "expected": "60 days",
+        "doc": "Offer_Letter_Yash_Mehta.pdf"
+      },
+      {
+        "question": "What was Siddharth Verma's HbA1c result?",
+        "expected": "7.7",
+        "doc": "Lab_Report_Siddharth_Verma.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Siddharth Verma's lab report?",
+        "expected": "92",
+        "doc": "Lab_Report_Siddharth_Verma.md"
+      },
+      {
+        "question": "What is the monthly rent for the Kochi office lease?",
+        "expected": "2,10,000",
+        "doc": "Lease_Agreement_Kochi_Office.html"
+      },
+      {
+        "question": "What marketing budget was approved for Q4 2026?",
+        "expected": "21,00,000",
+        "doc": "Meeting_Minutes_11_August_2026.md"
+      }
+    ]
+  },
+  "user39": {
+    "persona": "Meera Mehta",
+    "company": "Tidal Energy Pvt. Ltd.",
+    "city": "Jaipur",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2449.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2449",
+        "description": "Invoice from Tidal Energy Pvt. Ltd. to Falcon Robotics."
+      },
+      {
+        "filename": "Offer_Letter_Nisha_Mehta.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Nisha Mehta",
+        "description": "Employment offer for Nisha Mehta as DevOps Engineer."
+      },
+      {
+        "filename": "Lab_Report_Riya_Patel.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Riya Patel",
+        "description": "Blood test report for Riya Patel (LAB-JAI-24446)."
+      },
+      {
+        "filename": "NDA_Tidal_Indigo.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Tidal Energy Pvt. Ltd. and Indigo Retail",
+        "description": "Mutual NDA between Tidal Energy Pvt. Ltd. and Indigo Retail."
+      },
+      {
+        "filename": "IT_Asset_Inventory_Jaipur.csv",
+        "domain": "general",
+        "format": "csv",
+        "title": "IT Asset Inventory - Jaipur",
+        "description": "IT asset stock at the Tidal Energy Pvt. Ltd. Jaipur office."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2449?",
+        "expected": "1,50,804",
+        "doc": "Invoice_INV-2026-2449.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2449?",
+        "expected": "12 September 2026",
+        "doc": "Invoice_INV-2026-2449.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Nisha Mehta?",
+        "expected": "27,50,000",
+        "doc": "Offer_Letter_Nisha_Mehta.docx"
+      },
+      {
+        "question": "What is the notice period in Nisha Mehta's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Nisha_Mehta.docx"
+      },
+      {
+        "question": "What was Riya Patel's HbA1c result?",
+        "expected": "5.4",
+        "doc": "Lab_Report_Riya_Patel.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Riya Patel's lab report?",
+        "expected": "108",
+        "doc": "Lab_Report_Riya_Patel.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Indigo Retail?",
+        "expected": "5 years",
+        "doc": "NDA_Tidal_Indigo.md"
+      },
+      {
+        "question": "Which IT asset has the lowest quantity in the Jaipur inventory?",
+        "expected": "Docking station",
+        "doc": "IT_Asset_Inventory_Jaipur.csv"
+      }
+    ]
+  },
+  "user40": {
+    "persona": "Karan Sharma",
+    "company": "Aurora Analytics Pvt. Ltd.",
+    "city": "Bengaluru",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2485.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2485",
+        "description": "Invoice from Aurora Analytics Pvt. Ltd. to Juniper Fintech."
+      },
+      {
+        "filename": "Offer_Letter_Isha_Bose.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Isha Bose",
+        "description": "Employment offer for Isha Bose as Software Engineer."
+      },
+      {
+        "filename": "Lab_Report_Rohan_Pillai.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Rohan Pillai",
+        "description": "Blood test report for Rohan Pillai (LAB-BEN-24602)."
+      },
+      {
+        "filename": "Service_Agreement_Orchid.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Orchid Hotels",
+        "description": "Service agreement between Aurora Analytics Pvt. Ltd. and Orchid Hotels."
+      },
+      {
+        "filename": "Expenses_September_2026_Aurora.xlsx",
+        "domain": "general",
+        "format": "xlsx",
+        "title": "Team Expense Register - September 2026",
+        "description": "Aurora Analytics Pvt. Ltd. expense claims for September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2485?",
+        "expected": "6,14,190",
+        "doc": "Invoice_INV-2026-2485.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2485?",
+        "expected": "20 October 2026",
+        "doc": "Invoice_INV-2026-2485.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Isha Bose?",
+        "expected": "31,00,000",
+        "doc": "Offer_Letter_Isha_Bose.pdf"
+      },
+      {
+        "question": "What is the notice period in Isha Bose's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Isha_Bose.pdf"
+      },
+      {
+        "question": "What was Rohan Pillai's HbA1c result?",
+        "expected": "6.8",
+        "doc": "Lab_Report_Rohan_Pillai.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Rohan Pillai's lab report?",
+        "expected": "75",
+        "doc": "Lab_Report_Rohan_Pillai.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Orchid Hotels?",
+        "expected": "4,90,000",
+        "doc": "Service_Agreement_Orchid.docx"
+      },
+      {
+        "question": "Which expense category had the highest total in September 2026?",
+        "expected": "Office supplies",
+        "doc": "Expenses_September_2026_Aurora.xlsx"
+      }
+    ]
+  },
+  "user41": {
+    "persona": "Tanvi Patel",
+    "company": "BlueRiver Logistics Pvt. Ltd.",
+    "city": "Mumbai",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2522.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2522",
+        "description": "Invoice from BlueRiver Logistics Pvt. Ltd. to Orchid Hotels."
+      },
+      {
+        "filename": "Offer_Letter_Aditya_Chopra.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Aditya Chopra",
+        "description": "Employment offer for Aditya Chopra as UX Designer."
+      },
+      {
+        "filename": "Lab_Report_Rahul_Menon.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Rahul Menon",
+        "description": "Blood test report for Rahul Menon (LAB-MUM-24693)."
+      },
+      {
+        "filename": "Lease_Agreement_Mumbai_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Mumbai",
+        "description": "Lease of BlueRiver Logistics Pvt. Ltd.'s Mumbai office premises."
+      },
+      {
+        "filename": "Project_Beacon_Status_Report.pptx",
+        "domain": "general",
+        "format": "pptx",
+        "title": "Project Beacon - Status Report",
+        "description": "Status update for Project Beacon at BlueRiver Logistics Pvt. Ltd.."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2522?",
+        "expected": "5,52,830",
+        "doc": "Invoice_INV-2026-2522.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2522?",
+        "expected": "28 September 2026",
+        "doc": "Invoice_INV-2026-2522.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Aditya Chopra?",
+        "expected": "8,75,000",
+        "doc": "Offer_Letter_Aditya_Chopra.docx"
+      },
+      {
+        "question": "What is the notice period in Aditya Chopra's offer letter?",
+        "expected": "60 days",
+        "doc": "Offer_Letter_Aditya_Chopra.docx"
+      },
+      {
+        "question": "What was Rahul Menon's HbA1c result?",
+        "expected": "7.6",
+        "doc": "Lab_Report_Rahul_Menon.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Rahul Menon's lab report?",
+        "expected": "105",
+        "doc": "Lab_Report_Rahul_Menon.md"
+      },
+      {
+        "question": "What is the monthly rent for the Mumbai office lease?",
+        "expected": "65,000",
+        "doc": "Lease_Agreement_Mumbai_Office.html"
+      },
+      {
+        "question": "What is the planned go-live date for Project Beacon?",
+        "expected": "3 December 2026",
+        "doc": "Project_Beacon_Status_Report.pptx"
+      }
+    ]
+  },
+  "user42": {
+    "persona": "Harsh Nair",
+    "company": "Cedarwood Foods Pvt. Ltd.",
+    "city": "Pune",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2558.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2558",
+        "description": "Invoice from Cedarwood Foods Pvt. Ltd. to Horizon Health Tech."
+      },
+      {
+        "filename": "Offer_Letter_Gaurav_Verma.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Gaurav Verma",
+        "description": "Employment offer for Gaurav Verma as DevOps Engineer."
+      },
+      {
+        "filename": "Lab_Report_Harsh_Pillai.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Harsh Pillai",
+        "description": "Blood test report for Harsh Pillai (LAB-PUN-24749)."
+      },
+      {
+        "filename": "NDA_Cedarwood_Redwood.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Cedarwood Foods Pvt. Ltd. and Redwood Realty",
+        "description": "Mutual NDA between Cedarwood Foods Pvt. Ltd. and Redwood Realty."
+      },
+      {
+        "filename": "Meeting_Minutes_14_August_2026.md",
+        "domain": "general",
+        "format": "md",
+        "title": "Leadership Meeting Minutes - 14 August 2026",
+        "description": "Minutes of the Cedarwood Foods Pvt. Ltd. leadership meeting held on 14 August 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2558?",
+        "expected": "5,19,790",
+        "doc": "Invoice_INV-2026-2558.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2558?",
+        "expected": "11 September 2026",
+        "doc": "Invoice_INV-2026-2558.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Gaurav Verma?",
+        "expected": "6,50,000",
+        "doc": "Offer_Letter_Gaurav_Verma.pdf"
+      },
+      {
+        "question": "What is the notice period in Gaurav Verma's offer letter?",
+        "expected": "60 days",
+        "doc": "Offer_Letter_Gaurav_Verma.pdf"
+      },
+      {
+        "question": "What was Harsh Pillai's HbA1c result?",
+        "expected": "7.3",
+        "doc": "Lab_Report_Harsh_Pillai.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Harsh Pillai's lab report?",
+        "expected": "96",
+        "doc": "Lab_Report_Harsh_Pillai.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Redwood Realty?",
+        "expected": "3 years",
+        "doc": "NDA_Cedarwood_Redwood.md"
+      },
+      {
+        "question": "What marketing budget was approved for Q4 2026?",
+        "expected": "19,50,000",
+        "doc": "Meeting_Minutes_14_August_2026.md"
+      }
+    ]
+  },
+  "user43": {
+    "persona": "Diya Kulkarni",
+    "company": "Deltawave Telecom Pvt. Ltd.",
+    "city": "Chennai",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2602.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2602",
+        "description": "Invoice from Deltawave Telecom Pvt. Ltd. to Saffron Foods."
+      },
+      {
+        "filename": "Offer_Letter_Nisha_Reddy.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Nisha Reddy",
+        "description": "Employment offer for Nisha Reddy as HR Business Partner."
+      },
+      {
+        "filename": "Lab_Report_Priya_Kulkarni.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Priya Kulkarni",
+        "description": "Blood test report for Priya Kulkarni (LAB-CHE-24904)."
+      },
+      {
+        "filename": "Service_Agreement_Cedarwood.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Cedarwood Foods",
+        "description": "Service agreement between Deltawave Telecom Pvt. Ltd. and Cedarwood Foods."
+      },
+      {
+        "filename": "IT_Asset_Inventory_Chennai.csv",
+        "domain": "general",
+        "format": "csv",
+        "title": "IT Asset Inventory - Chennai",
+        "description": "IT asset stock at the Deltawave Telecom Pvt. Ltd. Chennai office."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2602?",
+        "expected": "2,29,628",
+        "doc": "Invoice_INV-2026-2602.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2602?",
+        "expected": "8 October 2026",
+        "doc": "Invoice_INV-2026-2602.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Nisha Reddy?",
+        "expected": "19,50,000",
+        "doc": "Offer_Letter_Nisha_Reddy.docx"
+      },
+      {
+        "question": "What is the notice period in Nisha Reddy's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Nisha_Reddy.docx"
+      },
+      {
+        "question": "What was Priya Kulkarni's HbA1c result?",
+        "expected": "8.9",
+        "doc": "Lab_Report_Priya_Kulkarni.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Priya Kulkarni's lab report?",
+        "expected": "179",
+        "doc": "Lab_Report_Priya_Kulkarni.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Cedarwood Foods?",
+        "expected": "2,50,000",
+        "doc": "Service_Agreement_Cedarwood.docx"
+      },
+      {
+        "question": "Which IT asset has the lowest quantity in the Chennai inventory?",
+        "expected": "Monitor",
+        "doc": "IT_Asset_Inventory_Chennai.csv"
+      }
+    ]
+  },
+  "user44": {
+    "persona": "Arjun Desai",
+    "company": "Evergreen Agro Pvt. Ltd.",
+    "city": "Hyderabad",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2639.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2639",
+        "description": "Invoice from Evergreen Agro Pvt. Ltd. to Horizon Health Tech."
+      },
+      {
+        "filename": "Offer_Letter_Neha_Iyer.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Neha Iyer",
+        "description": "Employment offer for Neha Iyer as QA Engineer."
+      },
+      {
+        "filename": "Lab_Report_Manish_Kapoor.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Manish Kapoor",
+        "description": "Blood test report for Manish Kapoor (LAB-HYD-25050)."
+      },
+      {
+        "filename": "Lease_Agreement_Hyderabad_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Hyderabad",
+        "description": "Lease of Evergreen Agro Pvt. Ltd.'s Hyderabad office premises."
+      },
+      {
+        "filename": "Expenses_September_2026_Evergreen.xlsx",
+        "domain": "finance",
+        "format": "xlsx",
+        "title": "Team Expense Register - September 2026",
+        "description": "Evergreen Agro Pvt. Ltd. expense claims for September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2639?",
+        "expected": "5,52,830",
+        "doc": "Invoice_INV-2026-2639.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2639?",
+        "expected": "16 September 2026",
+        "doc": "Invoice_INV-2026-2639.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Neha Iyer?",
+        "expected": "11,75,000",
+        "doc": "Offer_Letter_Neha_Iyer.pdf"
+      },
+      {
+        "question": "What is the notice period in Neha Iyer's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Neha_Iyer.pdf"
+      },
+      {
+        "question": "What was Manish Kapoor's HbA1c result?",
+        "expected": "5.8",
+        "doc": "Lab_Report_Manish_Kapoor.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Manish Kapoor's lab report?",
+        "expected": "188",
+        "doc": "Lab_Report_Manish_Kapoor.md"
+      },
+      {
+        "question": "What is the monthly rent for the Hyderabad office lease?",
+        "expected": "2,80,000",
+        "doc": "Lease_Agreement_Hyderabad_Office.html"
+      },
+      {
+        "question": "Which expense category had the highest total in September 2026?",
+        "expected": "Training",
+        "doc": "Expenses_September_2026_Evergreen.xlsx"
+      }
+    ]
+  },
+  "user45": {
+    "persona": "Sneha Verma",
+    "company": "Falcon Robotics Pvt. Ltd.",
+    "city": "Delhi",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2687.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2687",
+        "description": "Invoice from Falcon Robotics Pvt. Ltd. to BlueRiver Logistics."
+      },
+      {
+        "filename": "Offer_Letter_Isha_Sharma.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Isha Sharma",
+        "description": "Employment offer for Isha Sharma as Customer Success Manager."
+      },
+      {
+        "filename": "Lab_Report_Isha_Shetty.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Isha Shetty",
+        "description": "Blood test report for Isha Shetty (LAB-DEL-25161)."
+      },
+      {
+        "filename": "NDA_Falcon_Tidal.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Falcon Robotics Pvt. Ltd. and Tidal Energy",
+        "description": "Mutual NDA between Falcon Robotics Pvt. Ltd. and Tidal Energy."
+      },
+      {
+        "filename": "Project_Drift_Status_Report.pptx",
+        "domain": "general",
+        "format": "pptx",
+        "title": "Project Drift - Status Report",
+        "description": "Status update for Project Drift at Falcon Robotics Pvt. Ltd.."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2687?",
+        "expected": "7,53,430",
+        "doc": "Invoice_INV-2026-2687.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2687?",
+        "expected": "17 September 2026",
+        "doc": "Invoice_INV-2026-2687.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Isha Sharma?",
+        "expected": "25,25,000",
+        "doc": "Offer_Letter_Isha_Sharma.docx"
+      },
+      {
+        "question": "What is the notice period in Isha Sharma's offer letter?",
+        "expected": "60 days",
+        "doc": "Offer_Letter_Isha_Sharma.docx"
+      },
+      {
+        "question": "What was Isha Shetty's HbA1c result?",
+        "expected": "8.7",
+        "doc": "Lab_Report_Isha_Shetty.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Isha Shetty's lab report?",
+        "expected": "167",
+        "doc": "Lab_Report_Isha_Shetty.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Tidal Energy?",
+        "expected": "3 years",
+        "doc": "NDA_Falcon_Tidal.md"
+      },
+      {
+        "question": "What is the planned go-live date for Project Drift?",
+        "expected": "1 December 2026",
+        "doc": "Project_Drift_Status_Report.pptx"
+      }
+    ]
+  },
+  "user46": {
+    "persona": "Manish Banerjee",
+    "company": "Granite Infra Pvt. Ltd.",
+    "city": "Kolkata",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2721.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2721",
+        "description": "Invoice from Granite Infra Pvt. Ltd. to Orchid Hotels."
+      },
+      {
+        "filename": "Offer_Letter_Nikhil_Nair.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Nikhil Nair",
+        "description": "Employment offer for Nikhil Nair as HR Business Partner."
+      },
+      {
+        "filename": "Lab_Report_Rahul_Mehta.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Rahul Mehta",
+        "description": "Blood test report for Rahul Mehta (LAB-KOL-25265)."
+      },
+      {
+        "filename": "Service_Agreement_Evergreen.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Evergreen Agro",
+        "description": "Service agreement between Granite Infra Pvt. Ltd. and Evergreen Agro."
+      },
+      {
+        "filename": "Meeting_Minutes_2_September_2026.md",
+        "domain": "general",
+        "format": "md",
+        "title": "Leadership Meeting Minutes - 2 September 2026",
+        "description": "Minutes of the Granite Infra Pvt. Ltd. leadership meeting held on 2 September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2721?",
+        "expected": "4,02,380",
+        "doc": "Invoice_INV-2026-2721.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2721?",
+        "expected": "7 October 2026",
+        "doc": "Invoice_INV-2026-2721.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Nikhil Nair?",
+        "expected": "18,75,000",
+        "doc": "Offer_Letter_Nikhil_Nair.pdf"
+      },
+      {
+        "question": "What is the notice period in Nikhil Nair's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Nikhil_Nair.pdf"
+      },
+      {
+        "question": "What was Rahul Mehta's HbA1c result?",
+        "expected": "5.5",
+        "doc": "Lab_Report_Rahul_Mehta.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Rahul Mehta's lab report?",
+        "expected": "88",
+        "doc": "Lab_Report_Rahul_Mehta.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Evergreen Agro?",
+        "expected": "6,40,000",
+        "doc": "Service_Agreement_Evergreen.docx"
+      },
+      {
+        "question": "What marketing budget was approved for Q4 2026?",
+        "expected": "8,00,000",
+        "doc": "Meeting_Minutes_2_September_2026.md"
+      }
+    ]
+  },
+  "user47": {
+    "persona": "Simran Iyer",
+    "company": "Horizon Health Tech Pvt. Ltd.",
+    "city": "Ahmedabad",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2747.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2747",
+        "description": "Invoice from Horizon Health Tech Pvt. Ltd. to Cedarwood Foods."
+      },
+      {
+        "filename": "Offer_Letter_Kavya_Shetty.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Kavya Shetty",
+        "description": "Employment offer for Kavya Shetty as Sales Executive."
+      },
+      {
+        "filename": "Lab_Report_Karan_Patel.md",
+        "domain": "healthcare",
+        "format": "md",
+        "title": "Laboratory Report - Karan Patel",
+        "description": "Blood test report for Karan Patel (LAB-AHM-25350)."
+      },
+      {
+        "filename": "Lease_Agreement_Ahmedabad_Office.html",
+        "domain": "legal",
+        "format": "html",
+        "title": "Office Lease Agreement - Ahmedabad",
+        "description": "Lease of Horizon Health Tech Pvt. Ltd.'s Ahmedabad office premises."
+      },
+      {
+        "filename": "IT_Asset_Inventory_Ahmedabad.csv",
+        "domain": "general",
+        "format": "csv",
+        "title": "IT Asset Inventory - Ahmedabad",
+        "description": "IT asset stock at the Horizon Health Tech Pvt. Ltd. Ahmedabad office."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2747?",
+        "expected": "8,15,380",
+        "doc": "Invoice_INV-2026-2747.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2747?",
+        "expected": "3 September 2026",
+        "doc": "Invoice_INV-2026-2747.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Kavya Shetty?",
+        "expected": "20,25,000",
+        "doc": "Offer_Letter_Kavya_Shetty.docx"
+      },
+      {
+        "question": "What is the notice period in Kavya Shetty's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Kavya_Shetty.docx"
+      },
+      {
+        "question": "What was Karan Patel's HbA1c result?",
+        "expected": "6.1",
+        "doc": "Lab_Report_Karan_Patel.md"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Karan Patel's lab report?",
+        "expected": "125",
+        "doc": "Lab_Report_Karan_Patel.md"
+      },
+      {
+        "question": "What is the monthly rent for the Ahmedabad office lease?",
+        "expected": "3,80,000",
+        "doc": "Lease_Agreement_Ahmedabad_Office.html"
+      },
+      {
+        "question": "Which IT asset has the lowest quantity in the Ahmedabad inventory?",
+        "expected": "Webcam",
+        "doc": "IT_Asset_Inventory_Ahmedabad.csv"
+      }
+    ]
+  },
+  "user48": {
+    "persona": "Vikram Menon",
+    "company": "Indigo Retail Pvt. Ltd.",
+    "city": "Kochi",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2784.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2784",
+        "description": "Invoice from Indigo Retail Pvt. Ltd. to Indigo Retail."
+      },
+      {
+        "filename": "Offer_Letter_Kabir_Menon.pdf",
+        "domain": "hr",
+        "format": "pdf",
+        "title": "Offer Letter - Kabir Menon",
+        "description": "Employment offer for Kabir Menon as Finance Associate."
+      },
+      {
+        "filename": "Lab_Report_Simran_Iyer.txt",
+        "domain": "healthcare",
+        "format": "txt",
+        "title": "Laboratory Report - Simran Iyer",
+        "description": "Blood test report for Simran Iyer (LAB-KOC-25470)."
+      },
+      {
+        "filename": "NDA_Indigo_Deltawave.md",
+        "domain": "legal",
+        "format": "md",
+        "title": "Mutual Non-Disclosure Agreement - Indigo Retail Pvt. Ltd. and Deltawave Telecom",
+        "description": "Mutual NDA between Indigo Retail Pvt. Ltd. and Deltawave Telecom."
+      },
+      {
+        "filename": "Expenses_September_2026_Indigo.xlsx",
+        "domain": "general",
+        "format": "xlsx",
+        "title": "Team Expense Register - September 2026",
+        "description": "Indigo Retail Pvt. Ltd. expense claims for September 2026."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2784?",
+        "expected": "1,57,412",
+        "doc": "Invoice_INV-2026-2784.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2784?",
+        "expected": "3 October 2026",
+        "doc": "Invoice_INV-2026-2784.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Kabir Menon?",
+        "expected": "30,00,000",
+        "doc": "Offer_Letter_Kabir_Menon.pdf"
+      },
+      {
+        "question": "What is the notice period in Kabir Menon's offer letter?",
+        "expected": "30 days",
+        "doc": "Offer_Letter_Kabir_Menon.pdf"
+      },
+      {
+        "question": "What was Simran Iyer's HbA1c result?",
+        "expected": "6.7",
+        "doc": "Lab_Report_Simran_Iyer.txt"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Simran Iyer's lab report?",
+        "expected": "133",
+        "doc": "Lab_Report_Simran_Iyer.txt"
+      },
+      {
+        "question": "How long must confidential information be protected under the NDA with Deltawave Telecom?",
+        "expected": "2 years",
+        "doc": "NDA_Indigo_Deltawave.md"
+      },
+      {
+        "question": "Which expense category had the highest total in September 2026?",
+        "expected": "Office supplies",
+        "doc": "Expenses_September_2026_Indigo.xlsx"
+      }
+    ]
+  },
+  "user49": {
+    "persona": "Riya Joshi",
+    "company": "Juniper Fintech Pvt. Ltd.",
+    "city": "Jaipur",
+    "documents": [
+      {
+        "filename": "Invoice_INV-2026-2842.pdf",
+        "domain": "finance",
+        "format": "pdf",
+        "title": "Tax Invoice INV-2026-2842",
+        "description": "Invoice from Juniper Fintech Pvt. Ltd. to Saffron Foods."
+      },
+      {
+        "filename": "Offer_Letter_Meera_Nair.docx",
+        "domain": "hr",
+        "format": "docx",
+        "title": "Offer Letter - Meera Nair",
+        "description": "Employment offer for Meera Nair as UX Designer."
+      },
+      {
+        "filename": "Lab_Report_Neha_Banerjee.pdf",
+        "domain": "healthcare",
+        "format": "pdf",
+        "title": "Laboratory Report - Neha Banerjee",
+        "description": "Blood test report for Neha Banerjee (LAB-JAI-25551)."
+      },
+      {
+        "filename": "Service_Agreement_Tidal.docx",
+        "domain": "legal",
+        "format": "docx",
+        "title": "Master Service Agreement - Tidal Energy",
+        "description": "Service agreement between Juniper Fintech Pvt. Ltd. and Tidal Energy."
+      },
+      {
+        "filename": "Project_Beacon_Status_Report.pptx",
+        "domain": "general",
+        "format": "pptx",
+        "title": "Project Beacon - Status Report",
+        "description": "Status update for Project Beacon at Juniper Fintech Pvt. Ltd.."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the total amount payable on invoice INV-2026-2842?",
+        "expected": "7,50,480",
+        "doc": "Invoice_INV-2026-2842.pdf"
+      },
+      {
+        "question": "When is payment due for invoice INV-2026-2842?",
+        "expected": "1 September 2026",
+        "doc": "Invoice_INV-2026-2842.pdf"
+      },
+      {
+        "question": "What is the total annual CTC offered to Meera Nair?",
+        "expected": "6,50,000",
+        "doc": "Offer_Letter_Meera_Nair.docx"
+      },
+      {
+        "question": "What is the notice period in Meera Nair's offer letter?",
+        "expected": "90 days",
+        "doc": "Offer_Letter_Meera_Nair.docx"
+      },
+      {
+        "question": "What was Neha Banerjee's HbA1c result?",
+        "expected": "8.8",
+        "doc": "Lab_Report_Neha_Banerjee.pdf"
+      },
+      {
+        "question": "What is the LDL cholesterol value in Neha Banerjee's lab report?",
+        "expected": "136",
+        "doc": "Lab_Report_Neha_Banerjee.pdf"
+      },
+      {
+        "question": "What is the monthly fee in the service agreement with Tidal Energy?",
+        "expected": "5,80,000",
+        "doc": "Service_Agreement_Tidal.docx"
+      },
+      {
+        "question": "What is the planned go-live date for Project Beacon?",
+        "expected": "19 December 2026",
+        "doc": "Project_Beacon_Status_Report.pptx"
+      }
+    ]
+  }
+}

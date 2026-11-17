@@ -1,0 +1,44 @@
+INTERNAL AUDIT SUMMARY REPORT IA-2026-03
+========================================
+
+1. ENGAGEMENT OVERVIEW
+----------------------
+This summary presents the results of the internal audit of Helix Systems Pvt. Ltd. for the period 1 April 2025 to 31 March 2026, report reference IA-2026-03. The audit was carried out by Mehta Sharma & Associates, Chartered Accountants, between 4 May and 26 June 2026, and the report was presented to the Audit Committee on 21 July 2026.
+
+2. SCOPE
+--------
+  - Procure-to-pay: vendor onboarding, purchase orders, invoice processing and payments.
+  - Order-to-cash: contract set-up, invoicing, collections and credit notes.
+  - Payroll and employee reimbursements.
+  - IT general controls: user access management, change management and backups.
+  - Statutory compliance: GST, TDS, PF and ESI.
+
+3. OVERALL OPINION
+------------------
+The internal control environment was rated "Satisfactory with improvement needed". The auditors raised 14 observations in total: 2 rated high risk, 5 rated medium risk and 7 rated low risk. No instance of fraud was identified. Management has accepted all observations.
+
+4. HIGH-RISK OBSERVATIONS
+-------------------------
+Observation 1 - Duplicate vendor master records: 17 duplicate vendor records were found in the ERP vendor master, created with minor variations in name or GSTIN. Two of these duplicates had received payments totalling ₹3,46,500 against the same invoice numbers; both amounts have since been recovered. Recommendation: implement a GSTIN and PAN uniqueness check at vendor creation and perform a one-time clean-up. Owner: Rajiv Bhandari. Target date: 31 October 2026.
+
+Observation 2 - User access reviews not performed: quarterly reviews of user access to the ERP and the production cloud console had not been performed for 3 consecutive quarters, and 9 accounts belonging to employees who had left were still active. Recommendation: automate de-provisioning through the HR system and perform reviews every quarter. Owner: Sanjay Kumar Das. Target date: 30 September 2026.
+
+5. MEDIUM-RISK OBSERVATIONS
+---------------------------
+  - Purchase orders raised after the invoice date in 23 of 150 sampled transactions (after-the-fact POs).
+  - Credit notes above ₹1 lakh issued without CFO approval in 4 cases.
+  - Travel claims submitted after 60 days were paid in 11 cases, contrary to policy POL-HR-022.
+  - Restoration testing of backups not documented for the HelixDesk database.
+  - Delays of up to 6 days in depositing TDS for two months, resulting in interest of ₹18,240.
+
+6. LOW-RISK OBSERVATIONS
+------------------------
+Low-risk observations related to missing signatures on 3 vendor onboarding forms, outdated delegation of authority matrix references in the finance manual, inconsistent naming of cost centres, and minor gaps in fixed asset tagging at the Pune office. Details are provided in the full report.
+
+7. STATUS OF PREVIOUS YEAR OBSERVATIONS
+---------------------------------------
+Of the 12 observations raised in the previous audit (IA-2025-02), 10 have been closed and 2 remain open. The open items relate to the contract repository and are expected to close with the rollout of the contract management module.
+
+8. NEXT STEPS
+-------------
+All observations must be closed by 31 December 2026. The internal audit team will perform a follow-up review in January 2027 and report closure status to the Audit Committee meeting in February 2027.

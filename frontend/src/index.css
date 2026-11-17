@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  body {
+    @apply bg-slate-50 text-slate-900 dark:bg-[#07070c] dark:text-slate-100;
+    min-height: 100vh;
+  }
+  ::selection {
+    @apply bg-indigo-500/30;
+  }
+  *:focus-visible {
+    @apply outline-none ring-2 ring-indigo-500/70 ring-offset-2 ring-offset-white dark:ring-offset-[#07070c];
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full border-[3px] border-solid border-transparent bg-slate-300 bg-clip-padding dark:bg-white/10;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply border border-slate-200/80 bg-white/70 shadow-sm backdrop-blur-xl dark:border-white/[0.07] dark:bg-white/[0.03] dark:shadow-none;
+  }
+  .glass-strong {
+    @apply border border-slate-200 bg-white/90 shadow-xl backdrop-blur-2xl dark:border-white/10 dark:bg-[#11111a]/90;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r from-indigo-500 via-violet-500 to-cyan-500 bg-clip-text text-transparent dark:from-indigo-400 dark:via-violet-400 dark:to-cyan-400;
+  }
+  .bg-brand-gradient {
+    @apply bg-gradient-to-r from-indigo-500 via-violet-500 to-cyan-500;
+  }
+  .muted {
+    @apply text-slate-500 dark:text-slate-400;
+  }
+  .page-bg::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background:
+      radial-gradient(60rem 30rem at 85% -10%, rgba(99, 102, 241, 0.10), transparent 60%),
+      radial-gradient(40rem 25rem at -5% 10%, rgba(6, 182, 212, 0.07), transparent 60%);
+  }
+}
+
+/* ---------- Markdown answers ---------- */
+.markdown {
+  @apply text-[0.94rem] leading-7 text-slate-700 dark:text-slate-200;
+}
+.markdown > * + * {
+  @apply mt-3;
+}
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4 {
+  @apply mt-5 font-semibold text-slate-900 dark:text-white;
+}
+.markdown h1 { @apply text-xl; }
+.markdown h2 { @apply text-lg; }
+.markdown h3 { @apply text-base; }
+.markdown ul { @apply list-disc space-y-1 pl-5; }
+.markdown ol { @apply list-decimal space-y-1 pl-5; }
+.markdown a { @apply text-indigo-600 underline decoration-indigo-500/30 underline-offset-2 dark:text-indigo-400; }
+.markdown strong { @apply font-semibold text-slate-900 dark:text-white; }
+/* quotes ("Exact quote" answers): a readable card with the source line underneath in small italics */
+.markdown blockquote {
+  @apply rounded-r-lg border-l-[3px] border-indigo-500/60 bg-indigo-500/[0.04] py-2 pl-4 pr-3 text-slate-800 dark:bg-indigo-400/[0.06] dark:text-slate-100;
+}
+.markdown blockquote > * + * { @apply mt-1; }
+.markdown blockquote em { @apply text-xs text-slate-500 dark:text-slate-400; }
+.markdown code {
+  @apply rounded-md bg-slate-100 px-1.5 py-0.5 font-mono text-[0.82em] text-violet-700 dark:bg-white/10 dark:text-violet-300;
+}
+.markdown pre {
+  @apply overflow-x-auto rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm dark:border-white/10 dark:bg-black/40;
+}
+.markdown pre code { @apply bg-transparent p-0 text-slate-800 dark:text-slate-200; }
+.markdown table { @apply block w-full overflow-x-auto border-collapse text-sm; }
+.markdown th {
+  @apply border border-slate-200 bg-slate-100 px-3 py-1.5 text-left font-semibold dark:border-white/10 dark:bg-white/5;
+}
+.markdown td { @apply border border-slate-200 px-3 py-1.5 align-top dark:border-white/10; }
+.markdown hr { @apply border-slate-200 dark:border-white/10; }
+
+.cursor-blink::after {
+  content: "▍";
+  @apply ml-0.5 animate-blink text-indigo-500;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

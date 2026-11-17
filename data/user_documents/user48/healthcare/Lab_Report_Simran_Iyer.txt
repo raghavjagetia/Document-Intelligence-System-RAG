@@ -1,0 +1,32 @@
+LABORATORY REPORT - SIMRAN IYER
+===============================
+
+PATIENT INFORMATION
+-------------------
+  Field            | Detail            
+  -----------------+-------------------
+  Patient name     | Simran Iyer       
+  Age              | 71 years          
+  Report ID        | LAB-KOC-25470     
+  Referring doctor | Dr. Leela Krishnan
+  Collected on     | 20 August 2026    
+
+TEST RESULTS
+------------
+  Test                  | Result     | Reference range
+  ----------------------+------------+----------------
+  HbA1c                 | 6.7 %      | below 5.7 %    
+  Fasting blood glucose | 105 mg/dL  | 70 - 100 mg/dL 
+  LDL cholesterol       | 133 mg/dL  | below 100 mg/dL
+  Haemoglobin           | 11.9 g/dL  | 12 - 16 g/dL   
+  TSH                   | 4.77 mIU/L | 0.4 - 4.0 mIU/L
+
+IMPRESSION
+----------
+Findings are consistent with type 2 diabetes mellitus; glycaemic control needs improvement.
+
+ADVICE
+------
+  - Metformin 500 mg twice daily after meals
+  - Atorvastatin 10 mg once daily at night
+  - Repeat HbA1c after 3 months.

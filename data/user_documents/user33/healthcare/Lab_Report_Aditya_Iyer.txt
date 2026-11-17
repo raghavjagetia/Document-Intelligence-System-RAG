@@ -1,0 +1,31 @@
+LABORATORY REPORT - ADITYA IYER
+===============================
+
+PATIENT INFORMATION
+-------------------
+  Field            | Detail              
+  -----------------+---------------------
+  Patient name     | Aditya Iyer         
+  Age              | 49 years            
+  Report ID        | LAB-CHE-23788       
+  Referring doctor | Dr. Sunita Deshpande
+  Collected on     | 24 August 2026      
+
+TEST RESULTS
+------------
+  Test                  | Result     | Reference range
+  ----------------------+------------+----------------
+  HbA1c                 | 6.4 %      | below 5.7 %    
+  Fasting blood glucose | 123 mg/dL  | 70 - 100 mg/dL 
+  LDL cholesterol       | 157 mg/dL  | below 100 mg/dL
+  Haemoglobin           | 15.6 g/dL  | 12 - 16 g/dL   
+  TSH                   | 4.02 mIU/L | 0.4 - 4.0 mIU/L
+
+IMPRESSION
+----------
+Glycaemic markers are within the non-diabetic range.
+
+ADVICE
+------
+  - Atorvastatin 10 mg once daily at night
+  - Repeat HbA1c after 3 months.

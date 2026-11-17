@@ -1,0 +1,31 @@
+Employee ID,Full Name,Department,Designation,Location,Date of Joining,Work Email,Extension,Manager ID
+EMP-2026-00401,Aarav Sharma,Engineering,Software Engineer,Bengaluru,2016-01-01,aarav.sharma@zenithretail.example,4100,EMP-2026-00424
+EMP-2026-00402,Sneha Kulkarni,Customer Success,Customer Success Manager,Bengaluru,2019-06-08,sneha.kulkarni@zenithretail.example,4107,EMP-2026-00408
+EMP-2026-00403,Vikram Sethi,Engineering,Engineering Manager,Bengaluru,2022-11-15,vikram.sethi@zenithretail.example,4114,EMP-2026-00424
+EMP-2026-00404,Priya Raghavan,People Operations,HR Business Partner,Bengaluru,2025-04-22,priya.raghavan@zenithretail.example,4121,EMP-2026-00408
+EMP-2026-00405,Mohammed Irfan,Finance,Accounts Executive,Bengaluru,2018-09-02,mohammed.irfan@zenithretail.example,4128,EMP-2026-00410
+EMP-2026-00406,Deepak Venkatesh,Finance,Tax & Compliance Lead,Bengaluru,2021-02-09,deepak.venkatesh@zenithretail.example,4135,EMP-2026-00410
+EMP-2026-00407,Ritu Agarwal,Legal,Data Protection Officer,Bengaluru,2024-07-16,ritu.agarwal@zenithretail.example,4142,EMP-2026-00410
+EMP-2026-00408,Arjun Bhatt,Leadership,Chief Technology Officer,Bengaluru,2017-12-23,arjun.bhatt@zenithretail.example,4149,-
+EMP-2026-00409,Kavitha Menon,People Operations,Head - People Operations,Bengaluru,2020-05-03,kavitha.menon@zenithretail.example,4156,EMP-2026-00408
+EMP-2026-00410,Rajiv Bhandari,Finance,Finance Controller,Bengaluru,2023-10-10,rajiv.bhandari@zenithretail.example,4163,EMP-2026-00408
+EMP-2026-00411,Neha Joshi,Product,Product Manager,Pune,2016-03-17,neha.joshi@zenithretail.example,4170,EMP-2026-00408
+EMP-2026-00412,Harini Venkatesh,Cloud Operations,Cloud Engineer,Bengaluru,2019-08-24,harini.venkatesh@zenithretail.example,4177,EMP-2026-00421
+EMP-2026-00413,Suresh Pillai,Sales,Regional Sales Head,Hyderabad,2022-01-04,suresh.pillai@zenithretail.example,4184,EMP-2026-00408
+EMP-2026-00414,Ananya Iyer,Data Science,Senior Data Scientist,Bengaluru,2022-08-01,ananya.iyer@zenithretail.example,4191,EMP-2026-00403
+EMP-2026-00415,Rohit Deshmukh,Cloud Operations,DevOps Engineer,Pune,2023-03-06,rohit.deshmukh@zenithretail.example,4198,EMP-2026-00421
+EMP-2026-00416,Fatima Sheikh,Engineering,QA Engineer,Pune,2021-04-25,fatima.sheikh@zenithretail.example,4205,EMP-2026-00424
+EMP-2026-00417,Gaurav Malhotra,Sales,Account Executive,Hyderabad,2024-09-05,gaurav.malhotra@zenithretail.example,4212,EMP-2026-00408
+EMP-2026-00418,Lakshmi Prasad,Customer Success,Support Engineer,Bengaluru,2017-02-12,lakshmi.prasad@zenithretail.example,4219,EMP-2026-00408
+EMP-2026-00419,Karthik Subramanian,Engineering,Senior Software Engineer,Bengaluru,2020-07-19,karthik.subramanian@zenithretail.example,4226,EMP-2026-00424
+EMP-2026-00420,Divya Nair,Marketing,Marketing Manager,Bengaluru,2023-12-26,divya.nair@zenithretail.example,4233,EMP-2026-00408
+EMP-2026-00421,Harish Venkataraman,Cloud Operations,Senior Cloud Architect,Bengaluru,2016-05-06,harish.venkataraman@zenithretail.example,4240,EMP-2026-00408
+EMP-2026-00422,Pooja Reddy,Engineering,Frontend Engineer,Hyderabad,2019-10-13,pooja.reddy@zenithretail.example,4247,EMP-2026-00424
+EMP-2026-00423,Sanjay Kumar Das,IT,IT Security Analyst,Bengaluru,2022-03-20,sanjay.das@zenithretail.example,4254,EMP-2026-00403
+EMP-2026-00424,Meera Krishnan,Engineering,Director - Engineering,Bengaluru,2025-08-27,meera.krishnan@zenithretail.example,4261,EMP-2026-00408
+EMP-2026-00425,Nikhil Agarwal,Product,UX Designer,Pune,2018-01-07,nikhil.agarwal@zenithretail.example,4268,EMP-2026-00408
+EMP-2026-00426,Shalini Gupta,Finance,Financial Analyst,Bengaluru,2021-06-14,shalini.gupta@zenithretail.example,4275,EMP-2026-00410
+EMP-2026-00427,Abhishek Rao,IT,IT Support Engineer,Bengaluru,2024-11-21,abhishek.rao@zenithretail.example,4282,EMP-2026-00403
+EMP-2026-00428,Tanvi Mehta,Legal,Legal Counsel,Bengaluru,2017-04-01,tanvi.mehta@zenithretail.example,4289,EMP-2026-00410
+EMP-2026-00429,Varun Chandra,Data Science,ML Engineer,Bengaluru,2020-09-08,varun.chandra@zenithretail.example,4296,EMP-2026-00403
+EMP-2026-00430,Isha Banerjee,Marketing,Content Strategist,Pune,2023-02-15,isha.banerjee@zenithretail.example,4303,EMP-2026-00408

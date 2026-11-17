@@ -1,0 +1,1402 @@
+[
+  {
+    "filename": "HR_Leave_Policy_2025.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Employee Leave Policy 2025 (POL-HR-011)",
+    "description": "2025 leave policy: annual, sick, casual, parental, bereavement, work-from-home and sabbatical rules."
+  },
+  {
+    "filename": "HR_Leave_Policy_2026.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Employee Leave Policy 2026 (POL-HR-017)",
+    "description": "Current 2026 leave policy superseding POL-HR-011, with higher entitlements and new leave types."
+  },
+  {
+    "filename": "Travel_Reimbursement_Policy.docx",
+    "domain": "hr",
+    "format": "docx",
+    "title": "Domestic & International Travel Reimbursement Policy (POL-HR-022)",
+    "description": "Per diem, hotel caps, mileage rates, advances and claim deadlines for business travel."
+  },
+  {
+    "filename": "Code_of_Conduct_and_POSH.md",
+    "domain": "hr",
+    "format": "md",
+    "title": "Code of Conduct and POSH Policy (POL-HR-005)",
+    "description": "Ethics rules on gifts, conflicts of interest, whistleblowing and prevention of sexual harassment (Internal Committee)."
+  },
+  {
+    "filename": "Employee_Onboarding_Guide.html",
+    "domain": "hr",
+    "format": "html",
+    "title": "New Employee Onboarding Guide 2026",
+    "description": "Day-one logistics, first-week schedule, probation, mandatory trainings and documentation for new joiners."
+  },
+  {
+    "filename": "Performance_Review_Process.txt",
+    "domain": "hr",
+    "format": "txt",
+    "title": "Annual Performance Review Process (POL-HR-031)",
+    "description": "Review cycle timelines, rating scale, salary increment bands, calibration and performance improvement plans."
+  },
+  {
+    "filename": "Remote_Work_Policy.docx",
+    "domain": "hr",
+    "format": "docx",
+    "title": "Remote and Hybrid Work Policy (POL-HR-019)",
+    "description": "Eligibility, allowances, equipment, security and work-from-abroad rules for hybrid and remote work."
+  },
+  {
+    "filename": "Employee_Directory.csv",
+    "domain": "hr",
+    "format": "csv",
+    "title": "Employee Directory 2026",
+    "description": "Directory of 30 employees with IDs (EMP-2026-004xx), department, designation, location, joining date and extension."
+  },
+  {
+    "filename": "Holiday_Calendar_2026.xlsx",
+    "domain": "hr",
+    "format": "xlsx",
+    "title": "Holiday Calendar 2026",
+    "description": "2026 mandatory public holidays by location and the list of optional (restricted) holidays."
+  },
+  {
+    "filename": "Employee_Benefits_2026.pptx",
+    "domain": "hr",
+    "format": "pptx",
+    "title": "Employee Benefits 2026",
+    "description": "Benefits overview deck: health insurance, life cover, wellness, retirement, learning and family benefits."
+  },
+  {
+    "filename": "Master_Services_Agreement_v1.docx",
+    "domain": "legal",
+    "format": "docx",
+    "title": "Master Services Agreement - Version 1 (CNT-2026-9941)",
+    "description": "Original MSA between Helix and Orchid Retail Ventures: 24-month term, ₹4,50,000 monthly fee, 90-day notice."
+  },
+  {
+    "filename": "Master_Services_Agreement_v2.docx",
+    "domain": "legal",
+    "format": "docx",
+    "title": "Master Services Agreement - Version 2 (CNT-2026-9941, Amended and Restated)",
+    "description": "Amended and restated MSA: 36-month term, ₹5,10,000 monthly fee, 60-day notice, new security and data clauses."
+  },
+  {
+    "filename": "Mutual_NDA_Zenvia.pdf",
+    "domain": "legal",
+    "format": "pdf",
+    "title": "Mutual Non-Disclosure Agreement (CNT-2026-9914)",
+    "description": "Mutual NDA between Helix Systems and Zenvia Analytics LLP for a joint analytics product evaluation."
+  },
+  {
+    "filename": "Service_Level_Agreement.html",
+    "domain": "legal",
+    "format": "html",
+    "title": "Service Level Agreement SLA-2026-118",
+    "description": "SLA schedule to MSA CNT-2026-9941: availability target, incident priorities, response/resolution times and service credits."
+  },
+  {
+    "filename": "Data_Processing_Agreement.pdf",
+    "domain": "legal",
+    "format": "pdf",
+    "title": "Data Processing Agreement DPA-2026-031",
+    "description": "DPDP Act 2023 data processing agreement with Healthbridge Diagnostics: breach notification, sub-processors, retention."
+  },
+  {
+    "filename": "Software_License_Agreement.txt",
+    "domain": "legal",
+    "format": "txt",
+    "title": "Software Licence Agreement LIC-2026-0457 (HelixDesk Enterprise)",
+    "description": "Enterprise licence of HelixDesk to Trident Logistics: named users, fees, support, escrow and warranty."
+  },
+  {
+    "filename": "Office_Lease_Deed_Whitefield.pdf",
+    "domain": "legal",
+    "format": "pdf",
+    "title": "Lease Deed - Whitefield Office Premises",
+    "description": "Registered lease deed for 12,500 sq ft office at Greenfield Enclave, Whitefield: rent, deposit, escalation and lock-in."
+  },
+  {
+    "filename": "Vendor_Contract_Facility_Services.docx",
+    "domain": "legal",
+    "format": "docx",
+    "title": "Facility Services Vendor Contract (CNT-2026-9491)",
+    "description": "Housekeeping and security services contract with CleanSpark Facility Services: staffing, fees, penalties."
+  },
+  {
+    "filename": "Compliance_Checklist_2026.xlsx",
+    "domain": "legal",
+    "format": "xlsx",
+    "title": "Statutory Compliance Checklist 2026",
+    "description": "Statutory compliance calendar (labour, tax, corporate, data protection) with owners, plus contract renewal tracker."
+  },
+  {
+    "filename": "IP_Assignment_Agreement.md",
+    "domain": "legal",
+    "format": "md",
+    "title": "Intellectual Property Assignment Agreement (IPA-2026-012)",
+    "description": "Assignment of IP in the Project Sentinel mobile SDK from independent consultant Kiran Joshi to Helix."
+  },
+  {
+    "filename": "Discharge_Summary_PAT-55102.pdf",
+    "domain": "healthcare",
+    "format": "pdf",
+    "title": "Discharge Summary - Patient PAT-55102",
+    "description": "Cardiology discharge summary for Mr. Ramesh Gowda (PAT-55102): STEMI treated with stenting, medications, follow-up."
+  },
+  {
+    "filename": "Lab_Report_PAT-55120.xlsx",
+    "domain": "healthcare",
+    "format": "xlsx",
+    "title": "Laboratory Report - Patient PAT-55120",
+    "description": "Biochemistry and haematology results for Ms. Lakshmi Narayanan (PAT-55120), including HbA1c and lipid profile."
+  },
+  {
+    "filename": "Clinical_Trial_Protocol_Summary.pdf",
+    "domain": "healthcare",
+    "format": "pdf",
+    "title": "Clinical Trial Protocol Summary - GLYCO-SHIELD (SLH-CT-2026-07)",
+    "description": "Phase III randomised trial of Glucoverin XR in type 2 diabetes: design, sample size, eligibility and safety monitoring."
+  },
+  {
+    "filename": "Infection_Control_Policy.html",
+    "domain": "healthcare",
+    "format": "html",
+    "title": "Hospital Infection Prevention and Control Policy (HIC-POL-004)",
+    "description": "Hand hygiene, PPE, biomedical waste segregation, needle-stick management and surveillance rules."
+  },
+  {
+    "filename": "Pharmacy_Formulary.xlsx",
+    "domain": "healthcare",
+    "format": "xlsx",
+    "title": "Hospital Pharmacy Formulary 2026",
+    "description": "Approved drug formulary with codes, strengths, dosage forms, unit prices and restricted-antibiotic flags."
+  },
+  {
+    "filename": "Patient_Appointments.csv",
+    "domain": "healthcare",
+    "format": "csv",
+    "title": "Outpatient Appointments Register (Aug-Sep 2026)",
+    "description": "30 outpatient appointments with appointment IDs (APT-2026-11xx), patient IDs, department, doctor, date, mode and status."
+  },
+  {
+    "filename": "Diabetes_Care_Guideline.md",
+    "domain": "healthcare",
+    "format": "md",
+    "title": "Clinical Guideline: Management of Type 2 Diabetes in Adults (CG-END-002)",
+    "description": "Glycaemic targets, monitoring schedule, first-line therapy, hypoglycaemia management and complication screening."
+  },
+  {
+    "filename": "Telemedicine_SOP.txt",
+    "domain": "healthcare",
+    "format": "txt",
+    "title": "Standard Operating Procedure: Telemedicine Consultations (SOP-TM-009)",
+    "description": "SOP for video/audio teleconsultations: identity checks, slot length, fees, e-prescribing limits and record keeping."
+  },
+  {
+    "filename": "Patient_Consent_Form.docx",
+    "domain": "healthcare",
+    "format": "docx",
+    "title": "Informed Consent for Surgery and Anaesthesia (CF-SURG-011)",
+    "description": "Template informed consent form for surgical procedures: risks, alternatives, anaesthesia, blood transfusion and validity."
+  },
+  {
+    "filename": "Clinical_Staff_Training.pptx",
+    "domain": "healthcare",
+    "format": "pptx",
+    "title": "Clinical Staff Mandatory Training 2026",
+    "description": "Training deck for nurses and doctors: emergency codes, BLS certification, CME hours, fire safety and assessment."
+  },
+  {
+    "filename": "Invoice_INV-2026-8842.pdf",
+    "domain": "finance",
+    "format": "pdf",
+    "title": "Tax Invoice INV-2026-8842",
+    "description": "Tax invoice to Orchid Retail Ventures for peak-season readiness project work under CNT-2026-9941; total Rs. 4,72,000."
+  },
+  {
+    "filename": "Invoice_INV-2026-8824.pdf",
+    "domain": "finance",
+    "format": "pdf",
+    "title": "Tax Invoice INV-2026-8824",
+    "description": "Tax invoice to Trident Logistics for HelixDesk implementation and data migration under LIC-2026-0457."
+  },
+  {
+    "filename": "Approved_Vendor_Register.csv",
+    "domain": "finance",
+    "format": "csv",
+    "title": "Approved Vendor Register FY2026-27",
+    "description": "25 approved vendors with vendor IDs (VND-10xx), category, GSTIN, payment terms, risk rating, spend and contract reference."
+  },
+  {
+    "filename": "Quarterly_Financial_Report_Q2_FY2026-27.pdf",
+    "domain": "finance",
+    "format": "pdf",
+    "title": "Quarterly Financial Report - Q2 FY2026-27",
+    "description": "Management report for July-September 2026: revenue, EBITDA, segment mix, headcount, cash and full-year guidance."
+  },
+  {
+    "filename": "Expense_Ledger_Q2_2026.csv",
+    "domain": "finance",
+    "format": "csv",
+    "title": "Employee Expense Ledger - Q2 FY2026-27",
+    "description": "35 employee expense entries (EXP-2026-06xx) for July-September 2026 with category, amount, GST, cost centre and status."
+  },
+  {
+    "filename": "Annual_Budget_FY2026-27.xlsx",
+    "domain": "finance",
+    "format": "xlsx",
+    "title": "Annual Budget FY2026-27",
+    "description": "Board-approved department budgets (opex, capex, headcount) in INR lakh, with quarterly phasing."
+  },
+  {
+    "filename": "Purchase_Order_PO-2026-3317.docx",
+    "domain": "finance",
+    "format": "docx",
+    "title": "Purchase Order PO-2026-3317",
+    "description": "Purchase order to Apex Compute Solutions for 40 laptops, docking stations and monitors with delivery and warranty terms."
+  },
+  {
+    "filename": "Internal_Audit_Summary_2026.txt",
+    "domain": "finance",
+    "format": "txt",
+    "title": "Internal Audit Summary Report IA-2026-03",
+    "description": "Summary of the FY2025-26 internal audit: scope, rating, high/medium/low observations and remediation deadlines."
+  },
+  {
+    "filename": "GST_Compliance_Note.docx",
+    "domain": "finance",
+    "format": "docx",
+    "title": "GST Compliance Note for Finance Team",
+    "description": "Internal note on GST registration, SAC codes and rates, e-invoicing, return deadlines, ITC reconciliation and RCM."
+  },
+  {
+    "filename": "Investor_Update_Q2.pptx",
+    "domain": "finance",
+    "format": "pptx",
+    "title": "Investor Update - Q2 FY2026-27",
+    "description": "Investor deck: quarterly financial highlights, SaaS metrics (ARR, NRR), customers, funding and outlook."
+  },
+  {
+    "filename": "Resume_Ananya_Iyer.pdf",
+    "domain": "general",
+    "format": "pdf",
+    "title": "Ananya Iyer - Senior Data Scientist",
+    "description": "Resume of Ananya Iyer: 7 years in machine learning, churn and forecasting models, NLP, MLOps."
+  },
+  {
+    "filename": "Resume_Rohit_Deshmukh.docx",
+    "domain": "general",
+    "format": "docx",
+    "title": "Rohit Deshmukh - DevOps Engineer",
+    "description": "Resume of Rohit Deshmukh: 5 years in DevOps and SRE, Kubernetes (CKA), CI/CD pipelines, cloud cost optimisation."
+  },
+  {
+    "filename": "Product_Roadmap_2026-27.pptx",
+    "domain": "general",
+    "format": "pptx",
+    "title": "HelixDesk Product Roadmap 2026-27",
+    "description": "Product roadmap deck: release plan (5.2, 5.3, 6.0), AI triage, channels, languages, deprecations and targets."
+  },
+  {
+    "filename": "Meeting_Minutes_Engineering_Sync.txt",
+    "domain": "general",
+    "format": "txt",
+    "title": "Minutes of Meeting - Weekly Engineering Sync (MOM-ENG-2026-41)",
+    "description": "Engineering sync minutes: release 5.2 code freeze, PostgreSQL 16 migration decision, on-call changes and action items."
+  },
+  {
+    "filename": "IT_Security_Policy_Scanned.pdf",
+    "domain": "general",
+    "format": "pdf",
+    "title": "IT Security and Visitor Access Policy (Scanned Notice ITS-2026-05)",
+    "description": "Scanned image-only notice (requires OCR): visitor badges, escort rules, visitor log retention, password and USB rules."
+  },
+  {
+    "filename": "Incident_Postmortem_INC-2026-0412.docx",
+    "domain": "general",
+    "format": "docx",
+    "title": "Incident Postmortem: INC-2026-0412 HelixDesk API Outage",
+    "description": "Blameless postmortem of the 14 August 2026 HelixDesk outage caused by an expired TLS certificate."
+  },
+  {
+    "filename": "User_Manual_HelixDesk.html",
+    "domain": "general",
+    "format": "html",
+    "title": "HelixDesk 5.1 User Manual",
+    "description": "End-user manual for HelixDesk 5.1: requirements, roles, tickets, SLAs, attachments, shortcuts and exports."
+  },
+  {
+    "filename": "Company_Newsletter_Oct_2026.html",
+    "domain": "general",
+    "format": "html",
+    "title": "Orion Pulse - Company Newsletter, October 2026 (Issue 18)",
+    "description": "Internal newsletter: Whitefield office opening, HackOrion 2026 winners, CSR drive, awards and new joiners."
+  },
+  {
+    "filename": "Project_Proposal_SmartClaims.pptx",
+    "domain": "general",
+    "format": "pptx",
+    "title": "Project Proposal: SmartClaims AI Claims Automation",
+    "description": "Proposal deck for SmartClaims, an AI claims-processing solution for Suraksha Shield General Insurance: scope, budget, timeline."
+  },
+  {
+    "filename": "Product_Inventory.csv",
+    "domain": "general",
+    "format": "csv",
+    "title": "Office Inventory Register (September 2026)",
+    "description": "30 inventory SKUs (NIM-SKU-10xx) for IT hardware, peripherals, merchandise and supplies with stock, reorder level and cost."
+  },
+  {
+    "filename": "Invoice_INV-HLX-4107.pdf",
+    "domain": "finance",
+    "format": "pdf",
+    "title": "Tax Invoice INV-HLX-4107",
+    "description": "Helix Systems Pvt. Ltd. invoice to Pinecrest Developers Pvt. Ltd.."
+  },
+  {
+    "filename": "Offer_Letter_Gaurav_Joshi.docx",
+    "domain": "hr",
+    "format": "docx",
+    "title": "Offer Letter - Gaurav Joshi",
+    "description": "Helix Systems Pvt. Ltd. offer to Gaurav Joshi (Business Analyst)."
+  },
+  {
+    "filename": "Offer_Letter_Gaurav_Shetty.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Offer Letter - Gaurav Shetty",
+    "description": "Orion Softworks Pvt. Ltd. offer to Gaurav Shetty (Supply Chain Planner)."
+  },
+  {
+    "filename": "Service_Agreement_SA-ORN-702.docx",
+    "domain": "legal",
+    "format": "docx",
+    "title": "Service Agreement SA-ORN-702",
+    "description": "Orion Softworks Pvt. Ltd. services for Lighthouse Dairy Ltd.."
+  },
+  {
+    "filename": "Minutes_MOM-ORN-43.txt",
+    "domain": "general",
+    "format": "txt",
+    "title": "Management Meeting Minutes MOM-ORN-43",
+    "description": "Orion management meeting on 23 July 2026."
+  },
+  {
+    "filename": "Payslip_ORN-E3052_August_2026.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Payslip - August 2026 - Aditya Joshi",
+    "description": "Salary slip for Aditya Joshi (ORN-E3052)."
+  },
+  {
+    "filename": "Orion_Project_Aurora_Status.pptx",
+    "domain": "general",
+    "format": "pptx",
+    "title": "Project Aurora - Status Update",
+    "description": "Orion status update for Project Aurora."
+  },
+  {
+    "filename": "Purchase_Order_PO-ORN-5266.docx",
+    "domain": "finance",
+    "format": "docx",
+    "title": "Purchase Order PO-ORN-5266",
+    "description": "Orion Softworks Pvt. Ltd. order placed with Lighthouse Hotels Pvt. Ltd.."
+  },
+  {
+    "filename": "Orion_Training_and_Certification_Policy_07.html",
+    "domain": "hr",
+    "format": "html",
+    "title": "Orion Training and Certification Policy",
+    "description": "Training and Certification Policy of Orion Softworks Pvt. Ltd.."
+  },
+  {
+    "filename": "NDA_NDA-ORN-308.md",
+    "domain": "legal",
+    "format": "md",
+    "title": "Non-Disclosure Agreement NDA-ORN-308",
+    "description": "NDA between Orion and Crescent Foods Ltd.."
+  },
+  {
+    "filename": "Orion_Stock_Register_09.csv",
+    "domain": "general",
+    "format": "csv",
+    "title": "Orion Stock Register",
+    "description": "Orion stock at Pune."
+  },
+  {
+    "filename": "Incident_Report_INC-ORN-910.docx",
+    "domain": "general",
+    "format": "docx",
+    "title": "Incident Report INC-ORN-910",
+    "description": "Orion incident INC-ORN-910."
+  },
+  {
+    "filename": "Orion_SME_Revenue_FY27.xlsx",
+    "domain": "finance",
+    "format": "xlsx",
+    "title": "Orion SME Division - Regional Revenue FY2026-27",
+    "description": "Orion SME division revenue by region, Q1-Q2 FY2026-27."
+  },
+  {
+    "filename": "Orion_Lease_Delhi.html",
+    "domain": "legal",
+    "format": "html",
+    "title": "Orion Office Lease - Delhi",
+    "description": "Lease of Orion's Delhi premises."
+  },
+  {
+    "filename": "Orion_Compliance_Training_Field_staff.pptx",
+    "domain": "hr",
+    "format": "pptx",
+    "title": "Orion Compliance Training 2026 - Field staff",
+    "description": "Mandatory compliance training for field staff at Orion."
+  },
+  {
+    "filename": "Invoice_INV-ORN-4198.pdf",
+    "domain": "finance",
+    "format": "pdf",
+    "title": "Tax Invoice INV-ORN-4198",
+    "description": "Orion Softworks Pvt. Ltd. invoice to Quill Motors Ltd.."
+  },
+  {
+    "filename": "Offer_Letter_Simran_Bose.docx",
+    "domain": "hr",
+    "format": "docx",
+    "title": "Offer Letter - Simran Bose",
+    "description": "Orion Softworks Pvt. Ltd. offer to Simran Bose (Supply Chain Planner)."
+  },
+  {
+    "filename": "Service_Agreement_SA-ORN-716.docx",
+    "domain": "legal",
+    "format": "docx",
+    "title": "Service Agreement SA-ORN-716",
+    "description": "Orion Softworks Pvt. Ltd. services for Quill Hotels Ltd.."
+  },
+  {
+    "filename": "Service_Agreement_SA-BPC-701.docx",
+    "domain": "legal",
+    "format": "docx",
+    "title": "Service Agreement SA-BPC-701",
+    "description": "Brightpath Consulting LLP services for Saffron Ceramics Ltd.."
+  },
+  {
+    "filename": "Minutes_MOM-BPC-42.md",
+    "domain": "general",
+    "format": "md",
+    "title": "Management Meeting Minutes MOM-BPC-42",
+    "description": "Brightpath management meeting on 12 August 2026."
+  },
+  {
+    "filename": "Payslip_BPC-E3039_August_2026.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Payslip - August 2026 - Gaurav Banerjee",
+    "description": "Salary slip for Gaurav Banerjee (BPC-E3039)."
+  },
+  {
+    "filename": "Brightpath_Project_Juniper_Status.pptx",
+    "domain": "general",
+    "format": "pptx",
+    "title": "Project Juniper - Status Update",
+    "description": "Brightpath status update for Project Juniper."
+  },
+  {
+    "filename": "Purchase_Order_PO-BPC-5255.docx",
+    "domain": "finance",
+    "format": "docx",
+    "title": "Purchase Order PO-BPC-5255",
+    "description": "Brightpath Consulting LLP order placed with Kestrel Publishing Ltd.."
+  },
+  {
+    "filename": "Brightpath_Hybrid_Work_Policy_06.docx",
+    "domain": "hr",
+    "format": "docx",
+    "title": "Brightpath Hybrid Work Policy",
+    "description": "Hybrid Work Policy of Brightpath Consulting LLP."
+  },
+  {
+    "filename": "NDA_NDA-BPC-307.md",
+    "domain": "legal",
+    "format": "md",
+    "title": "Non-Disclosure Agreement NDA-BPC-307",
+    "description": "NDA between Brightpath and Saffron Furniture Ltd.."
+  },
+  {
+    "filename": "Brightpath_Stock_Register_08.csv",
+    "domain": "general",
+    "format": "csv",
+    "title": "Brightpath Stock Register",
+    "description": "Brightpath stock at Mumbai."
+  },
+  {
+    "filename": "Incident_Report_INC-BPC-909.docx",
+    "domain": "general",
+    "format": "docx",
+    "title": "Incident Report INC-BPC-909",
+    "description": "Brightpath incident INC-BPC-909."
+  },
+  {
+    "filename": "Brightpath_Government_Revenue_FY27.xlsx",
+    "domain": "finance",
+    "format": "xlsx",
+    "title": "Brightpath Government Division - Regional Revenue FY2026-27",
+    "description": "Brightpath Government division revenue by region, Q1-Q2 FY2026-27."
+  },
+  {
+    "filename": "Brightpath_Lease_Indore.html",
+    "domain": "legal",
+    "format": "html",
+    "title": "Brightpath Office Lease - Indore",
+    "description": "Lease of Brightpath's Indore premises."
+  },
+  {
+    "filename": "Brightpath_Compliance_Training_Finance_staff.pptx",
+    "domain": "hr",
+    "format": "pptx",
+    "title": "Brightpath Compliance Training 2026 - Finance staff",
+    "description": "Mandatory compliance training for finance staff at Brightpath."
+  },
+  {
+    "filename": "Invoice_INV-BPC-4191.pdf",
+    "domain": "finance",
+    "format": "pdf",
+    "title": "Tax Invoice INV-BPC-4191",
+    "description": "Brightpath Consulting LLP invoice to Peacock Electricals Pvt. Ltd.."
+  },
+  {
+    "filename": "Offer_Letter_Nikhil_Joshi.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Offer Letter - Nikhil Joshi",
+    "description": "Brightpath Consulting LLP offer to Nikhil Joshi (Business Analyst)."
+  },
+  {
+    "filename": "Service_Agreement_SA-BPC-715.docx",
+    "domain": "legal",
+    "format": "docx",
+    "title": "Service Agreement SA-BPC-715",
+    "description": "Brightpath Consulting LLP services for Monarch Shipping Pvt. Ltd.."
+  },
+  {
+    "filename": "Minutes_MOM-BPC-56.txt",
+    "domain": "general",
+    "format": "txt",
+    "title": "Management Meeting Minutes MOM-BPC-56",
+    "description": "Brightpath management meeting on 10 July 2026."
+  },
+  {
+    "filename": "Payslip_BPC-E3221_August_2026.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Payslip - August 2026 - Riya Verma",
+    "description": "Salary slip for Riya Verma (BPC-E3221)."
+  },
+  {
+    "filename": "Minutes_MOM-TJS-41.txt",
+    "domain": "general",
+    "format": "txt",
+    "title": "Management Meeting Minutes MOM-TJS-41",
+    "description": "Tejas management meeting on 9 July 2026."
+  },
+  {
+    "filename": "Payslip_TJS-E3026_June_2026.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Payslip - June 2026 - Aditi Patel",
+    "description": "Salary slip for Aditi Patel (TJS-E3026)."
+  },
+  {
+    "filename": "Tejas_Project_Vortex_Status.pptx",
+    "domain": "general",
+    "format": "pptx",
+    "title": "Project Vortex - Status Update",
+    "description": "Tejas status update for Project Vortex."
+  },
+  {
+    "filename": "Purchase_Order_PO-TJS-5244.docx",
+    "domain": "finance",
+    "format": "docx",
+    "title": "Purchase Order PO-TJS-5244",
+    "description": "Tejas Infrastructure Ltd. order placed with Silverline Chemicals Ltd.."
+  },
+  {
+    "filename": "Tejas_Grievance_Redressal_Policy_05.docx",
+    "domain": "hr",
+    "format": "docx",
+    "title": "Tejas Grievance Redressal Policy",
+    "description": "Grievance Redressal Policy of Tejas Infrastructure Ltd.."
+  },
+  {
+    "filename": "NDA_NDA-TJS-306.pdf",
+    "domain": "legal",
+    "format": "pdf",
+    "title": "Non-Disclosure Agreement NDA-TJS-306",
+    "description": "NDA between Tejas and Northgate Furniture Ltd.."
+  },
+  {
+    "filename": "Tejas_Stock_Register_07.csv",
+    "domain": "general",
+    "format": "csv",
+    "title": "Tejas Stock Register",
+    "description": "Tejas stock at Hyderabad."
+  },
+  {
+    "filename": "Incident_Report_INC-TJS-908.docx",
+    "domain": "general",
+    "format": "docx",
+    "title": "Incident Report INC-TJS-908",
+    "description": "Tejas incident INC-TJS-908."
+  },
+  {
+    "filename": "Tejas_Retail_Revenue_FY27.xlsx",
+    "domain": "finance",
+    "format": "xlsx",
+    "title": "Tejas Retail Division - Regional Revenue FY2026-27",
+    "description": "Tejas Retail division revenue by region, Q1-Q2 FY2026-27."
+  },
+  {
+    "filename": "Tejas_Lease_Ahmedabad.html",
+    "domain": "legal",
+    "format": "html",
+    "title": "Tejas Office Lease - Ahmedabad",
+    "description": "Lease of Tejas's Ahmedabad premises."
+  },
+  {
+    "filename": "Tejas_Compliance_Training_New_joiners.pptx",
+    "domain": "hr",
+    "format": "pptx",
+    "title": "Tejas Compliance Training 2026 - New joiners",
+    "description": "Mandatory compliance training for new joiners at Tejas."
+  },
+  {
+    "filename": "Invoice_INV-TJS-4184.pdf",
+    "domain": "finance",
+    "format": "pdf",
+    "title": "Tax Invoice INV-TJS-4184",
+    "description": "Tejas Infrastructure Ltd. invoice to Ironwood Agro Ltd.."
+  },
+  {
+    "filename": "Offer_Letter_Yash_Rao.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Offer Letter - Yash Rao",
+    "description": "Tejas Infrastructure Ltd. offer to Yash Rao (Data Engineer)."
+  },
+  {
+    "filename": "Service_Agreement_SA-TJS-714.docx",
+    "domain": "legal",
+    "format": "docx",
+    "title": "Service Agreement SA-TJS-714",
+    "description": "Tejas Infrastructure Ltd. services for Kestrel Shipping Pvt. Ltd.."
+  },
+  {
+    "filename": "Minutes_MOM-TJS-55.md",
+    "domain": "general",
+    "format": "md",
+    "title": "Management Meeting Minutes MOM-TJS-55",
+    "description": "Tejas management meeting on 10 September 2026."
+  },
+  {
+    "filename": "Payslip_MRD-E3013_August_2026.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Payslip - August 2026 - Aditya Kapoor",
+    "description": "Salary slip for Aditya Kapoor (MRD-E3013)."
+  },
+  {
+    "filename": "Meridian_Project_Vertex_Status.pptx",
+    "domain": "general",
+    "format": "pptx",
+    "title": "Project Vertex - Status Update",
+    "description": "Meridian status update for Project Vertex."
+  },
+  {
+    "filename": "Purchase_Order_PO-MRD-5233.docx",
+    "domain": "finance",
+    "format": "docx",
+    "title": "Purchase Order PO-MRD-5233",
+    "description": "Meridian Capital Pvt. Ltd. order placed with Maple Publishing Pvt. Ltd.."
+  },
+  {
+    "filename": "Meridian_Training_and_Certification_Policy_04.html",
+    "domain": "hr",
+    "format": "html",
+    "title": "Meridian Training and Certification Policy",
+    "description": "Training and Certification Policy of Meridian Capital Pvt. Ltd.."
+  },
+  {
+    "filename": "NDA_NDA-MRD-305.md",
+    "domain": "legal",
+    "format": "md",
+    "title": "Non-Disclosure Agreement NDA-MRD-305",
+    "description": "NDA between Meridian and Crescent Electricals Ltd.."
+  },
+  {
+    "filename": "Meridian_Stock_Register_06.csv",
+    "domain": "general",
+    "format": "csv",
+    "title": "Meridian Stock Register",
+    "description": "Meridian stock at Mumbai."
+  },
+  {
+    "filename": "Incident_Report_INC-MRD-907.docx",
+    "domain": "general",
+    "format": "docx",
+    "title": "Incident Report INC-MRD-907",
+    "description": "Meridian incident INC-MRD-907."
+  },
+  {
+    "filename": "Meridian_Enterprise_Revenue_FY27.xlsx",
+    "domain": "finance",
+    "format": "xlsx",
+    "title": "Meridian Enterprise Division - Regional Revenue FY2026-27",
+    "description": "Meridian Enterprise division revenue by region, Q1-Q2 FY2026-27."
+  },
+  {
+    "filename": "Meridian_Lease_Ahmedabad.pdf",
+    "domain": "legal",
+    "format": "pdf",
+    "title": "Meridian Office Lease - Ahmedabad",
+    "description": "Lease of Meridian's Ahmedabad premises."
+  },
+  {
+    "filename": "Meridian_Compliance_Training_Managers.pptx",
+    "domain": "hr",
+    "format": "pptx",
+    "title": "Meridian Compliance Training 2026 - Managers",
+    "description": "Mandatory compliance training for managers at Meridian."
+  },
+  {
+    "filename": "Invoice_INV-MRD-4177.pdf",
+    "domain": "finance",
+    "format": "pdf",
+    "title": "Tax Invoice INV-MRD-4177",
+    "description": "Meridian Capital Pvt. Ltd. invoice to Skyline Chemicals Pvt. Ltd.."
+  },
+  {
+    "filename": "Offer_Letter_Arjun_Chopra.docx",
+    "domain": "hr",
+    "format": "docx",
+    "title": "Offer Letter - Arjun Chopra",
+    "description": "Meridian Capital Pvt. Ltd. offer to Arjun Chopra (Operations Lead)."
+  },
+  {
+    "filename": "Service_Agreement_SA-MRD-713.docx",
+    "domain": "legal",
+    "format": "docx",
+    "title": "Service Agreement SA-MRD-713",
+    "description": "Meridian Capital Pvt. Ltd. services for Riverbend Dairy Ltd.."
+  },
+  {
+    "filename": "Minutes_MOM-MRD-54.txt",
+    "domain": "general",
+    "format": "txt",
+    "title": "Management Meeting Minutes MOM-MRD-54",
+    "description": "Meridian management meeting on 25 September 2026."
+  },
+  {
+    "filename": "Payslip_MRD-E3195_June_2026.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Payslip - June 2026 - Gaurav Verma",
+    "description": "Salary slip for Gaurav Verma (MRD-E3195)."
+  },
+  {
+    "filename": "Meridian_Project_Lantern_Status.pptx",
+    "domain": "general",
+    "format": "pptx",
+    "title": "Project Lantern - Status Update",
+    "description": "Meridian status update for Project Lantern."
+  },
+  {
+    "filename": "Purchase_Order_PO-MRD-5387.docx",
+    "domain": "finance",
+    "format": "docx",
+    "title": "Purchase Order PO-MRD-5387",
+    "description": "Meridian Capital Pvt. Ltd. order placed with Pinecrest Agro Ltd.."
+  },
+  {
+    "filename": "Cobalt_Project_Cascade_Status.pptx",
+    "domain": "general",
+    "format": "pptx",
+    "title": "Project Cascade - Status Update",
+    "description": "Cobalt status update for Project Cascade."
+  },
+  {
+    "filename": "Purchase_Order_PO-CBT-5222.docx",
+    "domain": "finance",
+    "format": "docx",
+    "title": "Purchase Order PO-CBT-5222",
+    "description": "Cobalt Cloud Services Pvt. Ltd. order placed with Kestrel Chemicals Pvt. Ltd.."
+  },
+  {
+    "filename": "Cobalt_Hybrid_Work_Policy_03.docx",
+    "domain": "hr",
+    "format": "docx",
+    "title": "Cobalt Hybrid Work Policy",
+    "description": "Hybrid Work Policy of Cobalt Cloud Services Pvt. Ltd.."
+  },
+  {
+    "filename": "NDA_NDA-CBT-304.pdf",
+    "domain": "legal",
+    "format": "pdf",
+    "title": "Non-Disclosure Agreement NDA-CBT-304",
+    "description": "NDA between Cobalt and Coral Bay Pharma Pvt. Ltd.."
+  },
+  {
+    "filename": "Cobalt_Stock_Register_05.csv",
+    "domain": "general",
+    "format": "csv",
+    "title": "Cobalt Stock Register",
+    "description": "Cobalt stock at Chennai."
+  },
+  {
+    "filename": "Incident_Report_INC-CBT-906.docx",
+    "domain": "general",
+    "format": "docx",
+    "title": "Incident Report INC-CBT-906",
+    "description": "Cobalt incident INC-CBT-906."
+  },
+  {
+    "filename": "Cobalt_SME_Revenue_FY27.xlsx",
+    "domain": "finance",
+    "format": "xlsx",
+    "title": "Cobalt SME Division - Regional Revenue FY2026-27",
+    "description": "Cobalt SME division revenue by region, Q1-Q2 FY2026-27."
+  },
+  {
+    "filename": "Cobalt_Lease_Nagpur.pdf",
+    "domain": "legal",
+    "format": "pdf",
+    "title": "Cobalt Office Lease - Nagpur",
+    "description": "Lease of Cobalt's Nagpur premises."
+  },
+  {
+    "filename": "Cobalt_Compliance_Training_Field_staff.pptx",
+    "domain": "hr",
+    "format": "pptx",
+    "title": "Cobalt Compliance Training 2026 - Field staff",
+    "description": "Mandatory compliance training for field staff at Cobalt."
+  },
+  {
+    "filename": "Invoice_INV-CBT-4170.pdf",
+    "domain": "finance",
+    "format": "pdf",
+    "title": "Tax Invoice INV-CBT-4170",
+    "description": "Cobalt Cloud Services Pvt. Ltd. invoice to Monarch Foods Ltd.."
+  },
+  {
+    "filename": "Offer_Letter_Kavya_Banerjee.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Offer Letter - Kavya Banerjee",
+    "description": "Cobalt Cloud Services Pvt. Ltd. offer to Kavya Banerjee (Data Engineer)."
+  },
+  {
+    "filename": "Service_Agreement_SA-CBT-712.docx",
+    "domain": "legal",
+    "format": "docx",
+    "title": "Service Agreement SA-CBT-712",
+    "description": "Cobalt Cloud Services Pvt. Ltd. services for Banyan Media Ltd.."
+  },
+  {
+    "filename": "Minutes_MOM-CBT-53.md",
+    "domain": "general",
+    "format": "md",
+    "title": "Management Meeting Minutes MOM-CBT-53",
+    "description": "Cobalt management meeting on 12 August 2026."
+  },
+  {
+    "filename": "Payslip_CBT-E3182_June_2026.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Payslip - June 2026 - Priya Kapoor",
+    "description": "Salary slip for Priya Kapoor (CBT-E3182)."
+  },
+  {
+    "filename": "Cobalt_Project_Nova_Status.pptx",
+    "domain": "general",
+    "format": "pptx",
+    "title": "Project Nova - Status Update",
+    "description": "Cobalt status update for Project Nova."
+  },
+  {
+    "filename": "Purchase_Order_PO-CBT-5376.docx",
+    "domain": "finance",
+    "format": "docx",
+    "title": "Purchase Order PO-CBT-5376",
+    "description": "Cobalt Cloud Services Pvt. Ltd. order placed with Redstone Textiles Pvt. Ltd.."
+  },
+  {
+    "filename": "Cobalt_Grievance_Redressal_Policy_17.html",
+    "domain": "hr",
+    "format": "html",
+    "title": "Cobalt Grievance Redressal Policy",
+    "description": "Grievance Redressal Policy of Cobalt Cloud Services Pvt. Ltd.."
+  },
+  {
+    "filename": "NDA_NDA-CBT-318.pdf",
+    "domain": "legal",
+    "format": "pdf",
+    "title": "Non-Disclosure Agreement NDA-CBT-318",
+    "description": "NDA between Cobalt and Evergreen Dairy Ltd.."
+  },
+  {
+    "filename": "Cobalt_Stock_Register_19.csv",
+    "domain": "general",
+    "format": "csv",
+    "title": "Cobalt Stock Register",
+    "description": "Cobalt stock at Chennai."
+  },
+  {
+    "filename": "Purchase_Order_PO-LMN-5211.docx",
+    "domain": "finance",
+    "format": "docx",
+    "title": "Purchase Order PO-LMN-5211",
+    "description": "Lumen Insurtech Pvt. Ltd. order placed with Monarch Agro Ltd.."
+  },
+  {
+    "filename": "Lumen_Grievance_Redressal_Policy_02.docx",
+    "domain": "hr",
+    "format": "docx",
+    "title": "Lumen Grievance Redressal Policy",
+    "description": "Grievance Redressal Policy of Lumen Insurtech Pvt. Ltd.."
+  },
+  {
+    "filename": "NDA_NDA-LMN-303.pdf",
+    "domain": "legal",
+    "format": "pdf",
+    "title": "Non-Disclosure Agreement NDA-LMN-303",
+    "description": "NDA between Lumen and Quill Hotels Pvt. Ltd.."
+  },
+  {
+    "filename": "Lumen_Stock_Register_04.csv",
+    "domain": "general",
+    "format": "csv",
+    "title": "Lumen Stock Register",
+    "description": "Lumen stock at Gurugram."
+  },
+  {
+    "filename": "Incident_Report_INC-LMN-905.docx",
+    "domain": "general",
+    "format": "docx",
+    "title": "Incident Report INC-LMN-905",
+    "description": "Lumen incident INC-LMN-905."
+  },
+  {
+    "filename": "Lumen_Government_Revenue_FY27.xlsx",
+    "domain": "finance",
+    "format": "xlsx",
+    "title": "Lumen Government Division - Regional Revenue FY2026-27",
+    "description": "Lumen Government division revenue by region, Q1-Q2 FY2026-27."
+  },
+  {
+    "filename": "Lumen_Lease_Kolkata.pdf",
+    "domain": "legal",
+    "format": "pdf",
+    "title": "Lumen Office Lease - Kolkata",
+    "description": "Lease of Lumen's Kolkata premises."
+  },
+  {
+    "filename": "Lumen_Compliance_Training_Finance_staff.pptx",
+    "domain": "hr",
+    "format": "pptx",
+    "title": "Lumen Compliance Training 2026 - Finance staff",
+    "description": "Mandatory compliance training for finance staff at Lumen."
+  },
+  {
+    "filename": "Invoice_INV-LMN-4163.pdf",
+    "domain": "finance",
+    "format": "pdf",
+    "title": "Tax Invoice INV-LMN-4163",
+    "description": "Lumen Insurtech Pvt. Ltd. invoice to Kestrel Electricals Ltd.."
+  },
+  {
+    "filename": "Offer_Letter_Kavya_Kulkarni.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Offer Letter - Kavya Kulkarni",
+    "description": "Lumen Insurtech Pvt. Ltd. offer to Kavya Kulkarni (Account Manager)."
+  },
+  {
+    "filename": "Service_Agreement_SA-LMN-711.docx",
+    "domain": "legal",
+    "format": "docx",
+    "title": "Service Agreement SA-LMN-711",
+    "description": "Lumen Insurtech Pvt. Ltd. services for Crescent Developers Pvt. Ltd.."
+  },
+  {
+    "filename": "Minutes_MOM-LMN-52.txt",
+    "domain": "general",
+    "format": "txt",
+    "title": "Management Meeting Minutes MOM-LMN-52",
+    "description": "Lumen management meeting on 2 September 2026."
+  },
+  {
+    "filename": "Payslip_LMN-E3169_September_2026.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Payslip - September 2026 - Nikhil Shetty",
+    "description": "Salary slip for Nikhil Shetty (LMN-E3169)."
+  },
+  {
+    "filename": "Lumen_Project_Echo_Status.pptx",
+    "domain": "general",
+    "format": "pptx",
+    "title": "Project Echo - Status Update",
+    "description": "Lumen status update for Project Echo."
+  },
+  {
+    "filename": "Purchase_Order_PO-LMN-5365.docx",
+    "domain": "finance",
+    "format": "docx",
+    "title": "Purchase Order PO-LMN-5365",
+    "description": "Lumen Insurtech Pvt. Ltd. order placed with Riverbend Steel Pvt. Ltd.."
+  },
+  {
+    "filename": "Lumen_Training_and_Certification_Policy_16.html",
+    "domain": "hr",
+    "format": "html",
+    "title": "Lumen Training and Certification Policy",
+    "description": "Training and Certification Policy of Lumen Insurtech Pvt. Ltd.."
+  },
+  {
+    "filename": "NDA_NDA-LMN-317.md",
+    "domain": "legal",
+    "format": "md",
+    "title": "Non-Disclosure Agreement NDA-LMN-317",
+    "description": "NDA between Lumen and Redstone Hotels Ltd.."
+  },
+  {
+    "filename": "Lumen_Stock_Register_18.csv",
+    "domain": "general",
+    "format": "csv",
+    "title": "Lumen Stock Register",
+    "description": "Lumen stock at Gurugram."
+  },
+  {
+    "filename": "Incident_Report_INC-LMN-919.docx",
+    "domain": "general",
+    "format": "docx",
+    "title": "Incident Report INC-LMN-919",
+    "description": "Lumen incident INC-LMN-919."
+  },
+  {
+    "filename": "Zenith_Training_and_Certification_Policy_01.docx",
+    "domain": "hr",
+    "format": "docx",
+    "title": "Zenith Training and Certification Policy",
+    "description": "Training and Certification Policy of Zenith Retail Ltd.."
+  },
+  {
+    "filename": "NDA_NDA-ZNT-302.md",
+    "domain": "legal",
+    "format": "md",
+    "title": "Non-Disclosure Agreement NDA-ZNT-302",
+    "description": "NDA between Zenith and Bluewater Agro Pvt. Ltd.."
+  },
+  {
+    "filename": "Zenith_Stock_Register_03.csv",
+    "domain": "general",
+    "format": "csv",
+    "title": "Zenith Stock Register",
+    "description": "Zenith stock at Delhi."
+  },
+  {
+    "filename": "Incident_Report_INC-ZNT-904.docx",
+    "domain": "general",
+    "format": "docx",
+    "title": "Incident Report INC-ZNT-904",
+    "description": "Zenith incident INC-ZNT-904."
+  },
+  {
+    "filename": "Zenith_Retail_Revenue_FY27.xlsx",
+    "domain": "finance",
+    "format": "xlsx",
+    "title": "Zenith Retail Division - Regional Revenue FY2026-27",
+    "description": "Zenith Retail division revenue by region, Q1-Q2 FY2026-27."
+  },
+  {
+    "filename": "Zenith_Lease_Bengaluru.html",
+    "domain": "legal",
+    "format": "html",
+    "title": "Zenith Office Lease - Bengaluru",
+    "description": "Lease of Zenith's Bengaluru premises."
+  },
+  {
+    "filename": "Zenith_Compliance_Training_New_joiners.pptx",
+    "domain": "hr",
+    "format": "pptx",
+    "title": "Zenith Compliance Training 2026 - New joiners",
+    "description": "Mandatory compliance training for new joiners at Zenith."
+  },
+  {
+    "filename": "Invoice_INV-ZNT-4156.pdf",
+    "domain": "finance",
+    "format": "pdf",
+    "title": "Tax Invoice INV-ZNT-4156",
+    "description": "Zenith Retail Ltd. invoice to Copperleaf Agro Ltd.."
+  },
+  {
+    "filename": "Offer_Letter_Manish_Sharma.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Offer Letter - Manish Sharma",
+    "description": "Zenith Retail Ltd. offer to Manish Sharma (Account Manager)."
+  },
+  {
+    "filename": "Service_Agreement_SA-ZNT-710.docx",
+    "domain": "legal",
+    "format": "docx",
+    "title": "Service Agreement SA-ZNT-710",
+    "description": "Zenith Retail Ltd. services for Monarch Agro Pvt. Ltd.."
+  },
+  {
+    "filename": "Minutes_MOM-ZNT-51.md",
+    "domain": "general",
+    "format": "md",
+    "title": "Management Meeting Minutes MOM-ZNT-51",
+    "description": "Zenith management meeting on 9 July 2026."
+  },
+  {
+    "filename": "Payslip_ZNT-E3156_June_2026.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Payslip - June 2026 - Siddharth Rao",
+    "description": "Salary slip for Siddharth Rao (ZNT-E3156)."
+  },
+  {
+    "filename": "Zenith_Project_Radiant_Status.pptx",
+    "domain": "general",
+    "format": "pptx",
+    "title": "Project Radiant - Status Update",
+    "description": "Zenith status update for Project Radiant."
+  },
+  {
+    "filename": "Purchase_Order_PO-ZNT-5354.docx",
+    "domain": "finance",
+    "format": "docx",
+    "title": "Purchase Order PO-ZNT-5354",
+    "description": "Zenith Retail Ltd. order placed with Ironwood Hotels Ltd.."
+  },
+  {
+    "filename": "Zenith_Hybrid_Work_Policy_15.docx",
+    "domain": "hr",
+    "format": "docx",
+    "title": "Zenith Hybrid Work Policy",
+    "description": "Hybrid Work Policy of Zenith Retail Ltd.."
+  },
+  {
+    "filename": "NDA_NDA-ZNT-316.pdf",
+    "domain": "legal",
+    "format": "pdf",
+    "title": "Non-Disclosure Agreement NDA-ZNT-316",
+    "description": "NDA between Zenith and Harbour Textiles Ltd.."
+  },
+  {
+    "filename": "Zenith_Stock_Register_17.csv",
+    "domain": "general",
+    "format": "csv",
+    "title": "Zenith Stock Register",
+    "description": "Zenith stock at Delhi."
+  },
+  {
+    "filename": "NDA_NDA-AST-301.md",
+    "domain": "legal",
+    "format": "md",
+    "title": "Non-Disclosure Agreement NDA-AST-301",
+    "description": "NDA between Aster and Evergreen Chemicals Pvt. Ltd.."
+  },
+  {
+    "filename": "Aster_Stock_Register_02.csv",
+    "domain": "general",
+    "format": "csv",
+    "title": "Aster Stock Register",
+    "description": "Aster stock at Kolkata."
+  },
+  {
+    "filename": "Incident_Report_INC-AST-903.docx",
+    "domain": "general",
+    "format": "docx",
+    "title": "Incident Report INC-AST-903",
+    "description": "Aster incident INC-AST-903."
+  },
+  {
+    "filename": "Aster_Enterprise_Revenue_FY27.xlsx",
+    "domain": "finance",
+    "format": "xlsx",
+    "title": "Aster Enterprise Division - Regional Revenue FY2026-27",
+    "description": "Aster Enterprise division revenue by region, Q1-Q2 FY2026-27."
+  },
+  {
+    "filename": "Aster_Lease_Indore.html",
+    "domain": "legal",
+    "format": "html",
+    "title": "Aster Office Lease - Indore",
+    "description": "Lease of Aster's Indore premises."
+  },
+  {
+    "filename": "Aster_Compliance_Training_Managers.pptx",
+    "domain": "hr",
+    "format": "pptx",
+    "title": "Aster Compliance Training 2026 - Managers",
+    "description": "Mandatory compliance training for managers at Aster."
+  },
+  {
+    "filename": "Invoice_INV-AST-4149.pdf",
+    "domain": "finance",
+    "format": "pdf",
+    "title": "Tax Invoice INV-AST-4149",
+    "description": "Aster Logistics Pvt. Ltd. invoice to Pinecrest Motors Pvt. Ltd.."
+  },
+  {
+    "filename": "Offer_Letter_Aditi_Nair.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Offer Letter - Aditi Nair",
+    "description": "Aster Logistics Pvt. Ltd. offer to Aditi Nair (Site Engineer)."
+  },
+  {
+    "filename": "Service_Agreement_SA-AST-709.docx",
+    "domain": "legal",
+    "format": "docx",
+    "title": "Service Agreement SA-AST-709",
+    "description": "Aster Logistics Pvt. Ltd. services for Coral Bay Foods Pvt. Ltd.."
+  },
+  {
+    "filename": "Minutes_MOM-AST-50.md",
+    "domain": "general",
+    "format": "md",
+    "title": "Management Meeting Minutes MOM-AST-50",
+    "description": "Aster management meeting on 11 September 2026."
+  },
+  {
+    "filename": "Payslip_AST-E3143_September_2026.pdf",
+    "domain": "hr",
+    "format": "pdf",
+    "title": "Payslip - September 2026 - Varun Singh",
+    "description": "Salary slip for Varun Singh (AST-E3143)."
+  },
+  {
+    "filename": "Aster_Project_Fusion_Status.pptx",
+    "domain": "general",
+    "format": "pptx",
+    "title": "Project Fusion - Status Update",
+    "description": "Aster status update for Project Fusion."
+  },
+  {
+    "filename": "Purchase_Order_PO-AST-5343.docx",
+    "domain": "finance",
+    "format": "docx",
+    "title": "Purchase Order PO-AST-5343",
+    "description": "Aster Logistics Pvt. Ltd. order placed with Banyan Agro Pvt. Ltd.."
+  },
+  {
+    "filename": "Aster_Grievance_Redressal_Policy_14.docx",
+    "domain": "hr",
+    "format": "docx",
+    "title": "Aster Grievance Redressal Policy",
+    "description": "Grievance Redressal Policy of Aster Logistics Pvt. Ltd.."
+  },
+  {
+    "filename": "NDA_NDA-AST-315.md",
+    "domain": "legal",
+    "format": "md",
+    "title": "Non-Disclosure Agreement NDA-AST-315",
+    "description": "NDA between Aster and Banyan Agro Ltd.."
+  },
+  {
+    "filename": "Aster_Stock_Register_16.csv",
+    "domain": "general",
+    "format": "csv",
+    "title": "Aster Stock Register",
+    "description": "Aster stock at Kolkata."
+  },
+  {
+    "filename": "Incident_Report_INC-AST-917.docx",
+    "domain": "general",
+    "format": "docx",
+    "title": "Incident Report INC-AST-917",
+    "description": "Aster incident INC-AST-917."
+  },
+  {
+    "filename": "Aster_Government_Revenue_FY27.xlsx",
+    "domain": "finance",
+    "format": "xlsx",
+    "title": "Aster Government Division - Regional Revenue FY2026-27",
+    "description": "Aster Government division revenue by region, Q1-Q2 FY2026-27."
+  },
+  {
+    "filename": "Radiology_Report_RAD-SLH-511.docx",
+    "domain": "healthcare",
+    "format": "docx",
+    "title": "Radiology Report RAD-SLH-511",
+    "description": "Imaging report RAD-SLH-511."
+  },
+  {
+    "filename": "OPD_Roster_02.csv",
+    "domain": "healthcare",
+    "format": "csv",
+    "title": "Outpatient Doctor Roster",
+    "description": "OPD consultation roster."
+  },
+  {
+    "filename": "SOP_Hand_Hygiene_03.html",
+    "domain": "healthcare",
+    "format": "html",
+    "title": "SOP: Hand Hygiene Audit (Ward 3)",
+    "description": "Hand hygiene audit procedure."
+  },
+  {
+    "filename": "Discharge_Summary_PAT-61068.pdf",
+    "domain": "healthcare",
+    "format": "pdf",
+    "title": "Discharge Summary - Patient PAT-61068",
+    "description": "Discharge summary for PAT-61068."
+  },
+  {
+    "filename": "Lab_Report_LAB-SLH-7115.pdf",
+    "domain": "healthcare",
+    "format": "pdf",
+    "title": "Laboratory Report LAB-SLH-7115",
+    "description": "Lab report LAB-SLH-7115."
+  },
+  {
+    "filename": "Prescription_RX-SLH-2454.txt",
+    "domain": "healthcare",
+    "format": "txt",
+    "title": "Prescription RX-SLH-2454",
+    "description": "Outpatient prescription RX-SLH-2454."
+  },
+  {
+    "filename": "Radiology_Report_RAD-SLH-517.docx",
+    "domain": "healthcare",
+    "format": "docx",
+    "title": "Radiology Report RAD-SLH-517",
+    "description": "Imaging report RAD-SLH-517."
+  },
+  {
+    "filename": "OPD_Roster_08.csv",
+    "domain": "healthcare",
+    "format": "csv",
+    "title": "Outpatient Doctor Roster",
+    "description": "OPD consultation roster."
+  },
+  {
+    "filename": "SOP_Hand_Hygiene_09.html",
+    "domain": "healthcare",
+    "format": "html",
+    "title": "SOP: Hand Hygiene Audit (Ward 9)",
+    "description": "Hand hygiene audit procedure."
+  },
+  {
+    "filename": "Discharge_Summary_PAT-61170.pdf",
+    "domain": "healthcare",
+    "format": "pdf",
+    "title": "Discharge Summary - Patient PAT-61170",
+    "description": "Discharge summary for PAT-61170."
+  }
+]

@@ -1,0 +1,1061 @@
+{
+ "created_at": "2026-11-16T19:13:02",
+ "llm": "groq/qwen/qwen3.8-27b",
+ "questions": 156,
+ "status": {
+  "complete": true,
+  "finished_stages": [
+   "DocuMind (offline, no LLM)",
+   "LLM only (no documents)",
+   "DocuMind + LLM",
+   "Multilingual benchmark",
+   "Standard RAG (LangChain)"
+  ],
+  "pending_stages": [],
+  "paused_reason": null
+ },
+ "groq": {
+  "calls_this_run": 0,
+  "answers_from_cache": 0,
+  "remaining_requests_today": null,
+  "reserve_for_website": 250
+ },
+ "systems": [
+  {
+   "key": "llm_only",
+   "name": "LLM only (no documents)",
+   "description": "The same LLM answering from its own knowledge, without any documents",
+   "done": true,
+   "questions": 156,
+   "answer_correctness": 9.6,
+   "ci": [
+    5.9,
+    15.3
+   ],
+   "answer_correctness_test": 9.0,
+   "ci_test": [
+    4.4,
+    17.4
+   ],
+   "answer_correctness_dev": 10.3,
+   "abstention_accuracy": 9.6,
+   "recall_at_1": null,
+   "recall_at_k": null,
+   "k": null,
+   "faithfulness": null
+  },
+  {
+   "key": "langchain",
+   "name": "Standard RAG (LangChain)",
+   "description": "LangChain RecursiveCharacterTextSplitter (1000/200), same MiniLM embeddings, top-4 cosine retrieval, LangChain's standard RAG prompt, same LLM",
+   "done": true,
+   "questions": 156,
+   "answer_correctness": 82.7,
+   "ci": [
+    76.0,
+    87.8
+   ],
+   "answer_correctness_test": 78.2,
+   "ci_test": [
+    67.8,
+    85.9
+   ],
+   "answer_correctness_dev": 87.2,
+   "abstention_accuracy": 84.0,
+   "recall_at_1": 77.4,
+   "recall_at_k": 88.9,
+   "k": 4,
+   "faithfulness": 91.3
+  },
+  {
+   "key": "documind_offline",
+   "name": "DocuMind (offline, no LLM)",
+   "description": "Full DocuMind pipeline, extractive answers (no LLM)",
+   "done": true,
+   "questions": 156,
+   "answer_correctness": 90.4,
+   "ci": [
+    84.7,
+    94.1
+   ],
+   "answer_correctness_test": 83.3,
+   "ci_test": [
+    73.5,
+    90.0
+   ],
+   "answer_correctness_dev": 97.4,
+   "abstention_accuracy": 95.5,
+   "recall_at_1": 97.6,
+   "recall_at_k": 100.0,
+   "k": 5,
+   "faithfulness": 100.0
+  },
+  {
+   "key": "documind_llm",
+   "name": "DocuMind + LLM",
+   "description": "Full DocuMind pipeline (hybrid search, re-ranking, refusal, verification) with the same LLM",
+   "done": true,
+   "questions": 156,
+   "answer_correctness": 95.5,
+   "ci": [
+    91.0,
+    97.8
+   ],
+   "answer_correctness_test": 93.6,
+   "ci_test": [
+    85.9,
+    97.2
+   ],
+   "answer_correctness_dev": 97.4,
+   "abstention_accuracy": 95.5,
+   "recall_at_1": 96.9,
+   "recall_at_k": 100.0,
+   "k": 5,
+   "faithfulness": 100.0
+  }
+ ],
+ "significance": [
+  {
+   "first": "DocuMind + LLM",
+   "second": "Standard RAG (LangChain)",
+   "only_first_correct": 25,
+   "only_second_correct": 5,
+   "p_value": 0.00032
+  },
+  {
+   "first": "DocuMind + LLM",
+   "second": "LLM only (no documents)",
+   "only_first_correct": 135,
+   "only_second_correct": 1,
+   "p_value": 0.0
+  },
+  {
+   "first": "DocuMind + LLM",
+   "second": "DocuMind (offline, no LLM)",
+   "only_first_correct": 9,
+   "only_second_correct": 1,
+   "p_value": 0.02148
+  }
+ ],
+ "error_analysis": {
+  "documind_llm": {
+   "name": "DocuMind + LLM",
+   "total_errors": 7,
+   "questions": 156,
+   "categories": [
+    {
+     "key": "wrong_document",
+     "label": "Wrong document found",
+     "description": "The right document was not among the top retrieved passages, so the answer came from elsewhere.",
+     "count": 0,
+     "share": 0.0,
+     "right_document_found": 0,
+     "examples": []
+    },
+    {
+     "key": "wrong_sentence",
+     "label": "Right document, wrong or incomplete answer",
+     "description": "The right document was retrieved, but the answer picked the wrong sentence or missed part of the fact.",
+     "count": 0,
+     "share": 0.0,
+     "right_document_found": 0,
+     "examples": []
+    },
+    {
+     "key": "wrongly_refused",
+     "label": "Wrongly refused",
+     "description": "The documents contain the answer, but the system said it could not find enough evidence.",
+     "count": 7,
+     "share": 100.0,
+     "right_document_found": 7,
+     "examples": [
+      {
+       "id": "Q016",
+       "category": "paraphrase",
+       "question": "How much refundable money did we hand over to the landlord of the new office building?",
+       "expected": "67,50,000",
+       "expected_docs": [
+        "Office_Lease_Deed_Whitefield.pdf"
+       ],
+       "retrieved_docs": [
+        "Office_Lease_Deed_Whitefield.pdf"
+       ],
+       "answer": "I could not find sufficient information in the provided documents to answer this question. Try rephrasing it, widening the search scope, or uploading a relevant document.",
+       "right_document_retrieved": true
+      },
+      {
+       "id": "Q017",
+       "category": "paraphrase",
+       "question": "If the platform is reachable for less than 95% of a month, what discount does the retail client get on that month's bill?",
+       "expected": "20%",
+       "expected_docs": [
+        "Service_Level_Agreement.html"
+       ],
+       "retrieved_docs": [
+        "Service_Level_Agreement.html",
+        "Product_Roadmap_2026-27.pptx",
+        "Service_Agreement_SA-MRD-713.docx"
+       ],
+       "answer": "I could not find sufficient information in the provided documents to answer this question. Try rephrasing it, widening the search scope, or uploading a relevant document.",
+       "right_document_retrieved": true
+      },
+      {
+       "id": "Q018",
+       "category": "paraphrase",
+       "question": "For how long should the heart-attack patient keep taking his second blood thinner after the stent was put in?",
+       "expected": "12",
+       "expected_docs": [
+        "Discharge_Summary_PAT-55102.pdf"
+       ],
+       "retrieved_docs": [
+        "Discharge_Summary_PAT-55102.pdf",
+        "Discharge_Summary_PAT-61068.pdf",
+        "Discharge_Summary_PAT-61170.pdf"
+       ],
+       "answer": "I could not find sufficient information in the provided documents to answer this question. Try rephrasing it, widening the search scope, or uploading a relevant document.",
+       "right_document_retrieved": true
+      },
+      {
+       "id": "Q020",
+       "category": "paraphrase",
+       "question": "What alert is announced in the hospital when a baby goes missing?",
+       "expected": "Pink",
+       "expected_docs": [
+        "Clinical_Staff_Training.pptx"
+       ],
+       "retrieved_docs": [
+        "Clinical_Staff_Training.pptx",
+        "Incident_Report_INC-BPC-909.docx",
+        "Incident_Report_INC-LMN-919.docx"
+       ],
+       "answer": "I could not find sufficient information in the provided documents to answer this question. Try rephrasing it, widening the search scope, or uploading a relevant document.",
+       "right_document_retrieved": true
+      }
+     ]
+    },
+    {
+     "key": "should_refuse",
+     "label": "Answered when it should have refused",
+     "description": "The documents do not contain the answer, but the system answered anyway.",
+     "count": 0,
+     "share": 0.0,
+     "right_document_found": 0,
+     "examples": []
+    }
+   ]
+  },
+  "documind_offline": {
+   "name": "DocuMind (offline, no LLM)",
+   "total_errors": 15,
+   "questions": 156,
+   "categories": [
+    {
+     "key": "wrong_document",
+     "label": "Wrong document found",
+     "description": "The right document was not among the top retrieved passages, so the answer came from elsewhere.",
+     "count": 0,
+     "share": 0.0,
+     "right_document_found": 0,
+     "examples": []
+    },
+    {
+     "key": "wrong_sentence",
+     "label": "Right document, wrong or incomplete answer",
+     "description": "The right document was retrieved, but the answer picked the wrong sentence or missed part of the fact.",
+     "count": 8,
+     "share": 53.3,
+     "right_document_found": 8,
+     "examples": [
+      {
+       "id": "Q004",
+       "category": "factual",
+       "question": "What is the initial term of version 2 of the Master Services Agreement with Orchid Retail Ventures?",
+       "expected": "36",
+       "expected_docs": [
+        "Master_Services_Agreement_v2.docx"
+       ],
+       "retrieved_docs": [
+        "Master_Services_Agreement_v2.docx",
+        "Master_Services_Agreement_v1.docx"
+       ],
+       "answer": "This Amended and Restated Master Services Agreement (the \"Agreement\"), contract reference CNT-2026-9941 (Version 2), is entered into on 15 June 2026 between Helix Systems Pvt. Ltd., a company incorporated under the Companies Act, 2013 with CIN U72900KA2015PTC081234 and its regist",
+       "right_document_retrieved": true
+      },
+      {
+       "id": "Q006",
+       "category": "factual",
+       "question": "Within how many hours must Helix notify Healthbridge Diagnostics of a personal data breach under the data processing agreement?",
+       "expected": "24",
+       "expected_docs": [
+        "Data_Processing_Agreement.pdf"
+       ],
+       "retrieved_docs": [
+        "Data_Processing_Agreement.pdf",
+        "Master_Services_Agreement_v2.docx"
+       ],
+       "answer": "This Data Processing Agreement (DPA-2026-031) is entered into on 2 March 2026 between Healthbridge Diagnostics Pvt. Ltd., Koramangala, Bengaluru (the \"Data Fiduciary\" or \"Controller\") and Helix Systems Pvt. Ltd. (the \"Data Processor\"). [2]",
+       "right_document_retrieved": true
+      },
+      {
+       "id": "Q012",
+       "category": "factual",
+       "question": "Which team won HackOrion 2026 and what did they build?",
+       "expected": "ByteBrigade",
+       "expected_docs": [
+        "Company_Newsletter_Oct_2026.html"
+       ],
+       "retrieved_docs": [
+        "Company_Newsletter_Oct_2026.html",
+        "Resume_Ananya_Iyer.pdf",
+        "Product_Roadmap_2026-27.pptx"
+       ],
+       "answer": "Forty-two teams took part in HackOrion 2026, our annual 36-hour hackathon, held on 19 and 20 September. [1]",
+       "right_document_retrieved": true
+      },
+      {
+       "id": "Q028",
+       "category": "exact_id",
+       "question": "What was the final diagnosis for patient PAT-55102?",
+       "expected": "inferior",
+       "expected_docs": [
+        "Discharge_Summary_PAT-55102.pdf"
+       ],
+       "retrieved_docs": [
+        "Discharge_Summary_PAT-61170.pdf",
+        "Discharge_Summary_PAT-61068.pdf",
+        "Discharge_Summary_PAT-55102.pdf"
+       ],
+       "answer": "Final diagnosis: Community-acquired pneumonia. [1]",
+       "right_document_retrieved": true
+      }
+     ]
+    },
+    {
+     "key": "wrongly_refused",
+     "label": "Wrongly refused",
+     "description": "The documents contain the answer, but the system said it could not find enough evidence.",
+     "count": 5,
+     "share": 33.3,
+     "right_document_found": 5,
+     "examples": [
+      {
+       "id": "Q016",
+       "category": "paraphrase",
+       "question": "How much refundable money did we hand over to the landlord of the new office building?",
+       "expected": "67,50,000",
+       "expected_docs": [
+        "Office_Lease_Deed_Whitefield.pdf"
+       ],
+       "retrieved_docs": [
+        "Office_Lease_Deed_Whitefield.pdf"
+       ],
+       "answer": "I could not find sufficient information in the provided documents to answer this question. Try rephrasing it, widening the search scope, or uploading a relevant document.",
+       "right_document_retrieved": true
+      },
+      {
+       "id": "Q017",
+       "category": "paraphrase",
+       "question": "If the platform is reachable for less than 95% of a month, what discount does the retail client get on that month's bill?",
+       "expected": "20%",
+       "expected_docs": [
+        "Service_Level_Agreement.html"
+       ],
+       "retrieved_docs": [
+        "Service_Level_Agreement.html",
+        "Product_Roadmap_2026-27.pptx",
+        "Service_Agreement_SA-MRD-713.docx"
+       ],
+       "answer": "I could not find sufficient information in the provided documents to answer this question. Try rephrasing it, widening the search scope, or uploading a relevant document.",
+       "right_document_retrieved": true
+      },
+      {
+       "id": "Q018",
+       "category": "paraphrase",
+       "question": "For how long should the heart-attack patient keep taking his second blood thinner after the stent was put in?",
+       "expected": "12",
+       "expected_docs": [
+        "Discharge_Summary_PAT-55102.pdf"
+       ],
+       "retrieved_docs": [
+        "Discharge_Summary_PAT-55102.pdf",
+        "Discharge_Summary_PAT-61068.pdf",
+        "Discharge_Summary_PAT-61170.pdf"
+       ],
+       "answer": "I could not find sufficient information in the provided documents to answer this question. Try rephrasing it, widening the search scope, or uploading a relevant document.",
+       "right_document_retrieved": true
+      },
+      {
+       "id": "Q020",
+       "category": "paraphrase",
+       "question": "What alert is announced in the hospital when a baby goes missing?",
+       "expected": "Pink",
+       "expected_docs": [
+        "Clinical_Staff_Training.pptx"
+       ],
+       "retrieved_docs": [
+        "Clinical_Staff_Training.pptx",
+        "Incident_Report_INC-BPC-909.docx",
+        "Incident_Report_INC-LMN-919.docx"
+       ],
+       "answer": "I could not find sufficient information in the provided documents to answer this question. Try rephrasing it, widening the search scope, or uploading a relevant document.",
+       "right_document_retrieved": true
+      }
+     ]
+    },
+    {
+     "key": "should_refuse",
+     "label": "Answered when it should have refused",
+     "description": "The documents do not contain the answer, but the system answered anyway.",
+     "count": 2,
+     "share": 13.3,
+     "right_document_found": 0,
+     "examples": [
+      {
+       "id": "Q048",
+       "category": "unanswerable",
+       "question": "Who is the CEO of Zenvia Analytics?",
+       "expected": "(should refuse)",
+       "expected_docs": [],
+       "retrieved_docs": [
+        "Mutual_NDA_Zenvia.pdf"
+       ],
+       "answer": "For Zenvia Analytics LLP: Farah Siddiqui, Designated Partner. [1] This Mutual Non-Disclosure Agreement, contract reference CNT-2026-9914, is made on 3 February 2026 between Helix Systems Pvt. Ltd., Tower B, Lakeview Tech Park, Bellandur, Bengaluru 560103, and Zenvia Analytics LLP",
+       "right_document_retrieved": false
+      },
+      {
+       "id": "Q156",
+       "category": "unanswerable",
+       "question": "What is the visiting hour policy for the Silverleaf ICU on public holidays?",
+       "expected": "(should refuse)",
+       "expected_docs": [],
+       "retrieved_docs": [
+        "Infection_Control_Policy.html",
+        "HR_Leave_Policy_2025.pdf",
+        "Zenith_Hybrid_Work_Policy_15.docx"
+       ],
+       "answer": "Silverleaf Multispeciality Hospital, Bengaluru [1]",
+       "right_document_retrieved": false
+      }
+     ]
+    }
+   ]
+  },
+  "langchain": {
+   "name": "Standard RAG (LangChain)",
+   "total_errors": 27,
+   "questions": 156,
+   "categories": [
+    {
+     "key": "wrong_document",
+     "label": "Wrong document found",
+     "description": "The right document was not among the top retrieved passages, so the answer came from elsewhere.",
+     "count": 1,
+     "share": 3.7,
+     "right_document_found": 0,
+     "examples": [
+      {
+       "id": "Q042",
+       "category": "followup",
+       "question": "When is his follow-up appointment?",
+       "expected": "21",
+       "expected_docs": [
+        "Discharge_Summary_PAT-55102.pdf"
+       ],
+       "retrieved_docs": [
+        "Patient_Appointments.csv",
+        "Meeting_Minutes_Engineering_Sync.txt"
+       ],
+       "answer": "The follow-up appointment is scheduled for Wednesday, 16 September 2026, at 11:00 AM IST. It will take place at the same location as the previous visit.",
+       "right_document_retrieved": false
+      }
+     ]
+    },
+    {
+     "key": "wrong_sentence",
+     "label": "Right document, wrong or incomplete answer",
+     "description": "The right document was retrieved, but the answer picked the wrong sentence or missed part of the fact.",
+     "count": 1,
+     "share": 3.7,
+     "right_document_found": 1,
+     "examples": [
+      {
+       "id": "Q004",
+       "category": "factual",
+       "question": "What is the initial term of version 2 of the Master Services Agreement with Orchid Retail Ventures?",
+       "expected": "36",
+       "expected_docs": [
+        "Master_Services_Agreement_v2.docx"
+       ],
+       "retrieved_docs": [
+        "Master_Services_Agreement_v2.docx",
+        "Master_Services_Agreement_v1.docx",
+        "Compliance_Checklist_2026.xlsx"
+       ],
+       "answer": "The initial term of version 2 of the Master Services Agreement with Orchid Retail Ventures is from July 1, 2026, to June 30, 2029. This three-year period is specified in the contract details for reference CNT-2026-9941.",
+       "right_document_retrieved": true
+      }
+     ]
+    },
+    {
+     "key": "wrongly_refused",
+     "label": "Wrongly refused",
+     "description": "The documents contain the answer, but the system said it could not find enough evidence.",
+     "count": 25,
+     "share": 92.6,
+     "right_document_found": 10,
+     "examples": [
+      {
+       "id": "Q005",
+       "category": "factual",
+       "question": "What is the response time for a P1 critical incident under the service level agreement?",
+       "expected": "15",
+       "expected_docs": [
+        "Service_Level_Agreement.html"
+       ],
+       "retrieved_docs": [
+        "Service_Level_Agreement.html",
+        "Incident_Report_INC-MRD-907.docx",
+        "Incident_Report_INC-ORN-910.docx"
+       ],
+       "answer": "The provided context does not specify the exact response time for a P1 critical incident. It only states that P1 incidents are supported 24x7 and that response time is measured from ticket creation to the first meaningful human response.",
+       "right_document_retrieved": true
+      },
+      {
+       "id": "Q006",
+       "category": "factual",
+       "question": "Within how many hours must Helix notify Healthbridge Diagnostics of a personal data breach under the data processing agreement?",
+       "expected": "24",
+       "expected_docs": [
+        "Data_Processing_Agreement.pdf"
+       ],
+       "retrieved_docs": [
+        "Data_Processing_Agreement.pdf",
+        "Service_Level_Agreement.html",
+        "Software_License_Agreement.txt"
+       ],
+       "answer": "The provided context does not specify the timeframe within which Helix must notify Healthbridge Diagnostics of a personal data breach.",
+       "right_document_retrieved": true
+      },
+      {
+       "id": "Q018",
+       "category": "paraphrase",
+       "question": "For how long should the heart-attack patient keep taking his second blood thinner after the stent was put in?",
+       "expected": "12",
+       "expected_docs": [
+        "Discharge_Summary_PAT-55102.pdf"
+       ],
+       "retrieved_docs": [
+        "Discharge_Summary_PAT-55102.pdf",
+        "Infection_Control_Policy.html"
+       ],
+       "answer": "The provided context does not specify the duration for which the patient should take his second blood thinner after the stent procedure.",
+       "right_document_retrieved": true
+      },
+      {
+       "id": "Q021",
+       "category": "paraphrase",
+       "question": "How many people were on the company's payroll at the end of the July-to-September quarter?",
+       "expected": "1,184",
+       "expected_docs": [
+        "Quarterly_Financial_Report_Q2_FY2026-27.pdf"
+       ],
+       "retrieved_docs": [
+        "Payslip_LMN-E3169_September_2026.pdf",
+        "Annual_Budget_FY2026-27.xlsx",
+        "HR_Leave_Policy_2025.pdf"
+       ],
+       "answer": "The provided context does not contain information regarding the number of people on the company's payroll at the end of the July-to-September quarter.",
+       "right_document_retrieved": false
+      }
+     ]
+    },
+    {
+     "key": "should_refuse",
+     "label": "Answered when it should have refused",
+     "description": "The documents do not contain the answer, but the system answered anyway.",
+     "count": 0,
+     "share": 0.0,
+     "right_document_found": 0,
+     "examples": []
+    }
+   ]
+  }
+ },
+ "multilingual": {
+  "overall": {
+   "questions": 30,
+   "accuracy": 100.0,
+   "ci": [
+    88.6,
+    100.0
+   ],
+   "english_accuracy": 96.7,
+   "english_ci": [
+    83.3,
+    99.4
+   ],
+   "reply_in_same_language": 100.0,
+   "numbers_preserved": 100.0
+  },
+  "by_language": {
+   "hindi": {
+    "questions": 15,
+    "accuracy": 100.0,
+    "ci": [
+     79.6,
+     100.0
+    ],
+    "english_accuracy": 93.3,
+    "english_ci": [
+     70.2,
+     98.8
+    ],
+    "reply_in_same_language": 100.0,
+    "numbers_preserved": 100.0
+   },
+   "hinglish": {
+    "questions": 15,
+    "accuracy": 100.0,
+    "ci": [
+     79.6,
+     100.0
+    ],
+    "english_accuracy": 100.0,
+    "english_ci": [
+     79.6,
+     100.0
+    ],
+    "reply_in_same_language": 100.0,
+    "numbers_preserved": 100.0
+   }
+  },
+  "rows": [
+   {
+    "id": "M01",
+    "source_id": "Q001",
+    "language": "hindi",
+    "question": "2026 की छुट्टी नीति के तहत कर्मचारियों को कितने दिन की वार्षिक छुट्टी मिलती है?",
+    "understood_as": "Under the 2026 leave policy, how many days of annual leave are employees entitled to?",
+    "english_question": "How many days of annual leave do employees get under the 2026 leave policy?",
+    "answer": "2026 की छुट्टी नीति के तहत, हर नियुक्त कर्मचारी को प्रत्येक छुट्टी वर्ष में 20 दिन की भुगतान वाली वार्षिक छुट्टी का अधिकार होता है [2]।",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M02",
+    "source_id": "Q002",
+    "language": "hinglish",
+    "question": "Apni car se official travel karne par mileage reimbursement rate kya hai?",
+    "understood_as": "What is the mileage reimbursement rate for official travel using a personal car?",
+    "english_question": "What is the mileage reimbursement rate for employees who use their own car for official travel?",
+    "answer": "Apni car se official travel karne par ₹12 per kilometre ka reimbursement milta hai [1].",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M03",
+    "source_id": "Q003",
+    "language": "hindi",
+    "question": "यौन उत्पीड़न की शिकायत की जांच इंटरनल कमेटी को कितने दिनों में पूरी करनी होती है?",
+    "understood_as": "Within how many days must the Internal Committee complete the investigation of a sexual harassment complaint?",
+    "english_question": "Within how many days must the Internal Committee complete its inquiry into a sexual harassment complaint?",
+    "answer": "इंटरनल कमेटी को शिकायत प्राप्त होने के 90 दिनों के भीतर अपनी जांच पूरी करनी होती है [1]।",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M04",
+    "source_id": "Q005",
+    "language": "hinglish",
+    "question": "Service level agreement ke hisaab se P1 critical incident ka response time kitna hai?",
+    "understood_as": "What is the response time for a P1 critical incident according to the service level agreement?",
+    "english_question": "What is the response time for a P1 critical incident under the service level agreement?",
+    "answer": "P1 critical incident ka response time 15 minutes hai [2].",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M05",
+    "source_id": "Q007",
+    "language": "hindi",
+    "question": "HelixDesk में प्रति फ़ाइल अधिकतम अटैचमेंट साइज़ कितना है?",
+    "understood_as": "What is the maximum attachment size per file in HelixDesk?",
+    "english_question": "What is the maximum attachment size per file in HelixDesk?",
+    "answer": "HelixDesk में प्रति फ़ाइल अधिकतम अटैचमेंट साइज़ 25 MB है [1]।",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M06",
+    "source_id": "Q009",
+    "language": "hinglish",
+    "question": "Hospital ka hand hygiene compliance target kitna hai?",
+    "understood_as": "What is the hand hygiene compliance target for the hospital?",
+    "english_question": "What is the hospital's target for hand hygiene compliance?",
+    "answer": "Hospital ka hand hygiene compliance ka general target 90% hai [1]. Halanki, specific wards ke alag targets hain, jismein Ward 3 ko kam se kam 95% compliance achieve karna hoga [3] aur Ward 9 ko kam se kam 90% compliance achieve karna hoga [2].",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M07",
+    "source_id": "Q013",
+    "language": "hindi",
+    "question": "नए नियमों के अनुसार बच्चा पैदा होने पर पिता कितनी छुट्टी ले सकता है?",
+    "understood_as": "Under the new rules, how much leave can a father take after the birth of a child?",
+    "english_question": "Under the latest rules, how much time off can a dad take when his baby is born?",
+    "answer": "2026 की नीति के तहत, पुरुष कर्मचारियों को 10 कार्य दिवसों की भुगतान वाली पितात्विक छुट्टी का अधिकार है, जिसे बच्चे के जन्म के 6 महीनों के भीतर अधिकतम दो ब्लॉकों में लिया जा सकता है [1]।",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M08",
+    "source_id": "Q014",
+    "language": "hinglish",
+    "question": "Work trip se wapas aane ke baad paise wapas maangne ke liye mere paas kitna time hai?",
+    "understood_as": "How much time do I have to claim reimbursement after returning from a business trip?",
+    "english_question": "After I get back from a work trip, how long do I have to ask for my money back?",
+    "answer": "Trip complete hone ke 30 din ke andar claims submit karne hote hain [1].",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M09",
+    "source_id": "Q016",
+    "language": "hindi",
+    "question": "नई ऑफिस बिल्डिंग के मकान मालिक को हमने कितनी रिफंडेबल राशि दी?",
+    "understood_as": "How much refundable amount did we pay to the landlord of the new office building?",
+    "english_question": "How much refundable money did we hand over to the landlord of the new office building?",
+    "answer": "मकान मालिक को दी गई रिफंडेबल सिक्योरिटी डिपॉज़िट राशि रु. 67,50,000 थी [1]।",
+    "correct": true,
+    "english_correct": false,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M10",
+    "source_id": "Q019",
+    "language": "hinglish",
+    "question": "Agar kisi ki sugar low ho jaye lekin woh hosh mein ho, to pehle kitne gram quick carbs dene chahiye?",
+    "understood_as": "If a person's blood sugar drops but they are conscious, how many grams of quick carbs should be given first?",
+    "english_question": "When someone's sugar drops too low but they are awake, how many grams of quick carbs should they have first?",
+    "answer": "Hosh mein hone wale patient ko 15 gram fast-acting carbohydrate lena chahiye [1].",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M11",
+    "source_id": "Q021",
+    "language": "hindi",
+    "question": "जुलाई-सितंबर तिमाही के अंत में कंपनी के पेरोल पर कितने लोग थे?",
+    "understood_as": "How many people were on the company's payroll at the end of the July-September quarter?",
+    "english_question": "How many people were on the company's payroll at the end of the July-to-September quarter?",
+    "answer": "30 सितंबर 2026 को कंपनी के पास कुल 1,184 कर्मचारी थे [1]।",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M12",
+    "source_id": "Q023",
+    "language": "hinglish",
+    "question": "Invoice INV-2026-8842 ka total amount kitna hai?",
+    "understood_as": "What is the total amount of Invoice INV-2026-8842?",
+    "english_question": "What is the total amount on invoice INV-2026-8842?",
+    "answer": "Invoice INV-2026-8842 ka total amount 4,72,000 hai [1].",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M13",
+    "source_id": "Q024",
+    "language": "hindi",
+    "question": "इनवॉइस INV-2026-8824 में किस ग्राहक को बिल किया गया है?",
+    "understood_as": "Which customer was billed on invoice INV-2026-8824?",
+    "english_question": "Which customer is billed in invoice INV-2026-8824?",
+    "answer": "इनवॉइस INV-2026-8824 पर बिल किया गया ग्राहक Trident Logistics Pvt. Ltd. है। [1]",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M14",
+    "source_id": "Q025",
+    "language": "hinglish",
+    "question": "Contract CNT-2026-9914 ka counterparty kaun hai?",
+    "understood_as": "Who is the counterparty of contract CNT-2026-9914?",
+    "english_question": "Who is the counterparty to contract CNT-2026-9914?",
+    "answer": "Contract CNT-2026-9914 ka counterparty Zenvia Analytics LLP hai [1][2].",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M15",
+    "source_id": "Q027",
+    "language": "hindi",
+    "question": "लाइसेंस LIC-2026-0457 में कितने नामित यूज़र्स शामिल हैं?",
+    "understood_as": "How many named users are included in license LIC-2026-0457?",
+    "english_question": "How many named users are covered under licence LIC-2026-0457?",
+    "answer": "लाइसेंस LIC-2026-0457 में 250 नामित यूज़र्स शामिल हैं [1][3]।",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M16",
+    "source_id": "Q029",
+    "language": "hinglish",
+    "question": "Purchase order PO-2026-3317 mein kitne laptops order kiye gaye the?",
+    "understood_as": "How many laptops were ordered in purchase order PO-2026-3317?",
+    "english_question": "How many laptops were ordered under purchase order PO-2026-3317?",
+    "answer": "Purchase order PO-2026-3317 mein 40 laptops order kiye gaye the [1].",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M17",
+    "source_id": "Q030",
+    "language": "hindi",
+    "question": "इंसिडेंट INC-2026-0412 का मूल कारण क्या था?",
+    "understood_as": "What was the root cause of incident INC-2026-0412?",
+    "english_question": "What was the root cause of incident INC-2026-0412?",
+    "answer": "इंसिडेंट INC-2026-0412 का मूल कारण वेब टियर और ऑथेंटिकेशन सर्विस के बीच ट्रैफिक को टर्मिनेट करने वाले इंटरनल API गेटवे पर एक्सपायर्ड TLS सर्टिफिकेट था [1]।",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M18",
+    "source_id": "Q031",
+    "language": "hinglish",
+    "question": "Employee EMP-2026-00421 ka designation kya hai?",
+    "understood_as": "What is the designation of employee EMP-2026-00421?",
+    "english_question": "What is the designation of employee EMP-2026-00421?",
+    "answer": "Employee EMP-2026-00421 ka designation Senior Cloud Architect hai [1].",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M19",
+    "source_id": "Q033",
+    "language": "hindi",
+    "question": "मरीज़ PAT-55120 की लैब रिपोर्ट में HbA1c की वैल्यू क्या है?",
+    "understood_as": "What is the HbA1c value in the lab report for patient PAT-55120?",
+    "english_question": "What is the HbA1c value in the lab report of patient PAT-55120?",
+    "answer": "मरीज़ PAT-55120 का HbA1c मान 8.4% है [1][2]।",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M20",
+    "source_id": "Q036",
+    "language": "hinglish",
+    "question": "SKU NIM-SKU-1048 ke kitne units stock mein hain?",
+    "understood_as": "How many units of SKU NIM-SKU-1048 are in stock?",
+    "english_question": "How many units of SKU NIM-SKU-1048 are in stock?",
+    "answer": "SKU NIM-SKU-1048 ke stock mein 83 units hain [2].",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M21",
+    "source_id": "Q037",
+    "language": "hindi",
+    "question": "2025 और 2026 की छुट्टी नीतियों के बीच वार्षिक छुट्टी में क्या बदलाव हुआ?",
+    "understood_as": "What changes were made to the annual leave in the holiday policies for 2025 and 2026?",
+    "english_question": "How did the annual leave entitlement change between the 2025 and 2026 leave policies?",
+    "answer": "2026 की नीति में वार्षिक छुट्टी का अधिकार 18 दिनों से बढ़ाकर 20 दिनों किया गया और अर्जुआन दर 1.5 से बढ़ाकर 1.67 दिन प्रति माह कर दी गई [1][4]। इसके अलावा, अधिकतम कैरी-फॉरवर्ड सीमा 10 से बढ़ाकर 12 दिन, एंकाशमेंट सीमा 5 से बढ़ाकर 6 दिन, और प्रोबेशनरी छुट्टी की अनुमति 4 से बढ़ाकर 5 दिन कर दी गई [1][4]।",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M22",
+    "source_id": "Q054",
+    "language": "hinglish",
+    "question": "Meeting MOM-ORN-43 mein kitna capital budget approve hua tha?",
+    "understood_as": "How much capital budget was approved in Meeting MOM-ORN-43?",
+    "english_question": "What capital budget was approved in meeting MOM-ORN-43?",
+    "answer": "Meeting MOM-ORN-43 mein approve hua capital budget Rs. 30,00,000 tha [1].",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M23",
+    "source_id": "Q060",
+    "language": "hindi",
+    "question": "ओरियन के दिल्ली ऑफिस का मासिक किराया कितना है?",
+    "understood_as": "What is the monthly rent for Orion's Delhi office?",
+    "english_question": "What is the monthly rent for Orion's Delhi office?",
+    "answer": "ओरियन के दिल्ली ऑफिस का मासिक किराया रु. 1,05,000 है [1]।",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M24",
+    "source_id": "Q077",
+    "language": "hinglish",
+    "question": "Tejas ki Grievance Committee ko grievance kitne working days mein resolve karni hoti hai?",
+    "understood_as": "How many working days does the Tejas Grievance Committee have to resolve a grievance?",
+    "english_question": "Within how many working days must Tejas's Grievance Committee resolve a grievance?",
+    "answer": "Tejas Grievance Committee grievance ko 5 working days mein resolve karti hai [1].",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M25",
+    "source_id": "Q097",
+    "language": "hindi",
+    "question": "कोबाल्ट के कर्मचारी हफ्ते में कितने दिन रिमोट काम कर सकते हैं?",
+    "understood_as": "How many days per week can Cobalt employees work remotely?",
+    "english_question": "How many days a week can Cobalt employees work remotely?",
+    "answer": "कोबाल्ट के कर्मचारी अपने मैनेजर की अनुमति के साथ हफ्ते में अधिकतम 3 दिन घर से काम कर सकते हैं [1][3]।",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M26",
+    "source_id": "Q121",
+    "language": "hinglish",
+    "question": "Zenith har employee ke liye saal mein certification fees ka kitna reimburse karta hai?",
+    "understood_as": "How much does Zenith reimburse per year for employee certification fees?",
+    "english_question": "How much does Zenith reimburse for certification fees per employee per year?",
+    "answer": "Zenith har employee ke liye saal mein certification fees ka up to Rs. 40,000 tak reimburse karta hai [1].",
+    "correct": true,
+    "english_correct": true,
+    "abstained": false,
+    "language_ok": true,
+    "numbers_preserved": true
+   },
+   {
+    "id": "M27",
+    "source_id": "Q045",
+    "language": "hinglish",
+    "question": "Office mein pets laane ke baare mein company ki policy kya hai?",
+    "understood_as": "What is the company's policy on bringing pets to the office?",
+    "english_question": "What is the company's policy on bringing pets to the office?",
+    "answer": "Mujhe provided documents mein is sawal ka jawab dene ke liye kaafi information nahi mili. Kripya ise dobara likhne ki koshish karein, search scope ko badhaayein, ya koi relevant document upload karein.",
+    "correct": true,
+    "english_correct": true,
+    "abstained": true,
+    "language_ok": true,
+    "numbers_preserved": null
+   },
+   {
+    "id": "M28",
+    "source_id": "Q046",
+    "language": "hindi",
+    "question": "Q4 FY2024-25 में Helix Systems का राजस्व कितना था?",
+    "understood_as": "What was Helix Systems' revenue in Q4 FY2024-25?",
+    "english_question": "What was Helix Systems' revenue in Q4 FY2024-25?",
+    "answer": "मुझे प्रदान किए गए दस्तावेज़ों में इस प्रश्न के उत्तर के लिए पर्याप्त जानकारी नहीं मिल सकी। कृपया इसे फिर से शब्दों में बदलें, खोज की सीमा को विस्तृत करें, या एक संबंधित दस्तावेज़ अपलोड करें।",
+    "correct": true,
+    "english_correct": true,
+    "abstained": true,
+    "language_ok": true,
+    "numbers_preserved": null
+   },
+   {
+    "id": "M29",
+    "source_id": "Q049",
+    "language": "hinglish",
+    "question": "Helix Systems ka current share price kya hai?",
+    "understood_as": "What is the current share price of Helix Systems?",
+    "english_question": "What is the current share price of Helix Systems?",
+    "answer": "Mujhe provided documents mein is sawal ka jawab dene ke liye kaafi information nahi mili. Ise dobara likhne ki koshish karein, search scope ko badhaayein, ya koi relevant document upload karein.",
+    "correct": true,
+    "english_correct": true,
+    "abstained": true,
+    "language_ok": true,
+    "numbers_preserved": null
+   },
+   {
+    "id": "M30",
+    "source_id": "Q050",
+    "language": "hindi",
+    "question": "2027 की छुट्टी नीति के तहत कर्मचारियों को कितने दिन की वार्षिक छुट्टी मिलेगी?",
+    "understood_as": "Under the 2027 leave policy, how many days of annual leave will employees receive?",
+    "english_question": "How many days of annual leave will employees get under the 2027 leave policy?",
+    "answer": "मुझे प्रदान किए गए दस्तावेज़ों में इस प्रश्न के उत्तर के लिए पर्याप्त जानकारी नहीं मिल सकी। कृपया इसे पुनः शब्दित करें, खोज की दायरा बढ़ाएं, या एक संबंधित दस्तावेज़ अपलोड करें।",
+    "correct": true,
+    "english_correct": true,
+    "abstained": true,
+    "language_ok": true,
+    "numbers_preserved": null
+   }
+  ]
+ },
+ "method": {
+  "confidence_intervals": "95% Wilson score interval for each share of correct answers",
+  "significance": "exact McNemar test on paired per-question outcomes",
+  "baseline_refusal": "a baseline answer that says it does not know counts as a refusal",
+  "multilingual_scoring": "the verified English answer (before translation back) is scored against the English original's reference keywords; the shown answer is checked for the question's language and for numbers surviving translation"
+ }
+}

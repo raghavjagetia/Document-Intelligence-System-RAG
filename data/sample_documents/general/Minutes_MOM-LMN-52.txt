@@ -1,0 +1,18 @@
+MANAGEMENT MEETING MINUTES MOM-LMN-52
+=====================================
+
+MEETING
+-------
+Meeting MOM-LMN-52 of Lumen Insurtech Pvt. Ltd. was held on 2 September 2026 in Gurugram.
+
+DECISIONS
+---------
+  - Approved a capital budget of Rs. 38,50,000 for warehouse automation.
+  - Sneha Chopra will own the vendor evaluation.
+  - Quarterly town hall moved to the first Friday of the month.
+
+ACTION ITEMS
+------------
+  Action           | Owner        | Due           
+  -----------------+--------------+---------------
+  Vendor shortlist | Sneha Chopra | 1 October 2026

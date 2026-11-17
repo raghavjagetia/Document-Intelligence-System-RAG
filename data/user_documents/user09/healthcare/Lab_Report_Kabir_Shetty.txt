@@ -1,0 +1,31 @@
+LABORATORY REPORT - KABIR SHETTY
+================================
+
+PATIENT INFORMATION
+-------------------
+  Field            | Detail              
+  -----------------+---------------------
+  Patient name     | Kabir Shetty        
+  Age              | 46 years            
+  Report ID        | LAB-JAI-21019       
+  Referring doctor | Dr. Sunita Deshpande
+  Collected on     | 26 July 2026        
+
+TEST RESULTS
+------------
+  Test                  | Result     | Reference range
+  ----------------------+------------+----------------
+  HbA1c                 | 5.6 %      | below 5.7 %    
+  Fasting blood glucose | 163 mg/dL  | 70 - 100 mg/dL 
+  LDL cholesterol       | 128 mg/dL  | below 100 mg/dL
+  Haemoglobin           | 15.7 g/dL  | 12 - 16 g/dL   
+  TSH                   | 1.94 mIU/L | 0.4 - 4.0 mIU/L
+
+IMPRESSION
+----------
+Glycaemic markers are within the non-diabetic range.
+
+ADVICE
+------
+  - No new medication advised
+  - Repeat HbA1c after 3 months.

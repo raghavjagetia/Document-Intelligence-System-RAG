@@ -1,0 +1,41 @@
+{
+  "benchmark_metadata": {
+    "description": "30 benchmark questions re-asked in Hindi (Devanagari script) and Hinglish (Hindi in Latin letters). Each item points to its English original in eval_dataset.json (source_id) and is scored with that question's reference keywords, so English and translated accuracy are directly comparable.",
+    "languages": {"hindi": 15, "hinglish": 15},
+    "answerable": 26,
+    "unanswerable": 4,
+    "note": "Translations were written for this benchmark; have a native speaker review them before citing results."
+  },
+  "test_cases": [
+    {"id": "M01", "source_id": "Q001", "language": "hindi", "question": "2026 की छुट्टी नीति के तहत कर्मचारियों को कितने दिन की वार्षिक छुट्टी मिलती है?"},
+    {"id": "M02", "source_id": "Q002", "language": "hinglish", "question": "Apni car se official travel karne par mileage reimbursement rate kya hai?"},
+    {"id": "M03", "source_id": "Q003", "language": "hindi", "question": "यौन उत्पीड़न की शिकायत की जांच इंटरनल कमेटी को कितने दिनों में पूरी करनी होती है?"},
+    {"id": "M04", "source_id": "Q005", "language": "hinglish", "question": "Service level agreement ke hisaab se P1 critical incident ka response time kitna hai?"},
+    {"id": "M05", "source_id": "Q007", "language": "hindi", "question": "HelixDesk में प्रति फ़ाइल अधिकतम अटैचमेंट साइज़ कितना है?"},
+    {"id": "M06", "source_id": "Q009", "language": "hinglish", "question": "Hospital ka hand hygiene compliance target kitna hai?"},
+    {"id": "M07", "source_id": "Q013", "language": "hindi", "question": "नए नियमों के अनुसार बच्चा पैदा होने पर पिता कितनी छुट्टी ले सकता है?"},
+    {"id": "M08", "source_id": "Q014", "language": "hinglish", "question": "Work trip se wapas aane ke baad paise wapas maangne ke liye mere paas kitna time hai?"},
+    {"id": "M09", "source_id": "Q016", "language": "hindi", "question": "नई ऑफिस बिल्डिंग के मकान मालिक को हमने कितनी रिफंडेबल राशि दी?"},
+    {"id": "M10", "source_id": "Q019", "language": "hinglish", "question": "Agar kisi ki sugar low ho jaye lekin woh hosh mein ho, to pehle kitne gram quick carbs dene chahiye?"},
+    {"id": "M11", "source_id": "Q021", "language": "hindi", "question": "जुलाई-सितंबर तिमाही के अंत में कंपनी के पेरोल पर कितने लोग थे?"},
+    {"id": "M12", "source_id": "Q023", "language": "hinglish", "question": "Invoice INV-2026-8842 ka total amount kitna hai?"},
+    {"id": "M13", "source_id": "Q024", "language": "hindi", "question": "इनवॉइस INV-2026-8824 में किस ग्राहक को बिल किया गया है?"},
+    {"id": "M14", "source_id": "Q025", "language": "hinglish", "question": "Contract CNT-2026-9914 ka counterparty kaun hai?"},
+    {"id": "M15", "source_id": "Q027", "language": "hindi", "question": "लाइसेंस LIC-2026-0457 में कितने नामित यूज़र्स शामिल हैं?"},
+    {"id": "M16", "source_id": "Q029", "language": "hinglish", "question": "Purchase order PO-2026-3317 mein kitne laptops order kiye gaye the?"},
+    {"id": "M17", "source_id": "Q030", "language": "hindi", "question": "इंसिडेंट INC-2026-0412 का मूल कारण क्या था?"},
+    {"id": "M18", "source_id": "Q031", "language": "hinglish", "question": "Employee EMP-2026-00421 ka designation kya hai?"},
+    {"id": "M19", "source_id": "Q033", "language": "hindi", "question": "मरीज़ PAT-55120 की लैब रिपोर्ट में HbA1c की वैल्यू क्या है?"},
+    {"id": "M20", "source_id": "Q036", "language": "hinglish", "question": "SKU NIM-SKU-1048 ke kitne units stock mein hain?"},
+    {"id": "M21", "source_id": "Q037", "language": "hindi", "question": "2025 और 2026 की छुट्टी नीतियों के बीच वार्षिक छुट्टी में क्या बदलाव हुआ?"},
+    {"id": "M22", "source_id": "Q054", "language": "hinglish", "question": "Meeting MOM-ORN-43 mein kitna capital budget approve hua tha?"},
+    {"id": "M23", "source_id": "Q060", "language": "hindi", "question": "ओरियन के दिल्ली ऑफिस का मासिक किराया कितना है?"},
+    {"id": "M24", "source_id": "Q077", "language": "hinglish", "question": "Tejas ki Grievance Committee ko grievance kitne working days mein resolve karni hoti hai?"},
+    {"id": "M25", "source_id": "Q097", "language": "hindi", "question": "कोबाल्ट के कर्मचारी हफ्ते में कितने दिन रिमोट काम कर सकते हैं?"},
+    {"id": "M26", "source_id": "Q121", "language": "hinglish", "question": "Zenith har employee ke liye saal mein certification fees ka kitna reimburse karta hai?"},
+    {"id": "M27", "source_id": "Q045", "language": "hinglish", "question": "Office mein pets laane ke baare mein company ki policy kya hai?"},
+    {"id": "M28", "source_id": "Q046", "language": "hindi", "question": "Q4 FY2024-25 में Helix Systems का राजस्व कितना था?"},
+    {"id": "M29", "source_id": "Q049", "language": "hinglish", "question": "Helix Systems ka current share price kya hai?"},
+    {"id": "M30", "source_id": "Q050", "language": "hindi", "question": "2027 की छुट्टी नीति के तहत कर्मचारियों को कितने दिन की वार्षिक छुट्टी मिलेगी?"}
+  ]
+}

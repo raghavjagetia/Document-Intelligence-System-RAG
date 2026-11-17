@@ -1,0 +1,31 @@
+LABORATORY REPORT - ISHA KULKARNI
+=================================
+
+PATIENT INFORMATION
+-------------------
+  Field            | Detail            
+  -----------------+-------------------
+  Patient name     | Isha Kulkarni     
+  Age              | 26 years          
+  Report ID        | LAB-DEL-21765     
+  Referring doctor | Dr. Farah Siddiqui
+  Collected on     | 19 August 2026    
+
+TEST RESULTS
+------------
+  Test                  | Result     | Reference range
+  ----------------------+------------+----------------
+  HbA1c                 | 7.6 %      | below 5.7 %    
+  Fasting blood glucose | 90 mg/dL   | 70 - 100 mg/dL 
+  LDL cholesterol       | 102 mg/dL  | below 100 mg/dL
+  Haemoglobin           | 13.1 g/dL  | 12 - 16 g/dL   
+  TSH                   | 4.28 mIU/L | 0.4 - 4.0 mIU/L
+
+IMPRESSION
+----------
+Findings are consistent with type 2 diabetes mellitus; glycaemic control needs improvement.
+
+ADVICE
+------
+  - Metformin 500 mg twice daily after meals
+  - Repeat HbA1c after 3 months.

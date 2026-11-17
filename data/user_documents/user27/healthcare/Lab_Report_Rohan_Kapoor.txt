@@ -1,0 +1,31 @@
+LABORATORY REPORT - ROHAN KAPOOR
+================================
+
+PATIENT INFORMATION
+-------------------
+  Field            | Detail           
+  -----------------+------------------
+  Patient name     | Rohan Kapoor     
+  Age              | 41 years         
+  Report ID        | LAB-AHM-23110    
+  Referring doctor | Dr. Imran Qureshi
+  Collected on     | 19 July 2026     
+
+TEST RESULTS
+------------
+  Test                  | Result     | Reference range
+  ----------------------+------------+----------------
+  HbA1c                 | 5.0 %      | below 5.7 %    
+  Fasting blood glucose | 149 mg/dL  | 70 - 100 mg/dL 
+  LDL cholesterol       | 117 mg/dL  | below 100 mg/dL
+  Haemoglobin           | 12.9 g/dL  | 12 - 16 g/dL   
+  TSH                   | 1.85 mIU/L | 0.4 - 4.0 mIU/L
+
+IMPRESSION
+----------
+Glycaemic markers are within the non-diabetic range.
+
+ADVICE
+------
+  - No new medication advised
+  - Repeat HbA1c after 3 months.

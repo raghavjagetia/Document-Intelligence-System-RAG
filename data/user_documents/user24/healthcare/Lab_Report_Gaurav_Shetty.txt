@@ -1,0 +1,31 @@
+LABORATORY REPORT - GAURAV SHETTY
+=================================
+
+PATIENT INFORMATION
+-------------------
+  Field            | Detail             
+  -----------------+--------------------
+  Patient name     | Gaurav Shetty      
+  Age              | 29 years           
+  Report ID        | LAB-HYD-22712      
+  Referring doctor | Dr. Ramesh Kulkarni
+  Collected on     | 12 August 2026     
+
+TEST RESULTS
+------------
+  Test                  | Result     | Reference range
+  ----------------------+------------+----------------
+  HbA1c                 | 7.8 %      | below 5.7 %    
+  Fasting blood glucose | 92 mg/dL   | 70 - 100 mg/dL 
+  LDL cholesterol       | 83 mg/dL   | below 100 mg/dL
+  Haemoglobin           | 12.7 g/dL  | 12 - 16 g/dL   
+  TSH                   | 2.67 mIU/L | 0.4 - 4.0 mIU/L
+
+IMPRESSION
+----------
+Findings are consistent with type 2 diabetes mellitus; glycaemic control needs improvement.
+
+ADVICE
+------
+  - Metformin 500 mg twice daily after meals
+  - Repeat HbA1c after 3 months.

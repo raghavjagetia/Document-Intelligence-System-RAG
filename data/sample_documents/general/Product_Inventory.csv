@@ -1,0 +1,31 @@
+SKU,Item Description,Category,Location,Quantity On Hand,Reorder Level,Unit Cost (INR),Supplier Vendor ID,Last Stock Check
+NIM-SKU-1031,Dell Latitude 7440 laptop,IT hardware,Bellandur IT store,10,10,112500,VND-1031,2026-09-01
+NIM-SKU-1032,MacBook Pro 14-inch (design team),IT hardware,Bellandur basement store,39,17,189900,VND-1053,2026-09-02
+NIM-SKU-1033,24-inch IPS monitor,IT peripherals,Pune office store,68,24,16800,VND-1031,2026-09-03
+NIM-SKU-1034,USB-C docking station,IT peripherals,Bellandur IT store,97,31,14200,VND-1031,2026-09-04
+NIM-SKU-1035,Noise-cancelling USB headset,IT peripherals,Bellandur basement store,126,38,6400,VND-1031,2026-09-05
+NIM-SKU-1036,Wireless keyboard and mouse combo,IT peripherals,Pune office store,15,45,2350,VND-1031,2026-09-06
+NIM-SKU-1037,4G USB data dongle,IT peripherals,Bellandur IT store,44,12,1800,VND-1051,2026-09-07
+NIM-SKU-1038,Laptop backpack with Tejas logo,Merchandise,Bellandur basement store,73,19,1450,VND-1041,2026-09-08
+NIM-SKU-1039,Tejas hoodie (assorted sizes),Merchandise,Pune office store,102,26,950,VND-1041,2026-09-09
+NIM-SKU-1040,Steel water bottle with logo,Merchandise,Bellandur IT store,131,33,420,VND-1041,2026-09-10
+NIM-SKU-1041,Ergonomic office chair,Furniture,Bellandur basement store,20,40,18500,VND-1048,2026-09-11
+NIM-SKU-1042,Height-adjustable desk,Furniture,Pune office store,49,47,32000,VND-1048,2026-09-12
+NIM-SKU-1043,Visitor badge holder (orange),Security supplies,Bellandur IT store,78,14,35,VND-1037,2026-09-13
+NIM-SKU-1044,Employee access card (blank),Security supplies,Bellandur basement store,107,21,120,VND-1037,2026-09-14
+NIM-SKU-1045,A4 copier paper (ream of 500),Stationery,Pune office store,136,28,285,VND-1036,2026-09-15
+NIM-SKU-1046,Whiteboard marker set,Stationery,Bellandur IT store,25,35,180,VND-1036,2026-09-16
+NIM-SKU-1047,Spiral notebook A5,Stationery,Bellandur basement store,54,42,65,VND-1036,2026-09-17
+NIM-SKU-1048,HDMI to USB-C adapter,IT peripherals,Pune office store,83,49,1150,VND-1031,2026-09-18
+NIM-SKU-1049,Cat6 patch cable 2 m,Networking,Bellandur IT store,112,16,210,VND-1051,2026-09-19
+NIM-SKU-1050,Wi-Fi 6 access point,Networking,Bellandur basement store,141,23,24500,VND-1051,2026-09-20
+NIM-SKU-1051,Rack-mount UPS 3 kVA,Electrical,Pune office store,30,30,68000,VND-1046,2026-09-01
+NIM-SKU-1052,First-aid kit (office),Safety,Bellandur IT store,59,37,1250,VND-1036,2026-09-02
+NIM-SKU-1053,Fire extinguisher CO2 4.5 kg,Safety,Bellandur basement store,88,44,5200,VND-1046,2026-09-03
+NIM-SKU-1054,Hand sanitiser 500 mL,Housekeeping,Pune office store,117,11,210,VND-1042,2026-09-04
+NIM-SKU-1055,Tissue box (pack of 12),Housekeeping,Bellandur IT store,6,18,540,VND-1042,2026-09-05
+NIM-SKU-1056,Coffee beans 1 kg,Pantry,Bellandur basement store,35,25,1350,VND-1034,2026-09-06
+NIM-SKU-1057,Green tea bags (box of 100),Pantry,Pune office store,64,32,390,VND-1034,2026-09-07
+NIM-SKU-1058,Conference speakerphone,IT peripherals,Bellandur IT store,93,39,21500,VND-1053,2026-09-08
+NIM-SKU-1059,Webcam 1080p,IT peripherals,Bellandur basement store,122,46,4300,VND-1031,2026-09-09
+NIM-SKU-1060,Encrypted USB drive 64 GB (approved exceptions),IT peripherals,Pune office store,11,13,3900,VND-1053,2026-09-10

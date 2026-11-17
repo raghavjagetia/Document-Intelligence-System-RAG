@@ -1,0 +1,16 @@
+PRESCRIPTION RX-SLH-2454
+========================
+
+PATIENT
+-------
+Prescription RX-SLH-2454 for Harsh Bose, issued on 16 September 2026.
+
+MEDICINES
+---------
+  Medicine           | Dose        | Duration
+  -------------------+-------------+---------
+  Amoxicillin 500 mg | As directed | 10 days 
+
+ADVICE
+------
+Return if symptoms persist.

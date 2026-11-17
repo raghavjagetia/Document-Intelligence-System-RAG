@@ -1,0 +1,36 @@
+Entry ID,Date,Employee ID,Employee Name,Category,Description,Amount (INR),GST (INR),Cost Centre,Approved By,Status
+EXP-2026-0601,2026-07-01,EMP-2026-00401,Aarav Sharma,Travel,Flight BLR-BOM for customer workshop,8450,0,CC-ENG-01,Line manager,Paid
+EXP-2026-0602,2026-07-06,EMP-2026-00411,Neha Joshi,Meals,Team dinner after release,3313,0,CC-PRD-04,Line manager,Paid
+EXP-2026-0603,2026-07-11,EMP-2026-00415,Rohit Deshmukh,Software,Annual design tool subscription,21466,3864,CC-CLD-06,Rajiv Bhandari,Paid
+EXP-2026-0604,2026-07-16,EMP-2026-00419,Karthik Subramanian,Training,Cloud certification exam fee,15339,2761,CC-ENG-01,Rajiv Bhandari,Paid
+EXP-2026-0605,2026-07-21,EMP-2026-00425,Nikhil Agarwal,Local conveyance,Cab to customer site,1092,0,CC-PRD-04,Line manager,Pending
+EXP-2026-0606,2026-07-26,EMP-2026-00402,Sneha Kulkarni,Hotel,2 nights hotel Mumbai,14365,2586,CC-CS-03,Rajiv Bhandari,Paid
+EXP-2026-0607,2026-07-31,EMP-2026-00413,Suresh Pillai,Internet,Remote internet allowance,2178,0,CC-SAL-02,Line manager,Paid
+EXP-2026-0608,2026-08-05,EMP-2026-00417,Gaurav Malhotra,Client entertainment,Lunch with client team,6391,0,CC-SAL-02,Line manager,Rejected
+EXP-2026-0609,2026-08-10,EMP-2026-00420,Divya Nair,Travel,Flight BLR-BOM for customer workshop,8454,0,CC-MKT-07,Line manager,Paid
+EXP-2026-0610,2026-08-15,EMP-2026-00429,Varun Chandra,Meals,Team dinner after release,3317,0,CC-DS-05,Line manager,Paid
+EXP-2026-0611,2026-08-20,EMP-2026-00403,Vikram Sethi,Software,Annual design tool subscription,21470,3865,CC-ENG-01,Rajiv Bhandari,Paid
+EXP-2026-0612,2026-08-25,EMP-2026-00414,Ananya Iyer,Training,Cloud certification exam fee,15343,2762,CC-DS-05,Rajiv Bhandari,Paid
+EXP-2026-0613,2026-08-30,EMP-2026-00418,Lakshmi Prasad,Local conveyance,Cab to customer site,1096,0,CC-CS-03,Line manager,Paid
+EXP-2026-0614,2026-09-04,EMP-2026-00422,Pooja Reddy,Hotel,2 nights hotel Mumbai,14369,2586,CC-ENG-01,Rajiv Bhandari,Pending
+EXP-2026-0615,2026-09-09,EMP-2026-00401,Aarav Sharma,Internet,Remote internet allowance,2182,0,CC-ENG-01,Line manager,Paid
+EXP-2026-0616,2026-09-14,EMP-2026-00411,Neha Joshi,Client entertainment,Lunch with client team,6395,0,CC-PRD-04,Line manager,Paid
+EXP-2026-0617,2026-09-19,EMP-2026-00415,Rohit Deshmukh,Travel,Flight BLR-BOM for customer workshop,8458,0,CC-CLD-06,Line manager,Paid
+EXP-2026-0618,2026-09-24,EMP-2026-00419,Karthik Subramanian,Meals,Team dinner after release,3321,0,CC-ENG-01,Line manager,Paid
+EXP-2026-0619,2026-09-29,EMP-2026-00425,Nikhil Agarwal,Software,Annual design tool subscription,21474,3865,CC-PRD-04,Rajiv Bhandari,Rejected
+EXP-2026-0620,2026-07-04,EMP-2026-00402,Sneha Kulkarni,Training,Cloud certification exam fee,15347,2762,CC-CS-03,Rajiv Bhandari,Paid
+EXP-2026-0621,2026-07-09,EMP-2026-00413,Suresh Pillai,Local conveyance,Cab to customer site,1100,0,CC-SAL-02,Line manager,Paid
+EXP-2026-0622,2026-07-14,EMP-2026-00417,Gaurav Malhotra,Hotel,2 nights hotel Mumbai,14373,2587,CC-SAL-02,Rajiv Bhandari,Paid
+EXP-2026-0623,2026-07-19,EMP-2026-00420,Divya Nair,Internet,Remote internet allowance,2186,0,CC-MKT-07,Line manager,Pending
+EXP-2026-0624,2026-07-24,EMP-2026-00429,Varun Chandra,Client entertainment,Lunch with client team,6399,0,CC-DS-05,Line manager,Paid
+EXP-2026-0625,2026-07-29,EMP-2026-00403,Vikram Sethi,Travel,Flight BLR-BOM for customer workshop,8462,0,CC-ENG-01,Line manager,Paid
+EXP-2026-0626,2026-08-03,EMP-2026-00414,Ananya Iyer,Meals,Team dinner after release,3325,0,CC-DS-05,Line manager,Paid
+EXP-2026-0627,2026-08-08,EMP-2026-00418,Lakshmi Prasad,Software,Annual design tool subscription,21478,3866,CC-CS-03,Rajiv Bhandari,Paid
+EXP-2026-0628,2026-08-13,EMP-2026-00422,Pooja Reddy,Training,Cloud certification exam fee,15351,2763,CC-ENG-01,Rajiv Bhandari,Paid
+EXP-2026-0629,2026-08-18,EMP-2026-00401,Aarav Sharma,Local conveyance,Cab to customer site,1104,0,CC-ENG-01,Line manager,Paid
+EXP-2026-0630,2026-08-23,EMP-2026-00411,Neha Joshi,Hotel,2 nights hotel Mumbai,14377,2588,CC-PRD-04,Rajiv Bhandari,Rejected
+EXP-2026-0631,2026-08-28,EMP-2026-00415,Rohit Deshmukh,Internet,Remote internet allowance,2190,0,CC-CLD-06,Line manager,Paid
+EXP-2026-0632,2026-09-02,EMP-2026-00419,Karthik Subramanian,Client entertainment,Lunch with client team,6403,0,CC-ENG-01,Line manager,Pending
+EXP-2026-0633,2026-09-07,EMP-2026-00425,Nikhil Agarwal,Travel,Flight BLR-BOM for customer workshop,8466,0,CC-PRD-04,Line manager,Paid
+EXP-2026-0634,2026-09-12,EMP-2026-00402,Sneha Kulkarni,Meals,Team dinner after release,3329,0,CC-CS-03,Line manager,Paid
+EXP-2026-0635,2026-09-17,EMP-2026-00413,Suresh Pillai,Software,Annual design tool subscription,21482,3867,CC-SAL-02,Rajiv Bhandari,Paid

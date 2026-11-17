@@ -1,0 +1,31 @@
+LABORATORY REPORT - HARSH PILLAI
+================================
+
+PATIENT INFORMATION
+-------------------
+  Field            | Detail           
+  -----------------+------------------
+  Patient name     | Harsh Pillai     
+  Age              | 69 years         
+  Report ID        | LAB-PUN-24749    
+  Referring doctor | Dr. Imran Qureshi
+  Collected on     | 11 September 2026
+
+TEST RESULTS
+------------
+  Test                  | Result     | Reference range
+  ----------------------+------------+----------------
+  HbA1c                 | 7.3 %      | below 5.7 %    
+  Fasting blood glucose | 179 mg/dL  | 70 - 100 mg/dL 
+  LDL cholesterol       | 96 mg/dL   | below 100 mg/dL
+  Haemoglobin           | 11.7 g/dL  | 12 - 16 g/dL   
+  TSH                   | 1.25 mIU/L | 0.4 - 4.0 mIU/L
+
+IMPRESSION
+----------
+Findings are consistent with type 2 diabetes mellitus; glycaemic control needs improvement.
+
+ADVICE
+------
+  - Metformin 500 mg twice daily after meals
+  - Repeat HbA1c after 3 months.

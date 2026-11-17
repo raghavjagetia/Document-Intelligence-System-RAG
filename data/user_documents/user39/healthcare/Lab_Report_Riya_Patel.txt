@@ -1,0 +1,31 @@
+LABORATORY REPORT - RIYA PATEL
+==============================
+
+PATIENT INFORMATION
+-------------------
+  Field            | Detail            
+  -----------------+-------------------
+  Patient name     | Riya Patel        
+  Age              | 44 years          
+  Report ID        | LAB-JAI-24446     
+  Referring doctor | Dr. Leela Krishnan
+  Collected on     | 4 July 2026       
+
+TEST RESULTS
+------------
+  Test                  | Result     | Reference range
+  ----------------------+------------+----------------
+  HbA1c                 | 5.4 %      | below 5.7 %    
+  Fasting blood glucose | 111 mg/dL  | 70 - 100 mg/dL 
+  LDL cholesterol       | 108 mg/dL  | below 100 mg/dL
+  Haemoglobin           | 14.9 g/dL  | 12 - 16 g/dL   
+  TSH                   | 0.97 mIU/L | 0.4 - 4.0 mIU/L
+
+IMPRESSION
+----------
+Glycaemic markers are within the non-diabetic range.
+
+ADVICE
+------
+  - No new medication advised
+  - Repeat HbA1c after 3 months.

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HelixDesk 5.1 User Manual</title>
+<style>:root{--accent:#2563EB;--soft:#E9EFFD;--ink:#1e293b;--muted:#64748b;--line:#e2e8f0}*{box-sizing:border-box}body{margin:0;background:#f1f5f9;color:var(--ink);font:15px/1.65 'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif}.band{height:8px;background:linear-gradient(90deg,var(--accent),var(--soft))}.page{max-width:920px;margin:32px auto;padding:44px 52px;background:#fff;border-radius:18px;box-shadow:0 12px 40px rgba(15,23,42,.08);border:1px solid var(--line)}.org{margin:0 0 6px;color:var(--accent);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:12px}h1{margin:0 0 22px;font-size:30px;line-height:1.2;letter-spacing:-.01em}h1:after{content:'';display:block;width:56px;height:4px;border-radius:4px;background:var(--accent);margin-top:14px}h2{margin:30px 0 10px;font-size:19px;color:var(--accent);padding-left:12px;border-left:4px solid var(--accent)}h3{margin:20px 0 6px;font-size:16px}p{margin:0 0 12px;color:#334155}ul{padding-left:20px}li{margin:4px 0}li::marker{color:var(--accent)}table{width:100%;border-collapse:separate;border-spacing:0;margin:14px 0 20px;font-size:14px;border:1px solid var(--line);border-radius:12px;overflow:hidden}th{background:var(--accent);color:#fff;text-align:left;padding:10px 12px;font-weight:600}td{padding:9px 12px;border-top:1px solid var(--line)}tr:nth-child(even) td{background:#f8fafc}@media(max-width:700px){.page{margin:0;border-radius:0;padding:24px 18px}}</style>
+</head>
+<body>
+<div class="band"></div>
+<main class="page">
+<p class="org">Helix Systems Pvt. Ltd.</p>
+<h1>HelixDesk 5.1 User Manual</h1>
+<h2>1. Introduction</h2>
+<p>HelixDesk is a service-management platform used by support teams to receive, track and resolve customer requests across email, web, chat and phone. This manual covers version 5.1 for agents, supervisors and administrators. For API documentation, see the developer portal.</p>
+<h2>2. System Requirements</h2>
+<ul><li>Google Chrome 120 or later, Microsoft Edge 120 or later, or Firefox 121 or later.</li><li>Minimum screen resolution of 1366 x 768.</li><li>A stable internet connection of at least 2 Mbps per agent.</li><li>Pop-ups must be allowed for the HelixDesk domain to receive call notifications.</li></ul>
+<h2>3. User Roles</h2>
+<table>
+<tr><th>Role</th><th>Can do</th></tr>
+<tr><td>Agent</td><td>View and update assigned tickets, reply to customers, use macros</td></tr>
+<tr><td>Supervisor</td><td>Everything an agent can do, plus reassign tickets, view team dashboards and approve refunds</td></tr>
+<tr><td>Administrator</td><td>Configure queues, SLAs, users, integrations and data exports</td></tr>
+</table>
+<h2>4. Signing In</h2>
+<p>Sign in with your work email and password or through single sign-on. After 5 failed attempts the account is locked for 15 minutes. A password reset link is valid for 30 minutes. Sessions expire after 12 hours of inactivity.</p>
+<h2>5. Working with Tickets</h2>
+<p>Create a ticket from the New button or by pressing N. Every ticket has a unique number in the format ND-YYYY-NNNNNN. Ticket statuses are New, Open, Pending, On Hold, Resolved and Closed. Resolved tickets close automatically after 72 hours if the customer does not reply.</p>
+<p>Files can be attached to tickets by drag-and-drop. The maximum attachment size is 25 MB per file and 10 files per reply. Executable files (.exe, .bat, .msi) are blocked for security reasons.</p>
+<h2>6. SLA Timers</h2>
+<p>Each ticket displays a first-response timer and a resolution timer based on its priority and the customer&#x27;s SLA policy. Timers turn amber when 75% of the allowed time has elapsed and red when breached. Timers pause while a ticket is in Pending status waiting for the customer.</p>
+<h2>7. Keyboard Shortcuts</h2>
+<table>
+<tr><th>Shortcut</th><th>Action</th></tr>
+<tr><td>Ctrl + K</td><td>Open the command palette</td></tr>
+<tr><td>N</td><td>New ticket</td></tr>
+<tr><td>R</td><td>Reply to customer</td></tr>
+<tr><td>Shift + I</td><td>Add internal note</td></tr>
+<tr><td>Ctrl + Enter</td><td>Send reply</td></tr>
+<tr><td>G then Q</td><td>Go to queues</td></tr>
+</table>
+<h2>8. Reports and Exports</h2>
+<p>Supervisors and administrators can export ticket lists to CSV from any view. A single export is limited to 50,000 rows; larger exports should be scheduled from the Reports module and are delivered by email as a secure link valid for 7 days.</p>
+<h2>9. Getting Help</h2>
+<p>Use the in-app Help button to search the knowledge base or raise a request with Helix support. Standard support hours are 9:00 AM to 6:00 PM IST on weekdays; customers with the premium add-on receive 24x7 support.</p>
+</main>
+</body>
+</html>

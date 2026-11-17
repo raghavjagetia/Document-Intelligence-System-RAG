@@ -1,0 +1,42 @@
+STANDARD OPERATING PROCEDURE: TELEMEDICINE CONSULTATIONS (SOP-TM-009)
+=====================================================================
+
+1. PURPOSE
+----------
+This SOP (SOP-TM-009, version 2.0, effective 15 February 2026) describes how doctors at Silverleaf Multispeciality Hospital deliver teleconsultations through the SilverConnect platform in compliance with the Telemedicine Practice Guidelines, 2020 issued under the Indian Medical Council regulations. It covers outpatient follow-ups, second opinions and post-discharge reviews.
+
+2. ELIGIBILITY
+--------------
+  - Follow-up patients with a stable, previously diagnosed condition.
+  - Post-discharge reviews within 30 days of discharge.
+  - New patients for triage and non-emergency advice only.
+  - Teleconsultation is not offered for chest pain, breathlessness, stroke symptoms or trauma; such patients are directed to the emergency department.
+
+3. BOOKING AND FEES
+-------------------
+Patients book through the hospital app or the call centre. Each teleconsultation slot is 15 minutes. The fee for a video consultation is ₹500 and for an audio-only consultation ₹350, payable online at booking. A follow-up teleconsultation within 7 days of the original consultation for the same complaint is free of charge. Senior consultants may charge ₹800 for second-opinion consultations.
+
+4. CONDUCTING THE CONSULTATION
+------------------------------
+The doctor must log in to SilverConnect at least 5 minutes before the slot. At the start of every consultation the doctor confirms the patient's identity using two identifiers - full name and either date of birth or the hospital patient ID - and records whether the patient gave consent, which is implied when the patient initiates the consultation. For minors, a guardian must be present on the call.
+
+If the video connection fails, the doctor or the teleconsult coordinator must call the patient back on the registered mobile number within 10 minutes. If the consultation cannot be completed, the patient is offered a free reschedule within 48 hours.
+
+5. PRESCRIBING
+--------------
+E-prescriptions are generated in SilverConnect and digitally signed. Doctors may prescribe List O medicines (over-the-counter) and List A medicines (re-fills and common drugs) by video, and List B add-on medicines only for follow-up of a condition already diagnosed in person. Medicines in Schedule X and narcotic and psychotropic substances must never be prescribed by teleconsultation.
+
+6. RECORDS AND PRIVACY
+----------------------
+  - Consultation notes are entered in the electronic medical record within 2 hours of the consultation.
+  - Teleconsultation records, including chat logs and prescriptions, are retained for 3 years.
+  - Audio and video of consultations are not recorded or stored.
+  - Doctors must conduct consultations from a private room and must not use personal messaging apps.
+
+7. QUALITY MONITORING
+---------------------
+The Telemedicine Coordinator, Ms. Sheela Thomas, audits 5% of teleconsultations each month for documentation completeness. Patient satisfaction is measured by an SMS survey, with a target average of 4.5 out of 5. Technical issues are logged with the IT helpdesk on extension 2299.
+
+8. ESCALATION
+-------------
+If during a teleconsultation the doctor identifies a red-flag symptom, the doctor must advise the patient to visit the emergency department immediately, arrange an ambulance on 108 if needed, and document the advice.

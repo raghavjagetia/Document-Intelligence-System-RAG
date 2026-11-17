@@ -1,0 +1,32 @@
+LABORATORY REPORT - ISHA SHETTY
+===============================
+
+PATIENT INFORMATION
+-------------------
+  Field            | Detail             
+  -----------------+--------------------
+  Patient name     | Isha Shetty        
+  Age              | 37 years           
+  Report ID        | LAB-DEL-25161      
+  Referring doctor | Dr. Ramesh Kulkarni
+  Collected on     | 26 July 2026       
+
+TEST RESULTS
+------------
+  Test                  | Result     | Reference range
+  ----------------------+------------+----------------
+  HbA1c                 | 8.7 %      | below 5.7 %    
+  Fasting blood glucose | 158 mg/dL  | 70 - 100 mg/dL 
+  LDL cholesterol       | 167 mg/dL  | below 100 mg/dL
+  Haemoglobin           | 11.1 g/dL  | 12 - 16 g/dL   
+  TSH                   | 3.95 mIU/L | 0.4 - 4.0 mIU/L
+
+IMPRESSION
+----------
+Findings are consistent with type 2 diabetes mellitus; glycaemic control needs improvement.
+
+ADVICE
+------
+  - Metformin 500 mg twice daily after meals
+  - Atorvastatin 10 mg once daily at night
+  - Repeat HbA1c after 3 months.

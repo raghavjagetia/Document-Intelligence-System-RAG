@@ -1,0 +1,18 @@
+MANAGEMENT MEETING MINUTES MOM-TJS-41
+=====================================
+
+MEETING
+-------
+Meeting MOM-TJS-41 of Tejas Infrastructure Ltd. was held on 9 July 2026 in Hyderabad.
+
+DECISIONS
+---------
+  - Approved a capital budget of Rs. 3,50,000 for warehouse automation.
+  - Kabir Verma will own the vendor evaluation.
+  - Quarterly town hall moved to the first Friday of the month.
+
+ACTION ITEMS
+------------
+  Action           | Owner       | Due            
+  -----------------+-------------+----------------
+  Vendor shortlist | Kabir Verma | 25 October 2026

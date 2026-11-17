@@ -1,0 +1,49 @@
+MINUTES OF MEETING - WEEKLY ENGINEERING SYNC (MOM-ENG-2026-41)
+==============================================================
+
+MEETING DETAILS
+---------------
+  - Reference: MOM-ENG-2026-41
+  - Date and time: Wednesday, 9 September 2026, 11:00 AM - 12:15 PM IST
+  - Location: Conference room Kaveri, 4th floor, Tower B, and video bridge
+  - Chair: Meera Krishnan, Director - Engineering
+  - Minutes recorded by: Fatima Sheikh, QA Engineer
+
+ATTENDEES
+---------
+Meera Krishnan, Vikram Sethi, Harish Venkataraman, Karthik Subramanian, Rohit Deshmukh, Ananya Iyer, Neha Joshi, Pooja Reddy, Fatima Sheikh and Sanjay Kumar Das. Apologies: Aarav Sharma (on leave).
+
+1. RELEASE 5.2 STATUS
+---------------------
+Neha Joshi reported that 41 of 46 stories planned for release 5.2 are complete. The AI ticket triage model achieves 91% accuracy in the beta with 14 customers. Two defects of severity 2 remain open in the suggested replies feature. The team agreed that the code freeze for release 5.2 will be on 25 September 2026, with general availability on 27 October 2026. Pooja Reddy will complete the accessibility fixes before the freeze.
+
+2. DATABASE MIGRATION
+---------------------
+Vikram Sethi presented the evaluation of PostgreSQL 16 against the current PostgreSQL 12 cluster. Benchmarks showed 18% faster reporting queries and lower replication lag. Decision: the production HelixDesk database will be migrated to PostgreSQL 16 by 30 November 2026, using logical replication to keep downtime under 15 minutes. Vikram Sethi owns the migration plan, and the rehearsal will be run in staging during the week of 26 October.
+
+3. GPU CAPACITY FOR AI FEATURES
+-------------------------------
+Ananya Iyer requested 6 GPU instances for model training and inference for AI triage. The estimated cost is ₹14 lakh for the rest of the financial year. Meera Krishnan approved the request subject to Finance sign-off, and asked Harish Venkataraman to set up auto-scaling so that idle instances are shut down at night.
+
+4. ON-CALL AND RELIABILITY
+--------------------------
+Following incident INC-2026-0412, Rohit Deshmukh confirmed that automated certificate expiry monitoring is live, with alerts 30, 14 and 3 days before expiry. The on-call rotation will change from two weeks to one week per engineer from 1 October 2026 to reduce fatigue, and each on-call engineer will get a compensatory day off after their rotation.
+
+5. SECURITY
+-----------
+Sanjay Kumar Das reminded the team that the ISO/IEC 27001 surveillance audit is scheduled for 18 November 2026 and that all engineers must complete the secure coding refresher by 31 October 2026.
+
+ACTION ITEMS
+------------
+  # | Action                                                | Owner               | Due date   
+  --+-------------------------------------------------------+---------------------+------------
+  1 | Prepare and rehearse the PostgreSQL 16 migration plan | Vikram Sethi        | 30-Nov-2026
+  2 | Close the two severity-2 defects in suggested replies | Karthik Subramanian | 22-Sep-2026
+  3 | Accessibility fixes for the agent console             | Pooja Reddy         | 24-Sep-2026
+  4 | Raise capex request for 6 GPU instances               | Ananya Iyer         | 16-Sep-2026
+  5 | Configure GPU auto-scaling and night shutdown         | Harish Venkataraman | 30-Sep-2026
+  6 | Publish new one-week on-call roster                   | Rohit Deshmukh      | 25-Sep-2026
+
+NEXT MEETING
+------------
+Wednesday, 16 September 2026, 11:00 AM IST, same location.

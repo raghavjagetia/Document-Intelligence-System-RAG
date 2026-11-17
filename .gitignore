@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Runtime data (regenerate with scripts/seed_demo.py)
+data/app.db*
+data/index/
+data/eval_cache/
+data/uploads/
+data/runtime/
+data/initial_credentials.txt
+data/*.db
+backend/data/
+
+# Secrets
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

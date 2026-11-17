@@ -1,0 +1,32 @@
+LABORATORY REPORT - MANISH KULKARNI
+===================================
+
+PATIENT INFORMATION
+-------------------
+  Field            | Detail             
+  -----------------+--------------------
+  Patient name     | Manish Kulkarni    
+  Age              | 51 years           
+  Report ID        | LAB-BEN-23408      
+  Referring doctor | Dr. Ramesh Kulkarni
+  Collected on     | 13 August 2026     
+
+TEST RESULTS
+------------
+  Test                  | Result     | Reference range
+  ----------------------+------------+----------------
+  HbA1c                 | 6.7 %      | below 5.7 %    
+  Fasting blood glucose | 178 mg/dL  | 70 - 100 mg/dL 
+  LDL cholesterol       | 170 mg/dL  | below 100 mg/dL
+  Haemoglobin           | 12.0 g/dL  | 12 - 16 g/dL   
+  TSH                   | 5.39 mIU/L | 0.4 - 4.0 mIU/L
+
+IMPRESSION
+----------
+Findings are consistent with type 2 diabetes mellitus; glycaemic control needs improvement.
+
+ADVICE
+------
+  - Metformin 500 mg twice daily after meals
+  - Atorvastatin 10 mg once daily at night
+  - Repeat HbA1c after 3 months.
