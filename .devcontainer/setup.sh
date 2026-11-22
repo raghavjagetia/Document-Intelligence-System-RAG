@@ -3,6 +3,10 @@
 set -e
 cd "$(dirname "$0")/.."
 
+# System libraries needed by OCR (RapidOCR / OpenCV)
+sudo apt-get update
+sudo apt-get install -y --no-install-recommends libgl1 libglib2.0-0
+
 if [ ! -x .venv/bin/python ]; then
   python -m venv .venv
 fi
