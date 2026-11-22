@@ -1,0 +1,21 @@
+{
+  "name": "DocuMind",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "20" }
+  },
+  "hostRequirements": { "cpus": 2, "memory": "8gb" },
+
+  // Runs once when the codespace is created: installs Python + Node deps, builds the UI, downloads the models
+  "onCreateCommand": "bash .devcontainer/setup.sh",
+  // Runs every time the codespace starts: seeds demo data on first start, then launches DocuMind on port 8000
+  "postStartCommand": "bash .devcontainer/start.sh",
+
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": { "label": "DocuMind", "onAutoForward": "notify" }
+  },
+  "containerEnv": {
+    "HF_HOME": "/workspaces/.hf-cache"
+  }
+}
